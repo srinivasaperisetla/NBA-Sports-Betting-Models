@@ -1,13 +1,14 @@
 from fastapi import FastAPI, HTTPException
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import StandardScaler
 from testModel_schema import TestModelPredictionInput
 from constants import TARGET_COLUMNS, FEATURES_TO_DUMMY
 from contextlib import asynccontextmanager
 import tensorflow as tf
 import pickle
 import uvicorn
+
+from nba_api.stats.endpoints import playergamelogs
 
 TESTMODEL_PATH = "./models/testModel"
 TESTMODEL_PATH_KERAS = "./models/testModel.keras"
@@ -46,6 +47,12 @@ app = FastAPI(
 def root():
   return {"status": "API is live"}
 
+@app.get("/getPlayerGameLogs")
+def getPlayerGameLogs():
+  df = playergamelogs.PlayerGameLogs(season_nullable = '2024-25', player_id_nullable = 203458)
+  df = df.get_data_frames()[0]
+  return df.to_dict()
+
 @app.post("/predict")
 def predict(input_data: TestModelPredictionInput):
   try:
@@ -72,6 +79,8 @@ def predict(input_data: TestModelPredictionInput):
 
   except Exception as e:
     raise HTTPException(status_code=500, detail=str(e))
+  
+
 
 # for local use only
 
