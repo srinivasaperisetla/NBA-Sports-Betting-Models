@@ -1,38 +1,60 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 import pandas as pd
-import numpy as np
-from testModel_schema import TestModelPredictionInput
+from testModel_schema import TestModelPredictionInput, Stat
 from constants import TARGET_COLUMNS, FEATURES_TO_DUMMY
 from contextlib import asynccontextmanager
 import tensorflow as tf
+import xgboost as xgb
 import pickle
 import uvicorn
+import json
+import os
+import joblib
 
-from nba_api.stats.endpoints import playergamelogs
+ALLSTAR_PATH_KERAS = "./models/allstar.keras"
+CHAMPION_MODELS_DIR = "./models/champion_models"
 
-TESTMODEL_PATH = "./models/testModel"
-TESTMODEL_PATH_KERAS = "./models/testModel.keras"
-TESTMODEL_SCALER = "./scalers/testModel_scaler.pkl"
-TESTMODEL_COLUMNS = "./columns/testModel_columns.pkl"
+ALLSTAR_SCALER = "./scalers/allstar_scaler.pkl"
+ALLSTAR_FEATURES = "./features/allstar_features.pkl"
+CATEGORY_MAPPINGS = "./category_mappings/category_mappings.json"
+
+CHAMPION_FEATURES = "./features/champion_features.json"
 
 testModel = None
+champion_models = {}
 testModel_scaler = None
 testModel_columns = None
+category_mappings = None
+champion_feature_names = None
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-  global testModel, testModel_scaler, testModel_columns
+  global allstar_model, allstar_scaler, allstar_features, category_mappings, champion_feature_names, champion_models
   print("🔄 Loading model and assets...")
 
   # testModel = tf.keras.layers.TFSMLayer(TESTMODEL_PATH, call_endpoint='serving_default')
-  testModel = tf.keras.models.load_model(TESTMODEL_PATH_KERAS)
+  allstar_model = tf.keras.models.load_model(ALLSTAR_PATH_KERAS)
 
-  with open(TESTMODEL_SCALER, 'rb') as f:
-    testModel_scaler = pickle.load(f)
+  with open(ALLSTAR_SCALER, 'rb') as f:
+    allstar_scaler = pickle.load(f)
 
-  with open(TESTMODEL_COLUMNS, 'rb') as f:
-    testModel_columns = pickle.load(f)
+  with open(ALLSTAR_FEATURES, 'rb') as f:
+    allstar_features = pickle.load(f)
 
+  with open(CATEGORY_MAPPINGS, 'r') as f:
+    category_mappings = json.load(f)
+  
+  with open(CHAMPION_FEATURES,"r") as f:
+    champion_feature_names = json.load(f)
+  
+  files = os.listdir(CHAMPION_MODELS_DIR)
+
+  for filename in files:
+    stat_name = filename.replace("_calibrated.pkl", "")
+    model_path = os.path.join(CHAMPION_MODELS_DIR, filename)
+
+    champion_models[stat_name] = joblib.load(model_path)
+    
   print("✅ Assets loaded.")
   yield
   print("🛑 Shutting down app...")
@@ -47,42 +69,101 @@ app = FastAPI(
 def root():
   return {"status": "API is live"}
 
-@app.get("/getPlayerGameLogs")
-def getPlayerGameLogs():
-  df = playergamelogs.PlayerGameLogs(season_nullable = '2024-25', player_id_nullable = 203458)
-  df = df.get_data_frames()[0]
-  return df.to_dict()
-
-@app.post("/predict")
+@app.post("/predict_allstar")
 def predict(input_data: TestModelPredictionInput):
   try:
     df = pd.DataFrame([input_data.model_dump(by_alias=True)])
-    df = pd.get_dummies(df, columns=FEATURES_TO_DUMMY)
 
-    for col in testModel_columns:
-      if col not in df.columns:
-        df[col] = 0
-    df = df[testModel_columns]
+    df["PLAYER_NAME_ID"] = category_mappings["PLAYER_NAME"].get(df["PLAYER_NAME"].iloc[0], -1)
+    df["POSITION_ID"] = category_mappings["POSITION"].get(df["POSITION"].iloc[0], -1)
+    df["TEAM_ID"] = category_mappings["TEAM"].get(df["TEAM"].iloc[0], -1)
+    df["MATCHUP_ID"] = category_mappings["MATCHUP"].get(df["MATCHUP"].iloc[0], -1)
 
-    X_scaled = testModel_scaler.transform(df)
-    prediction = testModel.predict(X_scaled)
+    df = df.drop(columns=["PLAYER_NAME", "TEAM", "MATCHUP", "POSITION"])
 
-    output = {
-      target: [
-        int(prob > 0.5),
-        f"{round(prob * 100, 1)}%"
-      ]
-      for target, prob in zip(TARGET_COLUMNS, prediction[0])
+    df = df[allstar_features]
+
+    embedded_cols = ["PLAYER_NAME_ID", "TEAM_ID", "MATCHUP_ID", "POSITION_ID"]
+    numerical_cols = [c for c in df.columns if c not in embedded_cols]
+  
+    numeric_scaled = allstar_scaler.transform(df[numerical_cols])
+
+    model_input = {
+      "PLAYER_NAME_ID": df["PLAYER_NAME_ID"].values,
+      "TEAM_ID": df["TEAM_ID"].values,
+      "MATCHUP_ID": df["MATCHUP_ID"].values,
+      "POSITION_ID": df["POSITION_ID"].values,
+      "NUMERIC": numeric_scaled
     }
 
-    return {"prediction": output}
+    outputs = allstar_model(model_input, training=False)
+
+    results = []
+
+    for stat, out in zip(TARGET_COLUMNS, outputs):
+      prob = float(out.numpy()[0][0])
+      prediction = int(prob > 0.5)
+      confidence_prob = prob if prediction == 1 else (1 - prob)
+      parlay = getattr(input_data, f"PL_{stat}")
+
+      results.append({
+        "stat": stat,
+        "parlay": parlay,
+        "prediction": prediction,
+        "probability": round(prob, 3),
+        "confidence": f"{round(confidence_prob * 100, 1)}%"
+      })
+
+    return {"predictions": results}
 
   except Exception as e:
     raise HTTPException(status_code=500, detail=str(e))
   
+@app.post('/predict_champion')
+def predict_champion(input_data: TestModelPredictionInput, stat: Stat = Query(...)):
+  try:
+    stat_name = stat.value
+    xgb_model = champion_models[stat_name]
+    parlay = getattr(input_data, f"PL_{stat_name}")
+
+    df = pd.DataFrame([input_data.model_dump(by_alias=True)])
+
+    cols_to_drop = []
+    for col in TARGET_COLUMNS:
+      if col != stat_name:
+        cols_to_drop.append(f'PL_{col}')
+        cols_to_drop.append(f'OVER_PL_RATE_{col}_LAST10')
+        cols_to_drop.append(f'OVER_PL_RATE_{col}_LAST5')
+        cols_to_drop.append(f'{col}_Z_LINE')
+        cols_to_drop.append(f'{col}_Z_RECENT')
+        cols_to_drop.append(f'{col}_LINE_DIFF_X_MIN')
+        cols_to_drop.append(f'LINE_EDGE_{col}')
+        cols_to_drop.append(f'LINE_AMBIGUITY_{col}')
+      
+    df = df.drop(columns = cols_to_drop)
+
+    expected_cols = champion_feature_names[stat_name]
+    df = df.reindex(columns=expected_cols, fill_value=0)
+
+    prob = float(xgb_model.predict_proba(df)[0, 1])
+
+    prediction = int(prob > 0.5)
+
+    confidence_prob = prob if prediction == 1 else (1 - prob)
+
+    return {
+      "stat": stat_name,
+      "parlay": parlay,
+      "prediction": prediction,
+      "probability": round(prob, 2),
+      "confidence": f"{round(confidence_prob * 100, 2)}%"
+    }
+
+  except Exception as e:
+    raise HTTPException(status_code=500, detail=str(e))
 
 
 # for local use only
 
-# if __name__ == "__main__":
-#   uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+if __name__ == "__main__":
+  uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
