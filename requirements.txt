@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+requests
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+tensorflow
+joblib
+pickle-mixin
+python-dotenv
+nba_api==1.11.3
+altair
