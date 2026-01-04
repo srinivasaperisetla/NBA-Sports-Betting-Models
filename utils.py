@@ -227,3 +227,31 @@ def get_input(player_name: str, parlays: dict, seasons: list):
   )
   return input, df_player
 
+COLOR = {
+  "no_bet": "#DBC415",        # yellow
+  "over": "#25C335",          # green
+  "over_strong": "#0F5E19",   # deep green
+  "under": "#D61C1CFF",         # red
+  "under_strong": "#801E16",  # deep red
+  "neutral": "#AEB2B5",
+  "text": "#FAFAFA",
+}
+
+def advice_and_color(pred: int, conf_pct: float):
+  """
+  pred: 1=OVER, 0=UNDER
+  conf_pct: 0..100 (model confidence in its pick)
+  """
+  if conf_pct < 55:
+    return "Do Not Bet", COLOR["no_bet"]
+  if pred == 1:
+    if conf_pct >= 60:
+      return "Strong Bet Over", COLOR["over_strong"]
+    return "Bet Over", COLOR["over"]
+  else:
+    if conf_pct >= 60:
+      return "Strongly Bet Under", COLOR["under_strong"]
+    return "Bet Under", COLOR["under"]
+
+
+

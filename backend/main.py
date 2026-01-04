@@ -149,14 +149,11 @@ def predict_champion(input_data: TestModelPredictionInput, stat: Stat = Query(..
 
     prediction = int(prob > 0.5)
 
-    confidence_prob = prob if prediction == 1 else (1 - prob)
-
     return {
       "stat": stat_name,
       "parlay": parlay,
       "prediction": prediction,
       "probability": round(prob, 2),
-      "confidence": f"{round(confidence_prob * 100, 2)}%"
     }
 
   except Exception as e:
