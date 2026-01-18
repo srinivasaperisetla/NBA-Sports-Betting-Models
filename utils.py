@@ -5,6 +5,9 @@ from nba_api.stats.endpoints import ScheduleLeagueV2
 from nba_api.stats.library.parameters import SeasonAll
 import numpy as np
 import pandas as pd
+from unidecode import unidecode
+from backend.constants import ALLOWED_PLAYERS_LIST, TARGET_COLUMNS
+import re
 
 all_players = players.get_players()
 active_players = [player for player in all_players if player['is_active']]
@@ -252,6 +255,102 @@ def advice_and_color(pred: int, conf_pct: float):
     if conf_pct >= 60:
       return "Strongly Bet Under", COLOR["under_strong"]
     return "Bet Under", COLOR["under"]
+
+
+def normalize_player_name(name):
+  """
+  Remove accents from player names and match against ALLOWED_PLAYERS_LIST.
+  Returns the EXACT name from ALLOWED_PLAYERS_LIST (with original formatting/accents) or None if not found.
+  """
+  # Normalize input for comparison
+  normalized_input = unidecode(name).lower()
+  
+  # Always search through ALLOWED_PLAYERS_LIST to find exact match
+  for allowed_player in ALLOWED_PLAYERS_LIST:
+    # Normalize allowed player name for comparison
+    normalized_allowed = unidecode(allowed_player).lower()
+    
+    # If normalized versions match, return the EXACT name from the list
+    if normalized_allowed == normalized_input:
+      return allowed_player
+  
+  return None
+
+
+def map_stat_name(stat_name, platform):
+  """
+  Maps platform-specific stat names to TARGET_COLUMNS.
+  Returns stat code or None if not supported.
+  """
+  stat_name = stat_name.strip()
+  
+  if platform == "underdog":
+    mapping = {
+      "Points": "PTS",
+      "Rebounds": "REB",
+      "Assists": "AST",
+      "Steals": "STL",
+      "Blocks": "BLK",
+      "Turnovers": "TOV",
+      "3-Pointers Made": "3PM",
+      "FG Made": "FGM",
+      "FT Made": "FTM",
+      "FG Attempted": "FGA",
+      "3s Attempted": "3PA",
+      "FT Attempted": "FTA",
+      "Pts + Rebs + Asts": "PRA",
+      "Points + Rebounds": "PR",
+      "Points + Assists": "PA",
+      "Rebounds + Assists": "RA",
+      "Blocks + Steals": "SB",
+      "Steals + Blocks": "SB",
+      "Pts+Reb+Ast": "PRA",
+    }
+  elif platform == "prizepicks":
+    mapping = {
+      "Points": "PTS",
+      "Rebounds": "REB",
+      "Assists": "AST",
+      "Steals": "STL",
+      "Blocked Shots": "BLK",
+      "Turnovers": "TOV",
+      "3PTM": "3PM",
+      "FG Made": "FGM",
+      "FTA": "FTA",
+      "FGA": "FGA",
+      "PRA": "PRA",
+      "Pts+Asts": "PA",
+      "Rebs+Asts": "RA",
+      "Pts+Rebs": "PR",
+      "Blks+Stls": "SB",
+    }
+  else:
+    return None
+  
+  mapped = mapping.get(stat_name)
+  if mapped and mapped in TARGET_COLUMNS:
+    return mapped
+  
+  return None
+
+
+def extract_payout(text):
+  """
+  Extract payout multiplier from text (e.g., "1.08x" → 1.08, "0.83x" → 0.83).
+  Returns float or 1.0 if not found.
+  """
+  if not text:
+    return 1.0
+  
+  # Look for pattern like "1.08x" or "0.83x"
+  match = re.search(r'(\d+\.?\d*)x', str(text))
+  if match:
+    try:
+      return float(match.group(1))
+    except ValueError:
+      return 1.0
+  
+  return 1.0
 
 
 

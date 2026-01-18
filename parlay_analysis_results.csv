@@ -1,0 +1,51 @@
+player,prediction,line_stat,confidence,payout,platform,demon_goblin,stat_params
+Bam Adebayo,UNDER,2.5 Turnovers,78.0,0.87,underdog,,TOV:2.5
+Miles Bridges,UNDER,12.5 Rebounds + Assists,77.0,0.87,underdog,,RA:12.5
+Bam Adebayo,UNDER,3.5 Free Throws Made,70.0,0.8,underdog,,FTM:3.5
+Miles Bridges,UNDER,3.5 Three Pointers Made,68.0,0.86,underdog,,3PM:3.5
+Bam Adebayo,UNDER,3.5 Assists,65.99999999999999,0.88,underdog,,AST:3.5
+Miles Bridges,UNDER,2.5 Free Throws Made,65.0,0.85,underdog,,FTM:2.5
+Miles Bridges,UNDER,3.5 Free Throws Made,65.0,0.73,underdog,,FTM:3.5
+Shai Gilgeous-Alexander,UNDER,2.5 Steals + Blocks,64.0,1.05,underdog,,SB:2.5
+Bam Adebayo,UNDER,1.5 Three Pointers Made,64.0,0.68,underdog,,3PM:1.5
+Brandon Miller,UNDER,8.5 Rebounds + Assists,63.0,0.84,underdog,,RA:8.5
+Shai Gilgeous-Alexander,UNDER,9.5 Rebounds,61.0,0.88,underdog,,REB:9.5
+Shai Gilgeous-Alexander,UNDER,8.5 Free Throws Made,61.0,0.86,underdog,,FTM:8.5
+Shai Gilgeous-Alexander,OVER,4.5 Three Pointers Attempted,61.0,0.82,underdog,,3PA:4.5
+Shai Gilgeous-Alexander,UNDER,11.5 Rebounds + Assists,60.0,0.87,underdog,,RA:11.5
+Shai Gilgeous-Alexander,UNDER,11.5 Rebounds + Assists,60.0,0.85,underdog,,RA:11.5
+Brandon Miller,UNDER,4.5 Rebounds,59.00000000000001,1.0,underdog,,REB:4.5
+Shai Gilgeous-Alexander,UNDER,1.5 Steals,59.00000000000001,0.82,underdog,,STL:1.5
+Miles Bridges,OVER,23.5 Points + Rebounds,59.0,1.0,underdog,,PR:23.5
+Bam Adebayo,UNDER,13.5 Rebounds + Assists,58.00000000000001,1.0,underdog,,RA:13.5
+Miles Bridges,OVER,20.5 Points + Assists,57.99999999999999,1.0,underdog,,PA:20.5
+Shai Gilgeous-Alexander,UNDER,2.5 Turnovers,57.00000000000001,0.83,underdog,,TOV:2.5
+Shai Gilgeous-Alexander,OVER,1.5 Assists,56.99999999999999,1.07,underdog,,AST:1.5
+Shai Gilgeous-Alexander,UNDER,1.5 Three Pointers Made,56.00000000000001,1.03,underdog,,3PM:1.5
+Miles Bridges,UNDER,6.5 Rebounds,56.00000000000001,1.0,underdog,,REB:6.5
+Shai Gilgeous-Alexander,UNDER,1.5 Three Pointers Made,56.00000000000001,0.79,underdog,,3PM:1.5
+Miles Bridges,OVER,27.5 Points + Rebounds + Assists,55.00000000000001,1.0,underdog,,PRA:27.5
+Miles Bridges,OVER,30.5 Points + Rebounds + Assists,55.00000000000001,1.0,underdog,,PRA:30.5
+Shai Gilgeous-Alexander,UNDER,31.5 Points,55.00000000000001,1.0,underdog,,PTS:31.5
+Bam Adebayo,UNDER,27.5 Points + Rebounds,54.0,0.89,underdog,,PR:27.5
+Shai Gilgeous-Alexander,UNDER,3.5 Free Throws Made,54.0,0.83,underdog,,FTM:3.5
+Shai Gilgeous-Alexander,UNDER,4.5 Rebounds,53.0,1.05,underdog,,REB:4.5
+Shai Gilgeous-Alexander,UNDER,35.5 Points + Rebounds,53.0,1.03,underdog,,PR:35.5
+Brandon Miller,OVER,19.5 Points,53.0,1.0,underdog,,PTS:19.5
+Brandon Miller,OVER,27.5 Points + Rebounds + Assists,53.0,1.0,underdog,,PRA:27.5
+Shai Gilgeous-Alexander,UNDER,37.5 Points + Assists,53.0,1.0,underdog,,PA:37.5
+Bam Adebayo,OVER,16.5 Points,53.0,1.0,underdog,,PTS:16.5
+Shai Gilgeous-Alexander,UNDER,6.5 Assists,53.0,0.94,underdog,,AST:6.5
+Miles Bridges,UNDER,4.5 Rebounds,52.0,1.06,underdog,,REB:4.5
+Bam Adebayo,UNDER,20.5 Points + Assists,52.0,1.0,underdog,,PA:20.5
+Shai Gilgeous-Alexander,UNDER,18.5 Points,52.0,0.89,underdog,,PTS:18.5
+Brandon Miller,UNDER,2.5 Free Throws Made,51.0,1.09,underdog,,FTM:2.5
+Shai Gilgeous-Alexander,UNDER,41.5 Points + Rebounds + Assists,51.0,1.03,underdog,,PRA:41.5
+Miles Bridges,UNDER,18.5 Points,51.0,1.0,underdog,,PTS:18.5
+Brandon Miller,UNDER,23.5 Points + Assists,51.0,1.0,underdog,,PA:23.5
+Shai Gilgeous-Alexander,UNDER,26.5 Points + Rebounds,51.0,1.0,underdog,,PR:26.5
+Shai Gilgeous-Alexander,UNDER,19.5 Points + Assists,51.0,1.0,underdog,,PA:19.5
+Bam Adebayo,UNDER,9.5 Rebounds,50.0,1.06,underdog,,REB:9.5
+Bam Adebayo,UNDER,29.5 Points + Rebounds + Assists,50.0,1.03,underdog,,PRA:29.5
+Brandon Miller,OVER,24.5 Points + Rebounds,50.0,1.0,underdog,,PR:24.5
+Shai Gilgeous-Alexander,OVER,28.5 Points + Rebounds + Assists,50.0,1.0,underdog,,PRA:28.5

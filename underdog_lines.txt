@@ -1,0 +1,968 @@
+Miles Bridges
+
+Charlotte Hornets
+
+@ GSW - 5:30PM PST
+
+Higher/Lower
+27.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+6.5
+Rebounds
+
+Higher
+
+Lower
+23.5
+Points + Rebounds
+
+Higher
+
+Lower
+20.5
+Points + Assists
+
+Higher
+
+Lower
+6.5
+1Q Pts + Rebs + Asts
+
+Higher
+1.11x
+
+Lower
+0.75x
+
+31.05
+
+Fantasy Points
+
+Higher
+
+Lower
+
+3.5
+FT Made
+
+Higher
+1.16x
+
+Lower
+0.73x
+0.5
+Game High Scorer
+
+Yes
+5.43x
+0.5
+Team High Scorer
+
+Yes
+2.11x
+1.5
+Offensive Rebounds
+
+Higher
+1.34x
+
+Higher/Lower
+18.5
+Points
+
+Higher
+
+Lower
+30.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+4.5
+Rebounds
+
+Higher
+0.86x
+
+Lower
+1.06x
+3.5
+3-Pointers Made
+
+Higher
+1.06x
+
+Lower
+0.86x
+12.5
+Rebounds + Assists
+
+Higher
+1.04x
+
+Lower
+0.87x
+4.5
+1Q Points
+
+Higher
+1.03x
+
+Lower
+0.82x
+0.5
+1Q 3-Pointers Made
+
+Higher
+0.79x
+
+Lower
+1.07x
+7.5
+1Q Pts + Rebs + Asts
+
+Higher
+0.83x
+
+Lower
+1.09x
+
+36.25
+
+Fantasy Points
+
+Higher
+
+Lower
+
+2.5
+FT Made
+
+Higher
+1.05x
+
+Lower
+0.85x
+1.5
+1H 3-Pointers Made
+
+Higher
+
+Lower
+15.5
+1H Pts + Rebs + Asts
+
+Higher
+
+Lower
+0.5
+3+ Points Scored Each Quarter
+
+Yes
+1.58x
+5.5
+Pts+Reb+Ast in First 5 Min.
+
+Higher
+1.04x
+3.5
+Points in First 5 Min.
+
+Higher
+1.09x
+
+Lower
+0.76x
+0.5
+Game High Scorer
+
+Yes
+3.61x
+0.5
+Team High Scorer
+
+Yes
+1.36x
+1.5
+Offensive Rebounds
+
+Higher
+1.37x
+
+Brandon Miller
+
+Charlotte Hornets
+
+@ GSW - 5:30PM PST
+
+Higher/Lower
+19.5
+Points
+
+Higher
+
+Lower
+27.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+4.5
+Rebounds
+
+Higher
+
+Lower
+8.5
+Rebounds + Assists
+
+Higher
+1.07x
+
+Lower
+0.84x
+24.5
+Points + Rebounds
+
+Higher
+
+Lower
+23.5
+Points + Assists
+
+Higher
+
+Lower
+0.5
+1Q 3-Pointers Made
+
+Higher
+0.87x
+
+Lower
+1.04x
+6.5
+1Q Pts + Rebs + Asts
+
+Higher
+0.86x
+
+Lower
+1.06x
+
+30.25
+
+Fantasy Points
+
+Higher
+
+Lower
+
+2.5
+FT Made
+
+Higher
+0.83x
+
+Lower
+1.09x
+1.5
+1H 3-Pointers Made
+
+Higher
+1.1x
+
+Lower
+0.76x
+0.5
+3+ Points Scored Each Quarter
+
+Yes
+1.46x
+0.5
+Game High Scorer
+
+Yes
+3.21x
+0.5
+Team High Scorer
+
+Yes
+1.32x
+
+Shai Gilgeous-Alexander
+
+Oklahoma City Thunder
+
+@ MIA - 5:00PM PST
+
+Higher/Lower
+
+31.5
+Points
+
+Higher
+
+Lower
+
+41.5
+Pts + Rebs + Asts
+
+Higher
+0.94x
+
+Lower
+1.03x
+
+4.5
+Rebounds
+
+Higher
+0.86x
+
+Lower
+1.05x
+
+6.5
+Assists
+
+Higher
+1.03x
+
+Lower
+0.94x
+
+1.5
+3-Pointers Made
+
+Higher
+0.78x
+
+Lower
+1.03x
+
+11.5
+Rebounds + Assists
+
+Higher
+1.04x
+
+Lower
+0.85x
+35.5
+Points + Rebounds
+
+Higher
+0.94x
+
+Lower
+1.03x
+37.5
+Points + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+2.58x
+
+9.5
+1Q Points
+
+Higher
+
+Lower
+
+1.5
+1Q Rebounds
+
+Higher
+
+Lower
+
+2.5
+1Q Assists
+
+Higher
+1.03x
+
+Lower
+0.88x
+14.5
+1Q Pts + Rebs + Asts
+
+Higher
+1.05x
+
+Lower
+0.77x
+
+49.05
+
+Fantasy Points
+
+Higher
+
+Lower
+2.5
+Turnovers
+
+Higher
+1.08x
+
+Lower
+0.83x
+1.5
+Steals
+
+Higher
+1.04x
+
+Lower
+0.82x
+
+8.5
+FT Made
+
+Higher
+1.07x
+
+Lower
+0.86x
+15.5
+1H Points
+
+Higher
+
+Lower
+20.5
+1H Pts + Rebs + Asts
+
+Higher
+
+Lower
+0.5
+3+ Points Scored Each Quarter
+
+Yes
+0.87x
+5.5
+Pts+Reb+Ast in First 5 Min.
+
+Higher
+1.03x
+3.5
+Points in First 5 Min.
+
+Higher
+0.83x
+
+Lower
+1.08x
+0.5
+Game High Scorer
+
+Yes
+0.78x
+0.5
+Team High Scorer
+
+Yes
+0.65x
+
+20.5
+FG Attempted
+
+Higher
+
+Lower
+4.5
+3s Attempted
+
+Higher
+0.82x
+
+Lower
+1.08x
+
+Chet Holmgren
+
+Oklahoma City Thunder
+
+@ MIA - 5:00PM PST
+
+Higher/Lower
+
+18.5
+Points
+
+Higher
+1.02x
+
+Lower
+0.89x
+
+28.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+9.5
+Rebounds
+
+Higher
+1.03x
+
+Lower
+0.88x
+1.5
+Assists
+
+Higher
+1.07x
+
+Lower
+0.77x
+
+1.5
+3-Pointers Made
+
+Higher
+1.09x
+
+Lower
+0.79x
+
+11.5
+Rebounds + Assists
+
+Higher
+1.05x
+
+Lower
+0.87x
+26.5
+Points + Rebounds
+
+Higher
+
+Lower
+19.5
+Points + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+1.07x
+
+Lower
+0.84x
+
+4.5
+1Q Points
+
+Higher
+1.05x
+
+Lower
+0.85x
+
+2.5
+1Q Rebounds
+
+Higher
+
+Lower
+7.5
+1Q Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+37.45
+
+Fantasy Points
+
+Higher
+
+Lower
+1.5
+Blocks
+
+Higher
+0.76x
+
+Lower
+1.07x
+2.5
+Blocks + Steals
+
+Higher
+0.85x
+
+Lower
+1.05x
+
+3.5
+FT Made
+
+Higher
+1.09x
+
+Lower
+0.83x
+4.5
+1H Rebounds
+
+Higher
+0.94x
+
+Lower
+1.03x
+0.5
+3+ Points Scored Each Quarter
+
+Yes
+2.06x
+0.5
+Game High Scorer
+
+Yes
+4.58x
+0.5
+Team High Scorer
+
+Yes
+3.78x
+2.5
+Offensive Rebounds
+
+Higher
+1.16x
+
+Oklahoma City Thunder
+
+@ MIA - 5:00PM PST
+
+Higher/Lower
+
+18.5
+Points
+
+Higher
+
+Lower
+
+28.5
+Pts + Rebs + Asts
+
+Higher
+0.89x
+
+Lower
+1.02x
+
+4.5
+Rebounds
+
+Higher
+0.81x
+
+Lower
+1.05x
+
+5.5
+Assists
+
+Higher
+1.03x
+
+Lower
+0.94x
+
+0.5
+3-Pointers Made
+
+Higher
+0.82x
+
+Lower
+1.06x
+
+10.5
+Rebounds + Assists
+
+Higher
+
+Lower
+23.5
+Points + Rebounds
+
+Higher
+0.89x
+
+Lower
+1.02x
+24.5
+Points + Assists
+
+Higher
+1.02x
+
+Lower
+0.89x
+0.5
+Double Doubles
+
+Higher
+3.99x
+
+3.5
+1Q Points
+
+Higher
+0.81x
+
+Lower
+1.05x
+
+1.5
+1Q Rebounds
+
+Higher
+1.16x
+
+Lower
+0.73x
+6.5
+1Q Pts + Rebs + Asts
+
+Higher
+1.02x
+
+Lower
+0.94x
+
+35.75
+
+Fantasy Points
+
+Higher
+
+Lower
+1.5
+Steals
+
+Higher
+1.09x
+
+Lower
+0.76x
+
+2.5
+FT Made
+
+Higher
+
+Lower
+0.5
+3+ Points Scored Each Quarter
+
+Yes
+1.98x
+0.5
+Game High Scorer
+
+Yes
+4.2x
+0.5
+Team High Scorer
+
+Yes
+3.58x
+
+Bam Adebayo
+
+Miami Heat
+
+vs. OKC - 5:00PM PST
+
+Higher/Lower
+
+16.5
+Points
+
+Higher
+
+Lower
+
+29.5
+Pts + Rebs + Asts
+
+Higher
+0.94x
+
+Lower
+1.03x
+
+9.5
+Rebounds
+
+Higher
+0.86x
+
+Lower
+1.06x
+
+3.5
+Assists
+
+Higher
+1.03x
+
+Lower
+0.88x
+
+1.5
+3-Pointers Made
+
+Higher
+1.33x
+
+Lower
+0.68x
+
+13.5
+Rebounds + Assists
+
+Higher
+
+Lower
+27.5
+Points + Rebounds
+
+Higher
+1.02x
+
+Lower
+0.89x
+20.5
+Points + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+
+Lower
+
+4.5
+1Q Points
+
+Higher
+1.07x
+
+Lower
+0.84x
+
+2.5
+1Q Rebounds
+
+Higher
+
+Lower
+8.5
+1Q Pts + Rebs + Asts
+
+Higher
+1.05x
+
+Lower
+0.77x
+
+35.85
+
+Fantasy Points
+
+Higher
+
+Lower
+2.5
+Turnovers
+
+Higher
+1.03x
+
+Lower
+0.87x
+
+3.5
+FT Made
+
+Higher
+1.07x
+
+Lower
+0.8x
+4.5
+1H Rebounds
+
+Higher
+0.94x
+
+Lower
+1.03x
+15.5
+1H Pts + Rebs + Asts
+
+Higher
+
+Lower
+4.5
+Pts+Reb+Ast in First 5 Min.
+
+Higher
+1.03x
+2.5
+Points in First 5 Min.
+
+Higher
+1.1x
+
+Lower
+0.78x
+0.5
+Game High Scorer
+
+Yes
+7.66x
+0.5
+Team High Scorer
+
+Yes
+2.37x
+1.5
+Offensive Rebounds
+
+Higher
+0.86x
+
