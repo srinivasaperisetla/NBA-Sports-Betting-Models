@@ -1,166 +1,707 @@
-from fastapi import FastAPI, HTTPException, Query
-import pandas as pd
-from testModel_schema import TestModelPredictionInput, Stat
-from constants import TARGET_COLUMNS, FEATURES_TO_DUMMY
-from contextlib import asynccontextmanager
-import tensorflow as tf
-import xgboost as xgb
-import pickle
-import uvicorn
 import json
-import os
+from contextlib import asynccontextmanager
+from enum import Enum
+from pathlib import Path
+from typing import Dict, List
+
 import joblib
+import numpy as np
+import pandas as pd
+import uvicorn
+from fastapi import FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 
-ALLSTAR_PATH_KERAS = "./models/allstar.keras"
-CHAMPION_MODELS_DIR = "./models/champion_models"
+from schema import NBAPredictionInput, Stat
 
-ALLSTAR_SCALER = "./scalers/allstar_scaler.pkl"
-ALLSTAR_FEATURES = "./features/allstar_features.pkl"
-CATEGORY_MAPPINGS = "./category_mappings/category_mappings.json"
+pd.set_option("display.max_columns", None)
+pd.set_option("display.max_rows", None)
+pd.set_option("display.width", None)
+pd.set_option("display.max_colwidth", None)
 
-CHAMPION_FEATURES = "./features/champion_features.json"
+MODEL_ROOT = Path("./models")
+CATEGORY_MAPPINGS_PATH = MODEL_ROOT / "category_mappings.json"
 
-testModel = None
-champion_models = {}
-testModel_scaler = None
-testModel_columns = None
-category_mappings = None
-champion_feature_names = None
+STAT_COLS = [
+  "PTS", "REB", "AST", "STL", "BLK",
+  "PRA", "PA", "PR", "RA", "SB",
+  "TOV", "FTA", "FTM", "FGA", "FGM", "3PM", "3PA"
+]
+
+ALL_TARGETS = [f"TARGET_{s}" for s in STAT_COLS]
+
+CATEGORY_COLS = ["PLAYER_NAME", "TEAM", "POSITION", "MATCHUP"]
+
+DROP_BASE_COLS = [
+  "PLAYER_NAME", "PLAYER_ID", "TEAM", "MATCHUP", "POSITION",
+  "SEASON_YEAR", "SEASON_ID", "GAME_DATE", "GAME_ID",
+  "PTS", "REB", "AST", "STL", "BLK", "PRA", "PA", "PR", "RA", "SB",
+  "TOV", "FTM", "FGM", "3PM", "FGA", "3PA", "FTA",
+  "MIN", "PLUS_MINUS", "TS%", "USG", "OFF_RATING"
+]
+
+CHAMPION_FAMILIES = {
+  "FULL_ALL": {
+    "folder": "CHAMPION_FULL_ALL",
+    "feature_mode": "full",
+    "calibration_set": "ALL",
+    "features_file": "FEATURES_FULL_ALL.pkl",
+  },
+  "FULL_TIGHT": {
+    "folder": "CHAMPION_FULL_TIGHT",
+    "feature_mode": "full",
+    "calibration_set": "TIGHT",
+    "features_file": "FEATURES_FULL_TIGHT.pkl",
+  },
+  "REDUCED_ALL": {
+    "folder": "CHAMPION_REDUCED_ALL",
+    "feature_mode": "reduced",
+    "calibration_set": "ALL",
+    "features_file": "FEATURES_REDUCED_ALL.pkl",
+  },
+  "REDUCED_TIGHT": {
+    "folder": "CHAMPION_REDUCED_TIGHT",
+    "feature_mode": "reduced",
+    "calibration_set": "TIGHT",
+    "features_file": "FEATURES_REDUCED_TIGHT.pkl",
+  },
+}
+
+FAMILY_ORDER = ["FULL_ALL", "FULL_TIGHT", "REDUCED_ALL", "REDUCED_TIGHT"]
+
+model_registry: Dict[str, Dict[str, object]] = {k: {} for k in CHAMPION_FAMILIES}
+feature_registry: Dict[str, Dict[str, List[str]]] = {k: {} for k in CHAMPION_FAMILIES}
+category_mappings: Dict[str, Dict[str, int]] = {}
+
+BETTING_THRESHOLDS = {
+  "BLK": {"recommended_family": "REDUCED_TIGHT", "tier": "S", "min_conf": 0.55, "optimal_conf": 0.70, "base_acc": 0.7587, "realistic_acc": {0.55: 0.7799, 0.60: 0.8044, 0.65: 0.8132, 0.70: 0.8279}},
+  "3PM": {"recommended_family": "FULL_ALL", "tier": "S", "min_conf": 0.60, "optimal_conf": 0.70, "base_acc": 0.6950, "realistic_acc": {0.55: 0.7049, 0.60: 0.7383, 0.65: 0.7663, 0.70: 0.8034}},
+  "STL": {"recommended_family": "REDUCED_ALL", "tier": "A", "min_conf": 0.60, "optimal_conf": 0.70, "base_acc": 0.7095, "realistic_acc": {0.55: 0.7119, 0.60: 0.7327, 0.65: 0.7576, 0.70: 0.7768}},
+  "TOV": {"recommended_family": "FULL_ALL", "tier": "A", "min_conf": 0.60, "optimal_conf": 0.70, "base_acc": 0.6966, "realistic_acc": {0.55: 0.6914, 0.60: 0.7220, 0.65: 0.7521, 0.70: 0.7732}},
+  "SB": {"recommended_family": "REDUCED_ALL", "tier": "A", "min_conf": 0.60, "optimal_conf": 0.70, "base_acc": 0.6919, "realistic_acc": {0.55: 0.6929, 0.60: 0.7085, 0.65: 0.7322, 0.70: 0.7585}},
+  "3PA": {"recommended_family": "FULL_ALL", "tier": "B", "min_conf": 0.60, "optimal_conf": 0.65, "base_acc": 0.6798, "realistic_acc": {0.55: 0.6569, 0.60: 0.6909, 0.65: 0.7275, 0.70: 0.7635}},
+  "FTM": {"recommended_family": "FULL_ALL", "tier": "B", "min_conf": 0.60, "optimal_conf": 0.65, "base_acc": 0.6816, "realistic_acc": {0.55: 0.6576, 0.60: 0.6859, 0.65: 0.7137, 0.70: 0.7408}},
+  "REB": {"recommended_family": "FULL_ALL", "tier": "B", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6773, "realistic_acc": {0.55: 0.6415, 0.60: 0.6748, 0.65: 0.7140, 0.70: 0.7339}},
+  "FGM": {"recommended_family": "FULL_ALL", "tier": "C", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6857, "realistic_acc": {0.55: 0.6447, 0.60: 0.6794, 0.65: 0.7196, 0.70: 0.7536}},
+  "FTA": {"recommended_family": "FULL_ALL", "tier": "C", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6726, "realistic_acc": {0.55: 0.6250, 0.60: 0.6577, 0.65: 0.6863, 0.70: 0.7213}},
+  "AST": {"recommended_family": "FULL_ALL", "tier": "C", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6679, "realistic_acc": {0.55: 0.6362, 0.60: 0.6642, 0.65: 0.6876, 0.70: 0.7119}},
+  "RA": {"recommended_family": "FULL_ALL", "tier": "C", "min_conf": 0.65, "optimal_conf": 0.70, "base_acc": 0.6750, "realistic_acc": {0.55: 0.6333, 0.60: 0.6642, 0.65: 0.6925, 0.70: 0.7398}},
+  "PTS": {"recommended_family": "REDUCED_ALL", "tier": "D", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6747, "realistic_acc": {0.55: 0.6251, 0.60: 0.6619, 0.65: 0.6934, 0.70: 0.7313}},
+  "PA": {"recommended_family": "FULL_ALL", "tier": "D", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6759, "realistic_acc": {0.55: 0.6299, 0.60: 0.6627, 0.65: 0.7050, 0.70: 0.7344}},
+  "PR": {"recommended_family": "FULL_ALL", "tier": "D", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6747, "realistic_acc": {0.55: 0.6309, 0.60: 0.6625, 0.65: 0.6884, 0.70: 0.7089}},
+  "PRA": {"recommended_family": "FULL_ALL", "tier": "D", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6730, "realistic_acc": {0.55: 0.6326, 0.60: 0.6749, 0.65: 0.6945, 0.70: 0.7314}},
+  "FGA": {"recommended_family": "FULL_ALL", "tier": "D", "min_conf": 0.70, "optimal_conf": 0.70, "base_acc": 0.6797, "realistic_acc": {0.55: 0.6247, 0.60: 0.6643, 0.65: 0.7111, 0.70: 0.7493}}
+}
+
+TIER_POINTS = {"S": 0, "A": 0, "B": 0, "C": 0, "D": 0}
+
+
+class ChampionFamily(str, Enum):
+  ALL = "ALL"
+  FULL_ALL = "FULL_ALL"
+  FULL_TIGHT = "FULL_TIGHT"
+  REDUCED_ALL = "REDUCED_ALL"
+  REDUCED_TIGHT = "REDUCED_TIGHT"
+
+
+def get_model_filename(stat_name: str, feature_mode: str, calibration_set: str) -> str:
+  return f"{stat_name}_{feature_mode.upper()}_{calibration_set}.pkl"
+
+
+def get_loaded_stats() -> List[str]:
+  stats = set()
+  for family_key in CHAMPION_FAMILIES:
+    stats.update(model_registry[family_key].keys())
+  return sorted(stats)
+
+
+def get_confidence_bucket(confidence: float) -> float:
+  if confidence >= 0.70:
+    return 0.70
+  elif confidence >= 0.65:
+    return 0.65
+  elif confidence >= 0.60:
+    return 0.60
+  else:
+    return 0.55
+
+
+def get_recommendation(confidence: float, min_conf: float, optimal_conf: float) -> str:
+  midpoint = (min_conf + optimal_conf) / 2
+  if confidence < min_conf:
+    return "DO NOT BET"
+  elif confidence < midpoint:
+    return "BET WITH CAUTION"
+  elif confidence < optimal_conf:
+    return "BET"
+  else:
+    return "STRONG BET"
+
+
+def compute_rank_score(
+  confidence: float,
+  tier: str,
+  z_vs_line: float,
+  z_vs_recent: float,
+  z_vs_matchup: float,
+  line_diff: float,
+  momentum: float,
+  prediction: str,
+  last10_rate: float,
+  last5_rate: float
+) -> dict:
+  direction = 1 if prediction == "OVER" else -1
+  confidence_points = confidence * 100
+  tier_points = TIER_POINTS.get(tier, 0)
+
+  z_line_points = z_vs_line * direction
+  z_recent_points = z_vs_recent * direction
+  z_matchup_points = z_vs_matchup * direction
+  line_diff_points = line_diff * direction
+  momentum_points = momentum * direction
+
+  if direction == 1:
+    last10_points = 2 * last10_rate
+    last5_points = 2 * last5_rate
+  else:
+    last10_points = 2 * (1 - last10_rate)
+    last5_points = 2 * (1 - last5_rate)
+
+  final_score = (
+    confidence_points +
+    tier_points +
+    z_line_points +
+    z_recent_points +
+    z_matchup_points +
+    line_diff_points +
+    momentum_points +
+    last10_points
+  )
+
+  return {
+    "rank_score": final_score,
+    "rank_breakdown": {
+      "confidence_points": confidence_points,
+      "tier_points": tier_points,
+      "signal_points": {
+        "z_line": z_line_points,
+        "z_recent": z_recent_points,
+        "z_matchup": z_matchup_points,
+        "line_diff": line_diff_points,
+        "momentum": momentum_points,
+        "last10": last10_points,
+        "last5": last5_points
+      }
+    }
+  }
+
+
+def apply_category_mappings(df: pd.DataFrame) -> pd.DataFrame:
+  new_columns = {}
+
+  for col in CATEGORY_COLS:
+    if col in df.columns:
+      new_columns[f"{col}_ID"] = (
+        df[col]
+        .astype(str)
+        .map(category_mappings.get(col, {}))
+        .fillna(-1)
+        .astype(int)
+      )
+
+  if new_columns:
+    df = pd.concat([df, pd.DataFrame(new_columns, index=df.index)], axis=1)
+
+  return df
+
+
+def build_feature_frame_inference(
+  df: pd.DataFrame,
+  target_stat: str,
+  feature_mode: str
+) -> pd.DataFrame:
+  cols_to_drop = list(DROP_BASE_COLS) + list(ALL_TARGETS)
+
+  for s in STAT_COLS:
+    if s != target_stat:
+      cols_to_drop.extend([
+        f"PL_{s}",
+        f"OVER_PL_RATE_{s}_L10",
+        f"OVER_PL_RATE_{s}_L5",
+        f"{s}_Z_LINE",
+        f"{s}_Z_RECENT",
+        f"{s}_Z_MATCHUP",
+        f"{s}_LINE_DIFF_X_MIN",
+        f"{s}_LINE_DIFF",
+        f"{s}_DIST_FROM_ANCHOR",
+        f"{s}_ANCHOR"
+      ])
+
+  X = df.drop(columns=cols_to_drop, errors="ignore")
+
+  if feature_mode == "reduced":
+    drop_more = []
+
+    for s in STAT_COLS:
+      if s == target_stat:
+        continue
+
+      prefixes = [
+        f"CUM_AVG_{s}",
+        f"L5_AVG_{s}",
+        f"STD_CUM_AVG_{s}",
+        f"STD_L5_AVG_{s}",
+        f"{s}_",
+        f"LAST_MATCHUP_{s}",
+        f"MATCHUP_L4_AVG_{s}",
+        f"MATCHUP_L4_STD_{s}",
+        f"CUM_AVG_{s}_PER_MIN",
+        f"L5_{s}_PER_MIN"
+      ]
+
+      for p in prefixes:
+        drop_more.extend([c for c in X.columns if c.startswith(p)])
+
+      drop_more.extend([c for c in X.columns if c.startswith(f"OPP_ALLOWED_{s}_")])
+      drop_more.extend([c for c in X.columns if c.startswith(f"MATCHUP_OPP_ALLOWED_{s}_")])
+
+    if drop_more:
+      drop_more = list(dict.fromkeys(drop_more))
+      X = X.drop(columns=drop_more, errors="ignore")
+
+  return X
+
+
+def safe_float_from_frame(df: pd.DataFrame, col: str, default: float = 0.0) -> float:
+  if col not in df.columns or df.empty:
+    return default
+  val = pd.to_numeric(df.iloc[0][col], errors="coerce")
+  return float(val) if pd.notna(val) else default
+
+
+def prepare_inference_frame(
+  raw_df: pd.DataFrame,
+  target_stat: str,
+  feature_mode: str,
+  expected_features: List[str]
+) -> pd.DataFrame:
+  df = raw_df.copy()
+  df = apply_category_mappings(df)
+  df = build_feature_frame_inference(df, target_stat=target_stat, feature_mode=feature_mode)
+  df = df.reindex(columns=expected_features, fill_value=0)
+  df = df.apply(pd.to_numeric, errors="coerce").fillna(0)
+  return df
+
+
+def build_single_model_response(
+  *,
+  stat_name: str,
+  player_name: str,
+  parlay_line,
+  family_key: str,
+  x_frame: pd.DataFrame,
+  prob: float,
+  feature_count: int
+) -> dict:
+  prediction = "OVER" if prob >= 0.5 else "UNDER"
+  confidence = prob if prob >= 0.5 else (1.0 - prob)
+
+  bet_info = BETTING_THRESHOLDS.get(stat_name)
+  if bet_info is None:
+    raise ValueError(f"No betting thresholds configured for stat '{stat_name}'")
+
+  min_conf = bet_info["min_conf"]
+  optimal_conf = bet_info["optimal_conf"]
+  recommendation = get_recommendation(confidence, min_conf, optimal_conf)
+
+  bucket = get_confidence_bucket(confidence)
+  expected_acc_at_confidence = bet_info["realistic_acc"][bucket]
+
+  z_line = safe_float_from_frame(x_frame, f"{stat_name}_Z_LINE")
+  z_recent = safe_float_from_frame(x_frame, f"{stat_name}_Z_RECENT")
+  z_matchup = safe_float_from_frame(x_frame, f"{stat_name}_Z_MATCHUP")
+  line_diff = safe_float_from_frame(x_frame, f"{stat_name}_LINE_DIFF")
+  momentum = safe_float_from_frame(x_frame, f"{stat_name}_MOMENTUM")
+  last10_rate = safe_float_from_frame(x_frame, f"OVER_PL_RATE_{stat_name}_L10")
+  last5_rate = safe_float_from_frame(x_frame, f"OVER_PL_RATE_{stat_name}_L5")
+
+  rank_result = compute_rank_score(
+    confidence=confidence,
+    tier=bet_info["tier"],
+    z_vs_line=z_line,
+    z_vs_recent=z_recent,
+    z_vs_matchup=z_matchup,
+    line_diff=line_diff,
+    momentum=momentum,
+    prediction=prediction,
+    last10_rate=last10_rate,
+    last5_rate=last5_rate
+  )
+
+  family_meta = CHAMPION_FAMILIES[family_key]
+
+  return {
+    "family": family_key,
+    "feature_mode": family_meta["feature_mode"],
+    "calibration_set": family_meta["calibration_set"],
+    "feature_count": feature_count,
+    "prediction": prediction,
+    "model_output": round(float(prob), 4),
+    "confidence": round(float(confidence), 4),
+    "betting_analysis": {
+      "recommendation": recommendation,
+      "stat_tier": bet_info["tier"],
+      "minimum_confidence": min_conf,
+      "optimal_confidence": optimal_conf,
+      "model_accuracy_at_confidence": f"Accuracy at {int(bucket * 100)}%+ confidence = {round(expected_acc_at_confidence * 100, 1)}%",
+      "model_base_accuracy": f"{stat_name} Base Accuracy = {round(bet_info['base_acc'] * 100, 1)}%",
+    },
+    "Rank": rank_result
+  }
+
+
+def resolve_families_for_stat(stat_name: str, family: ChampionFamily) -> List[str]:
+  if family == ChampionFamily.ALL:
+    resolved = [fam for fam in FAMILY_ORDER if stat_name in model_registry[fam]]
+  else:
+    fam = family.value
+    resolved = [fam] if stat_name in model_registry[fam] else []
+
+  if not resolved:
+    raise HTTPException(
+      status_code=404,
+      detail=f"No loaded model found for stat '{stat_name}' and family '{family.value}'"
+    )
+
+  return resolved
+
+
+def run_prediction(input_data: NBAPredictionInput, stat_name: str, family: ChampionFamily) -> dict:
+  parlay_line = getattr(input_data, f"PL_{stat_name}", None)
+  raw_df = pd.DataFrame([input_data.model_dump()])
+
+  families_to_run = resolve_families_for_stat(stat_name, family)
+
+  model_outputs = {}
+  x_frames = {}
+
+  for fam in families_to_run:
+    family_cfg = CHAMPION_FAMILIES[fam]
+    model = model_registry[fam].get(stat_name)
+    expected_features = feature_registry[fam].get(stat_name)
+
+    if model is None or expected_features is None:
+      continue
+
+    x_frame = prepare_inference_frame(
+      raw_df=raw_df,
+      target_stat=stat_name,
+      feature_mode=family_cfg["feature_mode"],
+      expected_features=expected_features
+    )
+
+    prob = float(model.predict_proba(x_frame)[0, 1])
+
+    model_outputs[fam] = build_single_model_response(
+      stat_name=stat_name,
+      player_name=input_data.PLAYER_NAME,
+      parlay_line=parlay_line,
+      family_key=fam,
+      x_frame=x_frame,
+      prob=prob,
+      feature_count=len(expected_features)
+    )
+    x_frames[fam] = x_frame
+
+  if not model_outputs:
+    raise HTTPException(
+      status_code=404,
+      detail=f"No usable model outputs for stat '{stat_name}'"
+    )
+
+  if family != ChampionFamily.ALL and len(model_outputs) == 1:
+    fam = list(model_outputs.keys())[0]
+    out = model_outputs[fam]
+    return {
+      "stat": stat_name,
+      "player": input_data.PLAYER_NAME,
+      "parlay_line": parlay_line,
+      **out
+    }
+
+  probs = [model_outputs[fam]["model_output"] for fam in model_outputs]
+  mean_prob = float(np.mean(probs))
+  std_prob = float(np.std(probs))
+  consensus_prediction = "OVER" if mean_prob >= 0.5 else "UNDER"
+  consensus_confidence = mean_prob if mean_prob >= 0.5 else (1.0 - mean_prob)
+
+  agreement_ratio = float(np.mean([
+    1.0 if model_outputs[fam]["prediction"] == consensus_prediction else 0.0
+    for fam in model_outputs
+  ]))
+
+  bet_info = BETTING_THRESHOLDS[stat_name]
+  min_conf = bet_info["min_conf"]
+  optimal_conf = bet_info["optimal_conf"]
+  recommendation = get_recommendation(consensus_confidence, min_conf, optimal_conf)
+
+  bucket = get_confidence_bucket(consensus_confidence)
+  expected_acc_at_confidence = bet_info["realistic_acc"][bucket]
+
+  ref_family = list(model_outputs.keys())[0]
+  ref_frame = x_frames[ref_family]
+
+  z_line = safe_float_from_frame(ref_frame, f"{stat_name}_Z_LINE")
+  z_recent = safe_float_from_frame(ref_frame, f"{stat_name}_Z_RECENT")
+  z_matchup = safe_float_from_frame(ref_frame, f"{stat_name}_Z_MATCHUP")
+  line_diff = safe_float_from_frame(ref_frame, f"{stat_name}_LINE_DIFF")
+  momentum = safe_float_from_frame(ref_frame, f"{stat_name}_MOMENTUM")
+  last10_rate = safe_float_from_frame(ref_frame, f"OVER_PL_RATE_{stat_name}_L10")
+  last5_rate = safe_float_from_frame(ref_frame, f"OVER_PL_RATE_{stat_name}_L5")
+
+  rank_result = compute_rank_score(
+    confidence=consensus_confidence,
+    tier=bet_info["tier"],
+    z_vs_line=z_line,
+    z_vs_recent=z_recent,
+    z_vs_matchup=z_matchup,
+    line_diff=line_diff,
+    momentum=momentum,
+    prediction=consensus_prediction,
+    last10_rate=last10_rate,
+    last5_rate=last5_rate
+  )
+
+  return {
+    "stat": stat_name,
+    "player": input_data.PLAYER_NAME,
+    "parlay_line": parlay_line,
+    "consensus": {
+      "prediction": consensus_prediction,
+      "model_output_avg": round(mean_prob, 4),
+      "confidence": round(consensus_confidence, 4),
+      "probability_std": round(std_prob, 4),
+      "agreement_ratio": round(agreement_ratio, 4),
+      "families_used": list(model_outputs.keys()),
+      "betting_analysis": {
+        "recommendation": recommendation,
+        "stat_tier": bet_info["tier"],
+        "minimum_confidence": min_conf,
+        "optimal_confidence": optimal_conf,
+        "model_accuracy_at_confidence": f"Accuracy at {int(bucket * 100)}%+ confidence = {round(expected_acc_at_confidence * 100, 1)}%",
+        "model_base_accuracy": f"{stat_name} Base Accuracy = {round(bet_info['base_acc'] * 100, 1)}%"
+      },
+      "Rank": rank_result
+    },
+    "model_variants": model_outputs
+  }
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-  global allstar_model, allstar_scaler, allstar_features, category_mappings, champion_feature_names, champion_models
-  print("🔄 Loading model and assets...")
+  global category_mappings, model_registry, feature_registry
 
-  # testModel = tf.keras.layers.TFSMLayer(TESTMODEL_PATH, call_endpoint='serving_default')
-  allstar_model = tf.keras.models.load_model(ALLSTAR_PATH_KERAS)
+  print("\n" + "=" * 70)
+  print("LOADING STAGE 4 CHAMPION MODEL PACKAGE")
+  print("=" * 70)
 
-  with open(ALLSTAR_SCALER, 'rb') as f:
-    allstar_scaler = pickle.load(f)
+  try:
+    with open(CATEGORY_MAPPINGS_PATH, "r") as f:
+      category_mappings = json.load(f)
+    print(f"Loaded category mappings from: {CATEGORY_MAPPINGS_PATH}")
+    print(f"  Players:   {len(category_mappings.get('PLAYER_NAME', {}))}")
+    print(f"  Teams:     {len(category_mappings.get('TEAM', {}))}")
+    print(f"  Positions: {len(category_mappings.get('POSITION', {}))}")
+    print(f"  Matchups:  {len(category_mappings.get('MATCHUP', {}))}")
+  except Exception as e:
+    print(f"Failed to load category mappings: {e}")
+    raise
 
-  with open(ALLSTAR_FEATURES, 'rb') as f:
-    allstar_features = pickle.load(f)
+  total_models_loaded = 0
 
-  with open(CATEGORY_MAPPINGS, 'r') as f:
-    category_mappings = json.load(f)
-  
-  with open(CHAMPION_FEATURES,"r") as f:
-    champion_feature_names = json.load(f)
-  
-  files = os.listdir(CHAMPION_MODELS_DIR)
+  for family_key, cfg in CHAMPION_FAMILIES.items():
+    family_root = MODEL_ROOT / cfg["folder"]
+    features_path = family_root / "features" / cfg["features_file"]
+    models_dir = family_root / "models"
 
-  for filename in files:
-    stat_name = filename.replace("_calibrated.pkl", "")
-    model_path = os.path.join(CHAMPION_MODELS_DIR, filename)
+    try:
+      feature_payload = joblib.load(features_path)
+      by_stat = feature_payload.get("by_stat", {})
+      feature_registry[family_key] = by_stat
+    except Exception as e:
+      print(f"Failed to load feature map for {family_key}: {e}")
+      raise
 
-    champion_models[stat_name] = joblib.load(model_path)
-    
-  print("✅ Assets loaded.")
+    loaded_here = 0
+    print(f"\n[{family_key}]")
+    print(f"  feature map: {features_path}")
+
+    for stat_name in sorted(by_stat.keys()):
+      model_filename = get_model_filename(
+        stat_name=stat_name,
+        feature_mode=cfg["feature_mode"],
+        calibration_set=cfg["calibration_set"]
+      )
+      model_path = models_dir / model_filename
+
+      if not model_path.exists():
+        continue
+
+      try:
+        model_registry[family_key][stat_name] = joblib.load(model_path)
+        loaded_here += 1
+        total_models_loaded += 1
+        print(f"  loaded {stat_name:4s} -> {model_filename}")
+      except Exception as e:
+        print(f"  failed {stat_name:4s} -> {e}")
+
+    print(f"  total loaded in {family_key}: {loaded_here}")
+
+  print("\n" + "=" * 70)
+  print("API READY")
+  print(f"Total loaded models: {total_models_loaded}")
+  print(f"Available stats: {get_loaded_stats()}")
+  print("=" * 70 + "\n")
+
   yield
-  print("🛑 Shutting down app...")
+
+  print("\nShutting down API...")
+
 
 app = FastAPI(
   title="NBA Player Prop Prediction API",
-  description="Predicts various NBA player statistics for a given game using a TensorFlow ANN model.",
+  description="Serves Stage 4 champion XGBoost model families for NBA player props.",
+  version="2.0.0",
   lifespan=lifespan
 )
 
+app.add_middleware(
+  CORSMiddleware,
+  allow_origins=["*"],
+  allow_credentials=True,
+  allow_methods=["*"],
+  allow_headers=["*"]
+)
+
+
 @app.get("/")
 def root():
-  return {"status": "API is live"}
+  stats = get_loaded_stats()
+  return {
+    "status": "API is live",
+    "version": "2.0.0",
+    "available_stats": stats,
+    "champion_families": FAMILY_ORDER,
+    "endpoints": {
+      "predict": "/predict?stat={STAT}&family={ALL|FULL_ALL|FULL_TIGHT|REDUCED_ALL|REDUCED_TIGHT}",
+      "predict_batch": "/predict_batch?stat={STAT}&family={ALL|FULL_ALL|FULL_TIGHT|REDUCED_ALL|REDUCED_TIGHT}",
+      "models": "/models",
+      "health": "/health"
+    }
+  }
 
-@app.post("/predict_allstar")
-def predict(input_data: TestModelPredictionInput):
-  try:
-    df = pd.DataFrame([input_data.model_dump(by_alias=True)])
 
-    df["PLAYER_NAME_ID"] = category_mappings["PLAYER_NAME"].get(df["PLAYER_NAME"].iloc[0], -1)
-    df["POSITION_ID"] = category_mappings["POSITION"].get(df["POSITION"].iloc[0], -1)
-    df["TEAM_ID"] = category_mappings["TEAM"].get(df["TEAM"].iloc[0], -1)
-    df["MATCHUP_ID"] = category_mappings["MATCHUP"].get(df["MATCHUP"].iloc[0], -1)
+@app.get("/health")
+def health_check():
+  total_models = sum(len(v) for v in model_registry.values())
+  return {
+    "status": "healthy",
+    "models_loaded": total_models > 0,
+    "total_models": total_models,
+    "families_loaded": {
+      fam: len(model_registry[fam]) for fam in FAMILY_ORDER
+    }
+  }
 
-    df = df.drop(columns=["PLAYER_NAME", "TEAM", "MATCHUP", "POSITION"])
 
-    df = df[allstar_features]
+@app.get("/models")
+def list_models():
+  stats = get_loaded_stats()
 
-    embedded_cols = ["PLAYER_NAME_ID", "TEAM_ID", "MATCHUP_ID", "POSITION_ID"]
-    numerical_cols = [c for c in df.columns if c not in embedded_cols]
-  
-    numeric_scaled = allstar_scaler.transform(df[numerical_cols])
-
-    model_input = {
-      "PLAYER_NAME_ID": df["PLAYER_NAME_ID"].values,
-      "TEAM_ID": df["TEAM_ID"].values,
-      "MATCHUP_ID": df["MATCHUP_ID"].values,
-      "POSITION_ID": df["POSITION_ID"].values,
-      "NUMERIC": numeric_scaled
+  family_summary = {}
+  for fam in FAMILY_ORDER:
+    family_summary[fam] = {
+      "loaded_stats": sorted(model_registry[fam].keys()),
+      "total_loaded": len(model_registry[fam])
     }
 
-    outputs = allstar_model(model_input, training=False)
+  stat_summary = {}
+  for stat_name in stats:
+    stat_summary[stat_name] = {
+      "available_families": [fam for fam in FAMILY_ORDER if stat_name in model_registry[fam]],
+      "feature_counts": {
+        fam: len(feature_registry[fam].get(stat_name, []))
+        for fam in FAMILY_ORDER if stat_name in feature_registry[fam]
+      }
+    }
 
-    results = []
+  return {
+    "families": family_summary,
+    "stats": stat_summary,
+    "total_models": sum(len(v) for v in model_registry.values())
+  }
 
-    for stat, out in zip(TARGET_COLUMNS, outputs):
-      prob = float(out.numpy()[0][0])
-      prediction = int(prob > 0.5)
-      confidence_prob = prob if prediction == 1 else (1 - prob)
-      parlay = getattr(input_data, f"PL_{stat}")
 
-      results.append({
-        "stat": stat,
-        "parlay": parlay,
-        "prediction": prediction,
-        "probability": round(prob, 3),
-        "confidence": f"{round(confidence_prob * 100, 1)}%"
-      })
-
-    return {"predictions": results}
-
-  except Exception as e:
-    raise HTTPException(status_code=500, detail=str(e))
-  
-@app.post('/predict_champion')
-def predict_champion(input_data: TestModelPredictionInput, stat: Stat = Query(...)):
+@app.post("/predict")
+def predict(
+  input_data: NBAPredictionInput,
+  stat: Stat = Query(..., description="Stat to predict"),
+  family: ChampionFamily = Query(ChampionFamily.ALL, description="Which champion family to use")
+):
   try:
-    stat_name = stat.value
-    xgb_model = champion_models[stat_name]
-    parlay = getattr(input_data, f"PL_{stat_name}")
+    return run_prediction(
+      input_data=input_data,
+      stat_name=stat.value,
+      family=family
+    )
+  except HTTPException:
+    raise
+  except Exception as e:
+    import traceback
+    raise HTTPException(
+      status_code=500,
+      detail={
+        "error": str(e),
+        "traceback": traceback.format_exc()
+      }
+    )
 
-    df = pd.DataFrame([input_data.model_dump(by_alias=True)])
 
-    cols_to_drop = []
-    for col in TARGET_COLUMNS:
-      if col != stat_name:
-        cols_to_drop.append(f'PL_{col}')
-        cols_to_drop.append(f'OVER_PL_RATE_{col}_LAST10')
-        cols_to_drop.append(f'OVER_PL_RATE_{col}_LAST5')
-        cols_to_drop.append(f'{col}_Z_LINE')
-        cols_to_drop.append(f'{col}_Z_RECENT')
-        cols_to_drop.append(f'{col}_LINE_DIFF_X_MIN')
-        cols_to_drop.append(f'LINE_EDGE_{col}')
-        cols_to_drop.append(f'LINE_AMBIGUITY_{col}')
-      
-    df = df.drop(columns = cols_to_drop)
-
-    expected_cols = champion_feature_names[stat_name]
-    df = df.reindex(columns=expected_cols, fill_value=0)
-
-    prob = float(xgb_model.predict_proba(df)[0, 1])
-
-    prediction = int(prob > 0.5)
+@app.post("/predict_batch")
+def predict_batch(
+  input_data: List[NBAPredictionInput],
+  stat: Stat = Query(..., description="Stat to predict"),
+  family: ChampionFamily = Query(ChampionFamily.ALL, description="Which champion family to use")
+):
+  try:
+    predictions = [
+      run_prediction(player_input, stat.value, family)
+      for player_input in input_data
+    ]
 
     return {
-      "stat": stat_name,
-      "parlay": parlay,
-      "prediction": prediction,
-      "probability": round(prob, 2),
+      "stat": stat.value,
+      "family": family.value,
+      "total_predictions": len(predictions),
+      "predictions": predictions
     }
-
+  except HTTPException:
+    raise
   except Exception as e:
-    raise HTTPException(status_code=500, detail=str(e))
+    import traceback
+    raise HTTPException(
+      status_code=500,
+      detail={
+        "error": str(e),
+        "traceback": traceback.format_exc()
+      }
+    )
 
-
-# for local use only
 
 if __name__ == "__main__":
-  uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+  uvicorn.run(
+    "main:app",
+    host="127.0.0.1",
+    port=8000,
+    reload=True,
+    log_level="info"
+  )
