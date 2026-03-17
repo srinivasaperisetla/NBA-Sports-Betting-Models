@@ -20,3 +20,5 @@ python3 main.py
 cd ..
 streamlit run app.py
 
+python3 analyze_picks.py --csv-dir csv --out-dir analysis_output
+
