@@ -9,6 +9,15 @@ INPUT_CSV = "today_picks.csv"
 OUTPUT_CSV = "todays_picks_verified.csv"
 CURRENT_SEASON = "2025-26"
 
+# ── Date filter ──────────────────────────────────────────────
+# Set to a specific date string to only check games from that date.
+# Set to None to use the most recent game (today/yesterday).
+# Examples: "2026-03-20", "2026-03-15", None
+DATE = None #"2026-03-20"
+# ─────────────────────────────────────────────────────────────
+
+TARGET_DATE = datetime.strptime(DATE, "%Y-%m-%d").date() if DATE else None
+
 all_players = players.get_players()
 PLAYER_LOOKUP = {p["full_name"]: p for p in all_players}
 
@@ -16,6 +25,10 @@ df_picks = pd.read_csv(INPUT_CSV)
 
 print(f"📊 Loaded {len(df_picks)} predictions")
 print(f"🏀 Unique players: {df_picks['Player'].nunique()}")
+if TARGET_DATE:
+  print(f"📅 Filtering for games on: {TARGET_DATE}")
+else:
+  print(f"📅 Using most recent game (today/yesterday)")
 
 required_output_cols = [
   "Result",
@@ -62,18 +75,29 @@ for player_name in unique_players:
     game_log["GAME_DATE"] = pd.to_datetime(game_log["GAME_DATE"], errors="coerce")
     game_log = game_log.sort_values("GAME_DATE", ascending=False).reset_index(drop=True)
 
-    most_recent = game_log.iloc[0]
-    game_date = pd.to_datetime(most_recent["GAME_DATE"]).date()
-
-    today = datetime.now().date()
-    yesterday = today - timedelta(days=1)
-
-    if game_date in [today, yesterday]:
-      print(f"  ✅ Found game from {game_date}")
-      player_games[player_name] = most_recent
+    if TARGET_DATE:
+      # Filter for the exact target date
+      match = game_log[game_log["GAME_DATE"].dt.date == TARGET_DATE]
+      if match.empty:
+        print(f"  ⚠️ No game found on {TARGET_DATE}")
+        player_games[player_name] = None
+      else:
+        print(f"  ✅ Found game from {TARGET_DATE}")
+        player_games[player_name] = match.iloc[0]
     else:
-      print(f"  ⚠️ Most recent game is from {game_date} (not today/yesterday)")
-      player_games[player_name] = None
+      # Use most recent game if it's today or yesterday
+      most_recent = game_log.iloc[0]
+      game_date = pd.to_datetime(most_recent["GAME_DATE"]).date()
+
+      today = datetime.now().date()
+      yesterday = today - timedelta(days=1)
+
+      if game_date in [today, yesterday]:
+        print(f"  ✅ Found game from {game_date}")
+        player_games[player_name] = most_recent
+      else:
+        print(f"  ⚠️ Most recent game is from {game_date} (not today/yesterday)")
+        player_games[player_name] = None
 
   except Exception as e:
     print(f"  ❌ Error: {e}")

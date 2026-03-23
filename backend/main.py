@@ -13,10 +13,20 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from schema import NBAPredictionInput, Stat
 
+import requests
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 pd.set_option("display.max_columns", None)
 pd.set_option("display.max_rows", None)
 pd.set_option("display.width", None)
 pd.set_option("display.max_colwidth", None)
+
+BASE_URL = "https://api.the-odds-api.com/v4"
+
+API_KEY = os.getenv("ODDS_API_KEY")
 
 MODEL_ROOT = Path("./models")
 CATEGORY_MAPPINGS_PATH = MODEL_ROOT / "category_mappings.json"
@@ -94,7 +104,6 @@ BETTING_THRESHOLDS = {
 
 TIER_POINTS = {"S": 0, "A": 0, "B": 0, "C": 0, "D": 0}
 
-
 class ChampionFamily(str, Enum):
   ALL = "ALL"
   FULL_ALL = "FULL_ALL"
@@ -106,13 +115,11 @@ class ChampionFamily(str, Enum):
 def get_model_filename(stat_name: str, feature_mode: str, calibration_set: str) -> str:
   return f"{stat_name}_{feature_mode.upper()}_{calibration_set}.pkl"
 
-
 def get_loaded_stats() -> List[str]:
   stats = set()
   for family_key in CHAMPION_FAMILIES:
     stats.update(model_registry[family_key].keys())
   return sorted(stats)
-
 
 def get_confidence_bucket(confidence: float) -> float:
   if confidence >= 0.70:
@@ -124,7 +131,6 @@ def get_confidence_bucket(confidence: float) -> float:
   else:
     return 0.55
 
-
 def get_recommendation(confidence: float, min_conf: float, optimal_conf: float) -> str:
   midpoint = (min_conf + optimal_conf) / 2
   if confidence < min_conf:
@@ -135,7 +141,6 @@ def get_recommendation(confidence: float, min_conf: float, optimal_conf: float) 
     return "BET"
   else:
     return "STRONG BET"
-
 
 def compute_rank_score(
   confidence: float,
@@ -194,7 +199,6 @@ def compute_rank_score(
     }
   }
 
-
 def apply_category_mappings(df: pd.DataFrame) -> pd.DataFrame:
   new_columns = {}
 
@@ -212,7 +216,6 @@ def apply_category_mappings(df: pd.DataFrame) -> pd.DataFrame:
     df = pd.concat([df, pd.DataFrame(new_columns, index=df.index)], axis=1)
 
   return df
-
 
 def build_feature_frame_inference(
   df: pd.DataFrame,
@@ -291,7 +294,6 @@ def prepare_inference_frame(
   df = df.apply(pd.to_numeric, errors="coerce").fillna(0)
   return df
 
-
 def build_single_model_response(
   *,
   stat_name: str,
@@ -358,7 +360,6 @@ def build_single_model_response(
     "Rank": rank_result
   }
 
-
 def resolve_families_for_stat(stat_name: str, family: ChampionFamily) -> List[str]:
   if family == ChampionFamily.ALL:
     resolved = [fam for fam in FAMILY_ORDER if stat_name in model_registry[fam]]
@@ -373,7 +374,6 @@ def resolve_families_for_stat(stat_name: str, family: ChampionFamily) -> List[st
     )
 
   return resolved
-
 
 def run_prediction(input_data: NBAPredictionInput, stat_name: str, family: ChampionFamily) -> dict:
   parlay_line = getattr(input_data, f"PL_{stat_name}", None)
@@ -494,7 +494,6 @@ def run_prediction(input_data: NBAPredictionInput, stat_name: str, family: Champ
     },
     "model_variants": model_outputs
   }
-
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
