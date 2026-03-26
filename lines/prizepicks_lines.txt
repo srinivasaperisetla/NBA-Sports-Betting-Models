@@ -1,178 +1,29 @@
-Jalen Brunson
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-
-24.5
-Points
-Less
-More
-
-Karl-Anthony Towns
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
-
-18.5
-Points
-Less
-More
-Trending
-11.7K
-OG AnunobyDemon
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
-
-21.5
-Points
-More
-
-Mikal Bridges
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-
-12.5
-Points
-Less
-More
-
-Danny Wolf
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-
-11.5
-Points
-Less
-More
-
-Nic Claxton
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-
-9.5
-Points
-Less
-More
-
-Nolan Traore
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-
-9.5
-Points
-Less
-More
-
-Jordan Clarkson
-NYK - G
-Jordan Clarkson
-@ BKN Fri 4:40pm
-
-9.5
-Points
-Less
-More
-
-Landry Shamet
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-
-10.5
-Points
-Less
-More
-
-Drake Powell
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-
-7.5
-Points
-Less
-More
-
-Mitchell Robinson
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
-
-6.5
-Points
-Less
-More
-
-Mohamed DiawaraGoblin
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-
-5.5
-Points
-More
-
 Jalen Duren
 DET - C
 Jalen Duren
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-22.5
+23
 Points
 Less
 More
 
-De'Anthony Melton
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
+Trey Murphy
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
 
-14.5
+20.5
 Points
 Less
 More
 
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
+Zion Williamson
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
 
-16.5
-Points
-Less
-More
-
-Brandin Podziemski
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-
-12.5
-Points
-Less
-More
-
-Gui Santos
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-
-13.5
-Points
-Less
-More
-
-Tobias Harris
-DET - F
-Tobias Harris
-vs GSW Fri 4:40pm
-
-13.5
+20.5
 Points
 Less
 More
@@ -180,9 +31,29 @@ More
 Daniss Jenkins
 DET - G
 Daniss Jenkins
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-14.5
+17.5
+Points
+Less
+More
+
+Dejounte Murray
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
+
+16.5
+Points
+Less
+More
+
+Saddiq Bey
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+
+17.5
 Points
 Less
 More
@@ -190,9 +61,19 @@ More
 Duncan Robinson
 DET - F
 Duncan Robinson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 12.5
+Points
+Less
+More
+
+Tobias Harris
+DET - F
+Tobias Harris
+vs NOP Thu 4:10pm
+
+14.5
 Points
 Less
 More
@@ -200,47 +81,17 @@ More
 Ausar Thompson
 DET - G-F
 Ausar Thompson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-10.5
+11.5
 Points
 Less
 More
 
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-
-8
-Points
-Less
-More
-
-Pat Spencer
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-
-7.5
-Points
-Less
-More
-
-Gary Payton
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-
-10.5
-Points
-Less
-More
-
-Caris LeVert
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
+Kevin Huerter
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
 
 9.5
 Points
@@ -250,160 +101,370 @@ More
 Ronald Holland
 DET - F
 Ronald Holland
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-7.5
+8.5
 Points
 Less
 More
 
-Will Richard
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
+Herbert Jones
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
 
-7.5
+9
+Points
+Less
+More
+
+Derik Queen
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
+
+6.5
+Points
+Less
+More
+
+Yves Missi
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
+
+5.5
 Points
 Less
 More
 Trending
-18.8K
-Kevin Durant
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
+12.9K
+Paolo Banchero
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
 
-24.5
+25.5
 Points
 Less
 More
 
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
+Desmond Bane
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
 
 21.5
 Points
 Less
 More
 
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
+Malik Monk
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
 
-19.5
+16.5
 Points
 Less
 More
-
-Amen ThompsonGoblin
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-
-14.5
-Points
-More
-
-CJ McCollum
-ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
+Trending
+13.5K
+DeMar DeRozan
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
 
 17.5
 Points
 Less
 More
 
-Jabari Smith
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
+Devin Carter
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+
+13.5
+Points
+Less
+More
+Trending
+20.8K
+Maxime RaynaudDemon
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+
+20.5
+Points
+More
+
+Jalen Suggs
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
 
 14.5
 Points
 Less
 More
+
+Precious Achiuwa
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+
+12.5
+Points
+Less
+More
 Trending
-12.0K
-Nickeil Alexander-Walker
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
+18.0K
+Tristan Silva
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
 
-18.5
+11.5
 Points
 Less
 More
-
-Onyeka Okongwu
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
-
-13.5
-Points
-Less
-More
-
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-
-13.5
-Points
-Less
-More
-
-Tari Eason
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-
-10.5
-Points
-Less
-More
-
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
+Trending
+19.9K
+Wendell Carter
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
 
 11.5
 Points
 Less
 More
 
-Jock Landale
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
+Jamal Cain
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
 
-6.5
+9
 Points
 Less
 More
 
-Zaccharie Risacher
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
+Dylan CardwellGoblin
+SAC - C
+Dylan Cardwell
+@ ORL Thu 4:10pm
 
-6.5
+4.5
+Points
+More
+
+Goga Bitadze
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+
+5.5
 Points
 Less
+More
+Trending
+26.7K
+Jalen Brunson
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+
+26.5
+Points
+Less
+More
+Trending
+13.9K
+Karl-Anthony Towns
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
+
+18.5
+Points
+Less
+More
+Trending
+21.7K
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
+
+20
+Points
+Less
+More
+
+Brandon Miller
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+
+19
+Points
+Less
+More
+
+Kon Knueppel
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+
+18.5
+Points
+Less
+More
+
+OG Anunoby
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+
+16.5
+Points
+Less
+More
+
+Coby White
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+
+14.5
+Points
+Less
+More
+
+Miles Bridges
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+
+14
+Points
+Less
+More
+
+Josh Hart
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+
+12.5
+Points
+Less
+More
+
+Mikal Bridges
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+
+13.5
+Points
+Less
+More
+
+Moussa Diabaté
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+
+8
+Points
+Less
+More
+
+Jordan Clarkson
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+
+8.5
+Points
+Less
+More
+Trending
+19.5K
+Mitchell RobinsonDemon
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+
+9.5
+Points
+More
+
+Grant Williams
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+
+4.5
+Points
+Less
+More
+
+Mohamed DiawaraDemon
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+
+9.5
+Points
+More
+
+Sion JamesDemon
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+9.5
+Points
+More
+Trending
+19.4K
+Ryan KalkbrennerDemon
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+
+8.5
+Points
+More
+
+Josh GreenDemon
+CHA - G
+Josh Green
+vs NYK Thu 4:10pm
+4.5
+Points
 More
 
 Jaylen Brown
 BOS - G-F
 Jaylen Brown
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
-25.5
+27.5
+Points
+Less
+More
+
+Jalen Johnson
+ATL - F
+Jalen Johnson
+@ BOS Fri 4:40pm
+
+21.5
 Points
 Less
 More
@@ -411,19 +472,29 @@ More
 Jayson Tatum
 BOS - F-G
 Jayson Tatum
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
-22.5
+23.5
 Points
 Less
 More
 
-Ty Jerome
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
+Nickeil Alexander-Walker
+ATL - G
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
 
-18.5
+17.5
+Points
+Less
+More
+
+CJ McCollum
+ATL - G
+CJ McCollum
+@ BOS Fri 4:40pm
+
+16.5
 Points
 Less
 More
@@ -431,39 +502,29 @@ More
 Derrick White
 BOS - G
 Derrick White
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
-16.5
+17.5
 Points
 Less
 More
 
-Payton Pritchard
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-
-16.5
-Points
-Less
-More
-
-Taylor Hendricks
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-
-9.5
-Points
-Less
-More
-
-Cedric Coward
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
+Onyeka Okongwu
+ATL - F-C
+Onyeka Okongwu
+@ BOS Fri 4:40pm
 
 11.5
+Points
+Less
+More
+
+Dyson Daniels
+ATL - G
+Dyson Daniels
+@ BOS Fri 4:40pm
+
+10.5
 Points
 Less
 More
@@ -471,465 +532,60 @@ More
 Neemias Queta
 BOS - C
 Neemias Queta
-@ MEM Fri 5:10pm
-
-10.5
-Points
-Less
-More
-
-Olivier-Maxence Prosper
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-
-10.5
-Points
-Less
-More
-
-Jaylen Wells
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-
-11.5
-Points
-Less
-More
-
-Cam Spencer
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
+vs ATL Fri 4:40pm
 
 9.5
 Points
 Less
 More
 
-Sam Hauser
-BOS - F
-Sam Hauser
-@ MEM Fri 5:10pm
-
-8.5
-Points
-Less
-More
-
-Walter Clayton
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-
-7.5
-Points
-Less
-More
-
-Baylor Scheierman
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-
-7.5
-Points
-Less
-More
-
-Deni Avdija
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-
-23.5
-Points
-Less
-More
-
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-
-23.5
-Points
-Less
-More
-
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-
-17.5
-Points
-Less
-More
-
-Jerami Grant
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-16.5
-Points
-Less
-More
-
-Jrue Holiday
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-
-15.5
-Points
-Less
-More
-
-Jaden McDaniels
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-16.5
-Points
-Less
-More
-
-Donovan Clingan
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-
-11.5
-Points
-Less
-More
-
-Scoot Henderson
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-
-12.5
-Points
-Less
-More
-
-Rudy Gobert
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-
-12
-Points
-Less
-More
-
-Toumani Camara
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-11.5
-Points
-Less
-More
-
-Donte DiVincenzo
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-
-11.5
-Points
-Less
-More
-
-Naz Reid
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-13.5
-Points
-Less
-More
-Trending
-14.7K
-Bones Hyland
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-
-12.5
-Points
-Less
-More
-
-Robert Williams
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
+Jock Landale
+ATL - C
+Jock Landale
+@ BOS Fri 4:40pm
 
 6.5
 Points
 Less
 More
 
-Nikola Jokić
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-27.5
-Points
-Less
-More
-
-Jamal Murray
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-
-24.5
-Points
-Less
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-21.5
-Points
-Less
-More
-
-RJ Barrett
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-
-19.5
-Points
-Less
-More
-
-Aaron Gordon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-
-15.5
-Points
-Less
-More
-
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-
-16.5
-Points
-Less
-More
-
-Scottie Barnes
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-
-17.5
-Points
-Less
-More
-Trending
-22.0K
-Cameron Johnson
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-
-11.5
-Points
-Less
-More
-Trending
-10.4K
-Christian Braun
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-
-11.5
-Points
-Less
-More
-
-Tim Hardaway
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-
-11.5
-Points
-Less
-More
-
-Jakob Poeltl
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-
-12.5
-Points
-Less
-More
-
-Sandro Mamukelashvili
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-
-7.5
-Points
-Less
-More
-
-Bruce Brown
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-
-6.5
-Points
-Less
-More
-
-Jamal Shead
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-
-5.5
-Points
-Less
-More
-
-
-
-
-Trending
-13.0K
-Jalen Brunson
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-
-35.5
-PRA
-Less
-More
-
-Karl-Anthony Towns
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
-
-33.5
-PRA
-Less
-More
-
-OG Anunoby
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
-
-25.5
-PRA
-Less
-More
-
-Danny Wolf
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-
-19.5
-PRA
-Less
-More
-
-Mikal Bridges
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-
-20.5
-PRA
-Less
-More
-
-Nic Claxton
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-
-18
-PRA
-Less
-More
-
-Landry Shamet
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-
-15.5
-PRA
-Less
-More
-
-Nolan Traore
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-
-14.5
-PRA
-Less
-More
-
-Mitchell Robinson
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
-17.5
-PRA
-Less
-More
-
-Drake PowellGoblin
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-
-9.5
-PRA
-More
 
 Jalen Duren
 DET - C
 Jalen Duren
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 36.5
+PRA
+Less
+More
+
+Dejounte Murray
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
+
+27.5
+PRA
+Less
+More
+
+Trey Murphy
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
+
+28.5
+PRA
+Less
+More
+
+Zion Williamson
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
+
+28.5
 PRA
 Less
 More
@@ -937,9 +593,19 @@ More
 Daniss Jenkins
 DET - G
 Daniss Jenkins
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-24.5
+28.5
+PRA
+Less
+More
+
+Saddiq Bey
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+
+25.5
 PRA
 Less
 More
@@ -947,29 +613,9 @@ More
 Tobias Harris
 DET - F
 Tobias Harris
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-23.5
-PRA
-Less
-More
-
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-
-23.5
-PRA
-Less
-More
-
-Gui Santos
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-
-21.5
+22.5
 PRA
 Less
 More
@@ -977,49 +623,9 @@ More
 Ausar Thompson
 DET - G-F
 Ausar Thompson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-20.5
-PRA
-Less
-More
-
-Brandin Podziemski
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-
-22.5
-PRA
-Less
-More
-
-De'Anthony Melton
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-
-20.5
-PRA
-Less
-More
-
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-
-18.5
-PRA
-Less
-More
-
-Gary Payton
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-
-17.5
+21.5
 PRA
 Less
 More
@@ -1027,219 +633,403 @@ More
 Duncan Robinson
 DET - F
 Duncan Robinson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 17.5
 PRA
 Less
 More
 
-Pat Spencer
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
+Derik Queen
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
 
 13.5
 PRA
 Less
 More
 
-Caris LeVert
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
+Herbert Jones
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
 
-16.5
+14.5
 PRA
 Less
 More
 
-Will Richard
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
+Kevin Huerter
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
 
-12.5
+15
 PRA
 Less
 More
 
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
+Yves Missi
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
+11.5
+PRA
+Less
+More
+
+Paolo Banchero
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
 
 39.5
 PRA
 Less
 More
 
-Kevin Durant
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-
-34.5
-PRA
-Less
-More
-
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-
-34.5
-PRA
-Less
-More
-Trending
-11.3K
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-
-32.5
-PRA
-Less
-More
-
-Nickeil Alexander-Walker
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-
-25.5
-PRA
-Less
-More
-
-CJ McCollum
-ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
-
-24.5
-PRA
-Less
-More
-
-Jabari Smith
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
+Malik Monk
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
 
 23.5
 PRA
 Less
 More
 
-Onyeka Okongwu
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
+Desmond Bane
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
 
-22.5
+29.5
 PRA
 Less
 More
 
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
+Jalen Suggs
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
 
 23.5
 PRA
 Less
 More
 
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
+Maxime Raynaud
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
 
-19.5
+26.5
 PRA
 Less
 More
 
-Tari Eason
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
+DeMar DeRozan
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+
+25
+PRA
+Less
+More
+
+Devin Carter
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+
+21.5
+PRA
+Less
+More
+
+Wendell Carter
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+
+21.5
+PRA
+Less
+More
+
+Precious Achiuwa
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+
+21.5
+PRA
+Less
+More
+
+Tristan Silva
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
 
 18.5
 PRA
 Less
 More
 
-Jock LandaleGoblin
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
+Dylan Cardwell
+SAC - C
+Dylan Cardwell
+@ ORL Thu 4:10pm
 
-10.5
-PRA
-More
-
-Zaccharie Risacher
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-
-10.5
+13.5
 PRA
 Less
 More
 
-Jaylen Brown
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
+Jamal Cain
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
+
+13.5
+PRA
+Less
+More
+
+Goga Bitadze
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+12.5
+PRA
+Less
+More
+
+Jalen Brunson
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
 
 36.5
 PRA
 Less
 More
 
-Jayson Tatum
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
+Karl-Anthony Towns
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
 
-34.5
+32.5
 PRA
 Less
 More
 
-Derrick White
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
 
-25.5
+31.5
 PRA
 Less
 More
 
-Ty Jerome
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
+Brandon Miller
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
 
 27.5
 PRA
 Less
 More
 
-Payton Pritchard
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
+Kon Knueppel
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
 
-25.5
+26.5
+PRA
+Less
+More
+
+Josh Hart
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+
+24.5
+PRA
+Less
+More
+
+OG Anunoby
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+
+23.5
+PRA
+Less
+More
+Trending
+74.6K
+Coby White
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+
+20.5
+PRA
+Less
+More
+
+Miles Bridges
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+
+22.5
+PRA
+Less
+More
+
+Mikal Bridges
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+
+20.5
+PRA
+Less
+More
+
+Moussa Diabaté
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+18.5
+PRA
+Less
+More
+
+Grant Williams
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+
+8.5
+PRA
+Less
+More
+
+Jordan Clarkson
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+11.5
+PRA
+Less
+More
+
+Sion James
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+8.5
+PRA
+Less
+More
+
+Mohamed Diawara
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+6.5
+PRA
+Less
+More
+
+Josh Green
+CHA - G
+Josh Green
+vs NYK Thu 4:10pm
+4.5
+PRA
+Less
+More
+
+Jalen Johnson
+ATL - F
+Jalen Johnson
+@ BOS Fri 4:40pm
+
+38.5
+PRA
+Less
+More
+
+Jaylen Brown
+BOS - G-F
+Jaylen Brown
+vs ATL Fri 4:40pm
+
+39.5
+PRA
+Less
+More
+
+Jayson Tatum
+BOS - F-G
+Jayson Tatum
+vs ATL Fri 4:40pm
+
+37
+PRA
+Less
+More
+
+Derrick White
+BOS - G
+Derrick White
+vs ATL Fri 4:40pm
+
+26.5
+PRA
+Less
+More
+
+Nickeil Alexander-Walker
+ATL - G
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
+
+23.5
+PRA
+Less
+More
+
+CJ McCollum
+ATL - G
+CJ McCollum
+@ BOS Fri 4:40pm
+
+23
+PRA
+Less
+More
+
+Dyson Daniels
+ATL - G
+Dyson Daniels
+@ BOS Fri 4:40pm
+
+21.5
 PRA
 Less
 More
@@ -1247,502 +1037,39 @@ More
 Neemias Queta
 BOS - C
 Neemias Queta
-@ MEM Fri 5:10pm
-
-21.5
-PRA
-Less
-More
-
-Cedric Coward
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
+vs ATL Fri 4:40pm
 
 19.5
 PRA
 Less
 More
 
-Cam Spencer
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
-
-15.5
-PRA
-Less
-More
-
-Jaylen Wells
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-
-15.5
-PRA
-Less
-More
-
-Taylor Hendricks
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-
-15.5
-PRA
-Less
-More
-
-Baylor Scheierman
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-
-14.5
-PRA
-Less
-More
-
-Olivier-Maxence Prosper
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-
-15.5
-PRA
-Less
-More
-
-Walter Clayton
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-
-13.5
-PRA
-Less
-More
-
-Sam HauserGoblin
-BOS - F
-Sam Hauser
-@ MEM Fri 5:10pm
-
-12.5
-PRA
-More
-
-Deni Avdija
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-
-35.5
-PRA
-Less
-More
-
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-
-35.5
-PRA
-Less
-More
-
-Donovan Clingan
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-
-25.5
-PRA
-Less
-More
-
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-
-26.5
-PRA
-Less
-More
-
-Rudy Gobert
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-
-26.5
-PRA
-Less
-More
-
-Jrue Holiday
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-
-25.5
-PRA
-Less
-More
-
-Donte DiVincenzo
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
+Onyeka Okongwu
+ATL - F-C
+Onyeka Okongwu
+@ BOS Fri 4:40pm
 
 20.5
 PRA
 Less
 More
 
-Jerami Grant
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-21.5
-PRA
-Less
-More
-
-Jaden McDaniels
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-23.5
-PRA
-Less
-More
-
-Naz Reid
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-22.5
-PRA
-Less
-More
-
-Scoot Henderson
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-
-19.5
-PRA
-Less
-More
-
-Bones Hyland
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-
-18.5
-PRA
-Less
-More
-
-Robert Williams
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
-
-14.5
-PRA
-Less
-More
-
-Toumani Camara
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-18.5
-PRA
-Less
-More
-
-Nikola Jokić
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-50.5
-PRA
-Less
-More
-
-Jamal Murray
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-
-35.5
-PRA
-Less
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-31.5
-PRA
-Less
-More
-
-RJ Barrett
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-
-28.5
-PRA
-Less
-More
-
-Scottie Barnes
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-
-28.5
-PRA
-Less
-More
-
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-
-26.5
-PRA
-Less
-More
-
-Jakob Poeltl
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-
-22.5
-PRA
-Less
-More
-
-Aaron Gordon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-
-23.5
-PRA
-Less
-More
-Trending
-23.2K
-Christian BraunDemon
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-
-21.5
-PRA
-More
-
-Cameron Johnson
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-
-17.5
-PRA
-Less
-More
-
-Bruce Brown
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
+Jock Landale
+ATL - C
+Jock Landale
+@ BOS Fri 4:40pm
 
 11.5
 PRA
 Less
-More
-
-Jamal SheadGoblin
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-
-10.5
-PRA
-More
-
-Tim Hardaway
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-14.5
-PRA
-Less
-More
-
-Sandro Mamukelashvili
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-12.5
-PRA
-Less
-
-
-
-
-Karl-Anthony Towns
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
-
-12
-Rebounds
-Less
-More
-
-Mitchell Robinson
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
-
-10
-Rebounds
-Less
-More
-
-Danny Wolf
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-
-6
-Rebounds
-Less
-More
-
-Nic Claxton
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-
-5.5
-Rebounds
-Less
-More
-
-OG Anunoby
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
-
-5
-Rebounds
-Less
-More
-
-Mikal Bridges
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-
-3.5
-Rebounds
-Less
-More
-
-Jalen BrunsonGoblin
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-
-2.5
-Rebounds
-More
-
-Mohamed DiawaraGoblin
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-
-2.5
-Rebounds
-More
-
-Landry Shamet
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-
-2.5
-Rebounds
-Less
-More
-
-Drake PowellGoblin
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-
-1.5
-Rebounds
-More
-
-Jordan ClarksonGoblin
-NYK - G
-Jordan Clarkson
-@ BKN Fri 4:40pm
-
-1.5
-Rebounds
-More
-
-Nolan TraoreDemon
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-
-3.5
-Rebounds
 More
 
 Jalen Duren
 DET - C
 Jalen Duren
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 11.5
-Rebounds
-Less
-More
-
-Gui Santos
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-
-5.5
 Rebounds
 Less
 More
@@ -1750,7 +1077,7 @@ More
 Ausar Thompson
 DET - G-F
 Ausar Thompson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 6
 Rebounds
@@ -1760,151 +1087,450 @@ More
 Tobias Harris
 DET - F
 Tobias Harris
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
+
+5.5
+Rebounds
+Less
+More
+
+Yves Missi
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
 
 6
 Rebounds
 Less
 More
 
-Brandin Podziemski
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
+Zion Williamson
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
+
+5.5
+Rebounds
+Less
+More
+
+Dejounte MurrayGoblin
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
+
+3.5
+Rebounds
+More
+Trending
+30.2K
+Trey Murphy
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
+
+4.5
+Rebounds
+Less
+More
+
+Saddiq Bey
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
 
 5
 Rebounds
 Less
 More
 
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
+Derik Queen
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
 
-5
+4.5
 Rebounds
 Less
-More
-
-Kristaps PorziņģisGoblin
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-
-3.5
-Rebounds
-More
-
-Gary PaytonGoblin
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-
-3.5
-Rebounds
-More
-
-Ronald Holland
-DET - F
-Ronald Holland
-vs GSW Fri 4:40pm
-
-4
-Rebounds
-Less
-More
-
-De'Anthony Melton
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-
-3.5
-Rebounds
-Less
-More
-
-Will RichardGoblin
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
-
-1.5
-Rebounds
 More
 
 Daniss JenkinsGoblin
 DET - G
 Daniss Jenkins
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 2.5
 Rebounds
 More
 
-Pat SpencerGoblin
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
+Ronald HollandGoblin
+DET - F
+Ronald Holland
+vs NOP Thu 4:10pm
 
-1.5
+2.5
 Rebounds
 More
 
-Caris LeVertGoblin
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
+Kevin HuerterGoblin
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
 
-1.5
+2.5
 Rebounds
 More
 
-Duncan Robinson
+Herbert JonesGoblin
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
+
+2.5
+Rebounds
+More
+
+Duncan RobinsonGoblin
 DET - F
 Duncan Robinson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-2.5
+1.5
+Rebounds
+More
+
+Maxime RaynaudGoblin
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+
+7.5
+Rebounds
+More
+
+Paolo Banchero
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
+
+8
 Rebounds
 Less
 More
 
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
-
-9
-Rebounds
-Less
-More
-
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-
-8.5
-Rebounds
-Less
-More
-
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
+Wendell Carter
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
 
 7.5
 Rebounds
 Less
 More
 
-Jabari Smith
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
+Precious Achiuwa
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+
+7.5
+Rebounds
+Less
+More
+
+Dylan Cardwell
+SAC - C
+Dylan Cardwell
+@ ORL Thu 4:10pm
+
+7
+Rebounds
+Less
+More
+
+Devin CarterGoblin
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+
+3.5
+Rebounds
+More
+
+Desmond Bane
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
+
+4
+Rebounds
+Less
+More
+
+Goga Bitadze
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+
+4.5
+Rebounds
+Less
+More
+
+Tristan Silva
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+
+4
+Rebounds
+Less
+More
+
+Jalen Suggs
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
+
+4
+Rebounds
+Less
+More
+
+Jamal CainGoblin
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
+
+2.5
+Rebounds
+More
+
+DeMar DeRozanGoblin
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+
+1.5
+Rebounds
+More
+
+Malik MonkGoblin
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
+
+1.5
+Rebounds
+More
+Trending
+60.1K
+Karl-Anthony Towns
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
+
+10.5
+Rebounds
+Less
+More
+
+Moussa Diabaté
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+
+9
+Rebounds
+Less
+More
+
+Mitchell Robinson
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+
+7
+Rebounds
+Less
+More
+
+Josh Hart
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+
+7
+Rebounds
+Less
+More
+
+Brandon Miller
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+
+5
+Rebounds
+Less
+More
+
+Kon Knueppel
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+
+4.5
+Rebounds
+Less
+More
+
+Miles Bridges
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+
+5
+Rebounds
+Less
+More
+
+OG Anunoby
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+
+4.5
+Rebounds
+Less
+More
+
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
+
+4
+Rebounds
+Less
+More
+
+Ryan Kalkbrenner
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+
+4
+Rebounds
+Less
+More
+
+Mikal BridgesGoblin
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+
+2.5
+Rebounds
+More
+
+Jalen BrunsonGoblin
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+
+1.5
+Rebounds
+More
+
+Sion JamesGoblin
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+
+2.5
+Rebounds
+More
+
+Grant Williams
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+
+2.5
+Rebounds
+Less
+More
+
+Coby White
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+
+2.5
+Rebounds
+Less
+More
+
+Josh GreenGoblin
+CHA - G
+Josh Green
+vs NYK Thu 4:10pm
+
+0.5
+Rebounds
+More
+
+Mohamed DiawaraGoblin
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+
+0.5
+Rebounds
+More
+
+Jordan ClarksonDemon
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+
+3.5
+Rebounds
+More
+
+Jalen JohnsonGoblin
+ATL - F
+Jalen Johnson
+@ BOS Fri 4:40pm
+
+8.5
+Rebounds
+More
+
+Neemias Queta
+BOS - C
+Neemias Queta
+vs ATL Fri 4:40pm
+
+8.5
+Rebounds
+Less
+More
+
+Jayson TatumGoblin
+BOS - F-G
+Jayson Tatum
+vs ATL Fri 4:40pm
+
+7.5
+Rebounds
+More
+
+Dyson Daniels
+ATL - G
+Dyson Daniels
+@ BOS Fri 4:40pm
 
 6.5
 Rebounds
@@ -1914,652 +1540,126 @@ More
 Onyeka Okongwu
 ATL - F-C
 Onyeka Okongwu
-@ HOU Fri 5:10pm
+@ BOS Fri 4:40pm
 
 6.5
 Rebounds
 Less
 More
 
-Tari Eason
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-
-6
-Rebounds
-Less
-More
-
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
-
-6
-Rebounds
-Less
-More
-
-Kevin Durant
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
+Jaylen BrownGoblin
+BOS - G-F
+Jaylen Brown
+vs ATL Fri 4:40pm
 
 5.5
 Rebounds
-Less
+More
+
+Derrick WhiteGoblin
+BOS - G
+Derrick White
+vs ATL Fri 4:40pm
+
+3.5
+Rebounds
+More
+
+Sam HauserGoblin
+BOS - F
+Sam Hauser
+vs ATL Fri 4:40pm
+
+2.5
+Rebounds
 More
 
 Jock Landale
 ATL - C
 Jock Landale
-@ HOU Fri 5:10pm
+@ BOS Fri 4:40pm
 
 3.5
 Rebounds
 Less
 More
 
-Zaccharie RisacherGoblin
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-
-2.5
-Rebounds
-More
-
 CJ McCollumGoblin
 ATL - G
 CJ McCollum
-@ HOU Fri 5:10pm
+@ BOS Fri 4:40pm
 
-2.5
+1.5
 Rebounds
 More
 
 Nickeil Alexander-WalkerGoblin
 ATL - G
 Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
+@ BOS Fri 4:40pm
 
 2.5
 Rebounds
-More
-
-Reed SheppardGoblin
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-
-2.5
-Rebounds
-More
-
-Neemias Queta
-BOS - C
-Neemias Queta
-@ MEM Fri 5:10pm
-
-9
-Rebounds
-Less
-More
-
-Jayson Tatum
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
-
-8
-Rebounds
-Less
-More
-
-Cedric CowardGoblin
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-
-4.5
-Rebounds
-More
-
-Jaylen Brown
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
-
-6
-Rebounds
-Less
-More
-
-Baylor Scheierman
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-
-5
-Rebounds
-Less
-More
-
-Derrick WhiteGoblin
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-
-3.5
-Rebounds
-More
-
-Taylor Hendricks
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-
-4.5
-Rebounds
-Less
-More
-
-Olivier-Maxence Prosper
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-
-4
-Rebounds
-Less
-More
-
-Sam Hauser
-BOS - F
-Sam Hauser
-@ MEM Fri 5:10pm
-
-3.5
-Rebounds
-Less
-More
-
-Payton PritchardGoblin
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-
-2.5
-Rebounds
-More
-
-Ty JeromeGoblin
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-
-2.5
-Rebounds
-More
-
-Jaylen WellsGoblin
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-
-2.5
-Rebounds
-More
-
-Cam SpencerGoblin
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
-
-1.5
-Rebounds
-More
-
-Walter ClaytonGoblin
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-
-1.5
-Rebounds
-More
-
-Rudy Gobert
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-
-12
-Rebounds
-Less
-More
-
-Donovan Clingan
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-
-11
-Rebounds
-Less
-More
-
-Robert Williams
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
-
-7.5
-Rebounds
-Less
-More
-
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-
-6.5
-Rebounds
-Less
-More
-
-Deni Avdija
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-
-6
-Rebounds
-Less
-More
-
-Naz Reid
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-5.5
-Rebounds
-Less
-More
-
-Toumani Camara
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-5
-Rebounds
-Less
-More
-
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-
-4
-Rebounds
-Less
-More
-
-Jaden McDaniels
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-4
-Rebounds
-Less
-More
-
-Jrue Holiday
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-
-4
-Rebounds
-Less
-More
-
-Donte DiVincenzo
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-
-4
-Rebounds
-Less
-More
-
-Jerami GrantGoblin
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-2.5
-Rebounds
-More
-
-Scoot HendersonGoblin
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-
-1.5
-Rebounds
-More
-
-Bones HylandGoblin
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-
-1.5
-Rebounds
-More
-
-Nikola Jokić
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-12.5
-Rebounds
-Less
-More
-
-Jakob Poeltl
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-
-8
-Rebounds
-Less
-More
-
-Scottie Barnes
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-
-6.5
-Rebounds
-Less
-More
-
-RJ Barrett
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-
-5.5
-Rebounds
-Less
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-5
-Rebounds
-Less
-More
-
-Aaron Gordon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-
-5.5
-Rebounds
-Less
-More
-
-Christian Braun
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-
-5
-Rebounds
-Less
-More
-
-Cameron Johnson
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-
-3.5
-Rebounds
-Less
-More
-
-Immanuel QuickleyGoblin
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-
-3.5
-Rebounds
-More
-
-Jamal Murray
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-
-4
-Rebounds
-Less
-More
-
-Sandro Mamukelashvili
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-
-3.5
-Rebounds
-Less
-More
-
-Bruce BrownGoblin
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-
-2.5
-Rebounds
-More
-
-Tim HardawayGoblin
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-
-1.5
-Rebounds
-More
-
-Jamal SheadGoblin
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-
-1.5
-Rebounds
-More
-
-Jalen BrunsonGoblin
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-
-1.5
-3PTM
-More
-
-Landry ShametGoblin
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-
-1.5
-3PTM
-More
-
-Danny WolfGoblin
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-
-0.5
-3PTM
-More
-
-OG AnunobyGoblin
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
-
-1.5
-3PTM
-More
-
-Drake PowellGoblin
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-
-0.5
-3PTM
-More
-
-Karl-Anthony TownsGoblin
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
-
-0.5
-3PTM
-More
-
-Mikal BridgesGoblin
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-
-0.5
-3PTM
-More
-
-Nolan TraoreGoblin
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-
-0.5
-3PTM
-More
-
-Jordan ClarksonGoblin
-NYK - G
-Jordan Clarkson
-@ BKN Fri 4:40pm
-
-0.5
-3PTM
-More
-
-Mohamed DiawaraGoblin
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-
-0.5
-3PTM
 More
 
 Duncan RobinsonGoblin
 DET - F
 Duncan Robinson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
+
+2.5
+3PTM
+More
+
+Trey MurphyGoblin
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
+
+2.5
+3PTM
+More
+
+Saddiq BeyGoblin
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
 
 1.5
 3PTM
 More
 
-Brandin PodziemskiGoblin
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-
-1.5
-3PTM
-More
-
-De'Anthony MeltonGoblin
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-
-1.5
-3PTM
-More
-
-Gui SantosGoblin
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-
-1.5
-3PTM
-More
-
-Kristaps PorziņģisGoblin
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-
-1.5
-3PTM
-More
-
-Draymond GreenGoblin
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-
-0.5
-3PTM
-More
-
-Daniss JenkinsGoblin
+Daniss JenkinsDemon
 DET - G
 Daniss Jenkins
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
+
+3.5
+3PTM
+More
+
+Dejounte MurrayGoblin
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
+
+1.5
+3PTM
+More
+
+Herbert JonesGoblin
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
 
 0.5
 3PTM
 More
 
-Gary PaytonGoblin
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
+Kevin HuerterGoblin
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
 
 0.5
 3PTM
@@ -2568,662 +1668,375 @@ More
 Tobias HarrisGoblin
 DET - F
 Tobias Harris
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 0.5
 3PTM
 More
 
-Will RichardGoblin
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
-
+Derik QueenDemon
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
 0.5
 3PTM
 More
 
-Caris LeVertGoblin
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
-
-0.5
-3PTM
-More
-
-Pat SpencerGoblin
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-
-0.5
-3PTM
-More
-
-Nickeil Alexander-WalkerGoblin
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-
-2.5
-3PTM
-More
-
-CJ McCollumGoblin
-ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
+Malik MonkGoblin
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
 
 1.5
 3PTM
 More
 
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-
-2.5
-3PTM
-Less
-More
-
-Jabari SmithGoblin
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
+Desmond BaneGoblin
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
 
 1.5
 3PTM
 More
 
-Kevin DurantGoblin
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
+Jalen SuggsGoblin
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
 
 1.5
 3PTM
 More
 
-Onyeka OkongwuDemon
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
+Tristan SilvaGoblin
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+
+1.5
+3PTM
+More
+
+Devin CarterGoblin
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+
+0.5
+3PTM
+More
+
+Paolo BancheroGoblin
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
+
+0.5
+3PTM
+More
+
+Jamal CainGoblin
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
+
+0.5
+3PTM
+More
+
+Wendell CarterGoblin
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+
+0.5
+3PTM
+More
+
+Precious AchiuwaDemon
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+
+1.5
+3PTM
+More
+
+DeMar DeRozanDemon
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+
+1.5
+3PTM
+More
+
+Maxime RaynaudDemon
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+
+1.5
+3PTM
+More
+
+LaMelo BallGoblin
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
 
 3.5
 3PTM
 More
 
-Jalen JohnsonGoblin
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
+Kon Knueppel
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
 
-0.5
+3.5
+3PTM
+Less
+More
+
+Brandon MillerGoblin
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+
+2.5
 3PTM
 More
 
-Tari EasonGoblin
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
+Coby WhiteGoblin
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
 
-0.5
-3PTM
-More
-
-Zaccharie RisacherGoblin
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-
-0.5
-3PTM
-More
-
-Jock LandaleDemon
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
 1.5
 3PTM
 More
 
-Alperen SengunDemon
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
+OG AnunobyGoblin
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+
+1.5
+3PTM
+More
+
+Jalen BrunsonGoblin
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+
+1.5
+3PTM
+More
+
+Mikal Bridges
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+
+1.5
+3PTM
+Less
+More
+
+Miles Bridges
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+
+1.5
+3PTM
+Less
+More
+
+Karl-Anthony TownsGoblin
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
+
 0.5
 3PTM
 More
 
-Amen ThompsonDemon
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
+Josh HartGoblin
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+
 0.5
 3PTM
 More
 
-Dyson DanielsDemon
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
+Jordan ClarksonGoblin
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+
 0.5
+3PTM
+More
+
+Grant WilliamsGoblin
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+
+0.5
+3PTM
+More
+
+Sion JamesGoblin
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+
+0.5
+3PTM
+More
+
+Mohamed DiawaraGoblin
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+
+0.5
+3PTM
+More
+
+Josh GreenDemon
+CHA - G
+Josh Green
+vs NYK Thu 4:10pm
+1.5
 3PTM
 More
 
 Jayson TatumGoblin
 BOS - F-G
 Jayson Tatum
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
 2.5
 3PTM
 More
 
-Derrick White
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
+CJ McCollum
+ATL - G
+CJ McCollum
+@ BOS Fri 4:40pm
 
 2.5
 3PTM
 Less
 More
 
-Payton Pritchard
+Derrick WhiteGoblin
 BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
+Derrick White
+vs ATL Fri 4:40pm
 
 2.5
 3PTM
-Less
+More
+
+Nickeil Alexander-WalkerGoblin
+ATL - G
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
+
+2.5
+3PTM
 More
 
 Sam HauserGoblin
 BOS - F
 Sam Hauser
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
 1.5
 3PTM
 More
 
-Ty Jerome
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
+Jalen Johnson
+ATL - F
+Jalen Johnson
+@ BOS Fri 4:40pm
 
-2.5
+1.5
 3PTM
 Less
-More
-
-Jaylen WellsGoblin
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-
-1.5
-3PTM
 More
 
 Jaylen Brown
 BOS - G-F
 Jaylen Brown
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
 1.5
 3PTM
 Less
 More
 
-Cam Spencer
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
+Onyeka Okongwu
+ATL - F-C
+Onyeka Okongwu
+@ BOS Fri 4:40pm
 
 1.5
 3PTM
 Less
 More
 
-Baylor ScheiermanGoblin
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
+Dyson DanielsDemon
+ATL - G
+Dyson Daniels
+@ BOS Fri 4:40pm
+
+1.5
+3PTM
+More
+
+Jock Landale
+ATL - C
+Jock Landale
+@ BOS Fri 4:40pm
 
 0.5
-3PTM
-More
-
-Cedric CowardGoblin
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-
-0.5
-3PTM
-More
-
-Olivier-Maxence ProsperGoblin
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-
-0.5
-3PTM
-More
-
-Taylor HendricksGoblin
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-
-0.5
-3PTM
-More
-
-Walter ClaytonGoblin
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-
-0.5
-3PTM
-More
-
-Jerami GrantGoblin
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-1.5
-3PTM
-More
-
-Toumani CamaraGoblin
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-1.5
-3PTM
-More
-
-Bones HylandGoblin
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-
-1.5
-3PTM
-More
-
-Donte DiVincenzoGoblin
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-
-2.5
-3PTM
-More
-
-Deni AvdijaGoblin
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-
-1.5
-3PTM
-More
-
-Jrue HolidayGoblin
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-
-1.5
-3PTM
-More
-
-Scoot Henderson
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-
-1.5
 3PTM
 Less
 More
 
-Ayo DosunmuGoblin
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-
-1.5
-3PTM
-More
-
-Jaden McDaniels
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-1.5
-3PTM
-Less
-More
-
-Naz ReidGoblin
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-1.5
-3PTM
-More
-
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-
-1.5
-3PTM
-Less
-More
-
-Donovan ClinganGoblin
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-
-0.5
-3PTM
-More
-
-Jamal MurrayGoblin
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-
-1.5
-3PTM
-More
-
-Immanuel QuickleyGoblin
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-
-1.5
-3PTM
-More
-
-Tim HardawayGoblin
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-
-1.5
-3PTM
-More
-
-Aaron Gordon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-
-1.5
-3PTM
-Less
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-1.5
-3PTM
-Less
-More
-
-Cameron JohnsonDemon
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-
-3.5
-3PTM
-More
-
-Nikola Jokić
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-1.5
-3PTM
-Less
-More
-
-RJ BarrettDemon
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-
-3.5
-3PTM
-More
-
-Christian BraunGoblin
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-
-0.5
-3PTM
-More
-
-Sandro MamukelashviliGoblin
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-
-0.5
-3PTM
-More
-
-Scottie BarnesGoblin
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-
-0.5
-3PTM
-More
-
-Bruce BrownGoblin
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-
-0.5
-3PTM
-More
-
-Jamal SheadGoblin
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-
-0.5
-3PTM
-
-
-
-
-Jalen Brunson
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
+Daniss Jenkins
+DET - G
+Daniss Jenkins
+vs NOP Thu 4:10pm
 
 7.5
 Assists
 Less
 More
 
-Mikal Bridges
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-
-3.5
-Assists
-Less
-More
-
-Nolan TraoreGoblin
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-
-2.5
-Assists
-More
-
-Nic ClaxtonGoblin
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-
-1.5
-Assists
-More
-
-Danny WolfGoblin
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-
-1.5
-Assists
-More
-
-Karl-Anthony Towns
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
-
-2.5
-Assists
-Less
-More
-
-OG AnunobyGoblin
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
-
-1.5
-Assists
-More
-
-Landry ShametGoblin
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-
-1.5
-Assists
-More
-
-Drake PowellDemon
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-
-3.5
-Assists
-More
-
-Jordan ClarksonGoblin
-NYK - G
-Jordan Clarkson
-@ BKN Fri 4:40pm
-
-0.5
-Assists
-More
-
-Mohamed DiawaraGoblin
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-
-0.5
-Assists
-More
-
-Mitchell RobinsonGoblin
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
-
-0.5
-Assists
-More
-
-Daniss Jenkins
-DET - G
-Daniss Jenkins
-vs GSW Fri 4:40pm
+Dejounte Murray
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
 
 6
 Assists
 Less
 More
 
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-
-5
-Assists
-Less
-More
-
-Brandin PodziemskiGoblin
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-
-2.5
-Assists
-More
-
-Pat Spencer
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-
-3.5
-Assists
-Less
-More
-
-Caris LeVert
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
+Trey Murphy
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
 
 3.5
 Assists
@@ -3233,158 +2046,428 @@ More
 Ausar ThompsonGoblin
 DET - G-F
 Ausar Thompson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 2.5
-Assists
-More
-
-Gui SantosGoblin
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-
-2.5
-Assists
-More
-
-Gary PaytonGoblin
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-
-1.5
-Assists
-More
-
-De'Anthony MeltonGoblin
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-
-1.5
-Assists
-More
-
-Duncan RobinsonGoblin
-DET - F
-Duncan Robinson
-vs GSW Fri 4:40pm
-
-1.5
 Assists
 More
 
 Tobias HarrisGoblin
 DET - F
 Tobias Harris
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 2.5
 Assists
 More
 
-Jalen DurenGoblin
+Zion WilliamsonGoblin
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
+
+1.5
+Assists
+More
+
+Herbert JonesGoblin
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
+
+1.5
+Assists
+More
+
+Saddiq BeyGoblin
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+
+1.5
+Assists
+More
+
+Duncan Robinson
+DET - F
+Duncan Robinson
+vs NOP Thu 4:10pm
+
+2.5
+Assists
+Less
+More
+
+Kevin Huerter
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
+
+2.5
+Assists
+Less
+More
+
+Derik QueenGoblin
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
+
+1.5
+Assists
+More
+
+Jalen DurenDemon
 DET - C
 Jalen Duren
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-1.5
+3.5
 Assists
 More
 
-Kristaps PorziņģisGoblin
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
+Yves MissiGoblin
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
 
-1.5
+0.5
 Assists
 More
 
-Will Richard
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
-
-1.5
-Assists
-Less
-More
-
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
-
-7.5
-Assists
-Less
-More
-
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
+Jalen Suggs
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
 
 5.5
 Assists
 Less
 More
 
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
+Malik MonkGoblin
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
 
-5.5
+4.5
+Assists
+More
+
+Paolo BancheroGoblin
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
+
+4.5
+Assists
+More
+
+DeMar DeRozan
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+
+4.5
 Assists
 Less
 More
 
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-
-5.5
-Assists
-Less
-More
-
-Kevin Durant
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
+Desmond Bane
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
 
 4
 Assists
 Less
 More
 
-Nickeil Alexander-Walker
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
+Devin CarterGoblin
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+
+2.5
+Assists
+More
+
+Tristan SilvaGoblin
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+
+1.5
+Assists
+More
+
+Wendell CarterGoblin
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+
+1.5
+Assists
+More
+
+Maxime RaynaudDemon
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+
+3.5
+Assists
+More
+
+Precious Achiuwa
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+
+1.5
+Assists
+Less
+More
+
+Dylan CardwellGoblin
+SAC - C
+Dylan Cardwell
+@ ORL Thu 4:10pm
+
+0.5
+Assists
+More
+
+Goga BitadzeGoblin
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+
+0.5
+Assists
+More
+
+Jamal CainGoblin
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
+
+0.5
+Assists
+More
+
+Jalen Brunson
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+
+7
+Assists
+Less
+More
+
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
+
+7
+Assists
+Less
+More
+
+Josh Hart
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+
+5
+Assists
+Less
+More
+
+Brandon Miller
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
 
 3.5
 Assists
 Less
 More
 
-CJ McCollumGoblin
-ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
+Mikal BridgesGoblin
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
 
 2.5
 Assists
 More
 
-Reed SheppardGoblin
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
+Coby WhiteGoblin
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+
+2.5
+Assists
+More
+
+Kon KnueppelGoblin
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+
+2.5
+Assists
+More
+
+Miles BridgesGoblin
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+
+1.5
+Assists
+More
+
+Karl-Anthony TownsGoblin
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
+
+1.5
+Assists
+More
+
+Moussa DiabatéGoblin
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+
+1.5
+Assists
+More
+
+Sion James
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+
+1.5
+Assists
+Less
+More
+
+OG AnunobyGoblin
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+
+1.5
+Assists
+More
+
+Jordan Clarkson
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+
+1.5
+Assists
+Less
+More
+
+Grant WilliamsGoblin
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+
+0.5
+Assists
+More
+
+Mitchell Robinson
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+
+0.5
+Assists
+Less
+More
+
+Mohamed DiawaraGoblin
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+
+0.5
+Assists
+More
+
+Jalen Johnson
+ATL - F
+Jalen Johnson
+@ BOS Fri 4:40pm
+
+7.5
+Assists
+Less
+More
+
+Jaylen Brown
+BOS - G-F
+Jaylen Brown
+vs ATL Fri 4:40pm
+
+5.5
+Assists
+Less
+More
+
+Derrick WhiteGoblin
+BOS - G
+Derrick White
+vs ATL Fri 4:40pm
+
+4.5
+Assists
+More
+
+Jayson TatumGoblin
+BOS - F-G
+Jayson Tatum
+vs ATL Fri 4:40pm
+
+3.5
+Assists
+More
+
+CJ McCollum
+ATL - G
+CJ McCollum
+@ BOS Fri 4:40pm
+
+3.5
+Assists
+Less
+More
+
+Dyson DanielsGoblin
+ATL - G
+Dyson Daniels
+@ BOS Fri 4:40pm
+
+3.5
+Assists
+More
+
+Nickeil Alexander-WalkerGoblin
+ATL - G
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
 
 2.5
 Assists
@@ -3393,1000 +2476,198 @@ More
 Onyeka OkongwuGoblin
 ATL - F-C
 Onyeka Okongwu
-@ HOU Fri 5:10pm
+@ BOS Fri 4:40pm
 
 1.5
 Assists
 More
 
-Jabari SmithDemon
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-
-3.5
-Assists
-More
-
-Tari Eason
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-
-1.5
-Assists
-Less
-More
-
-Jock LandaleGoblin
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
+Neemias QuetaGoblin
+BOS - C
+Neemias Queta
+vs ATL Fri 4:40pm
 
 0.5
 Assists
-More
-
-Zaccharie RisacherDemon
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-1.5
-Assists
-More
-
-Jaylen Brown
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
-
-5
-Assists
-Less
-More
-
-Payton Pritchard
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-
-5
-Assists
-Less
-More
-
-Derrick White
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-
-5
-Assists
-Less
-More
-
-Ty JeromeGoblin
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-
-4.5
-Assists
-More
-
-Cam SpencerGoblin
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
-
-3.5
-Assists
-More
-
-Jayson Tatum
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
-
-4.5
-Assists
-Less
-More
-
-Walter Clayton
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-
-4
-Assists
-Less
-More
-
-Baylor ScheiermanGoblin
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-
-1.5
-Assists
-More
-
-Cedric CowardGoblin
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-
-1.5
-Assists
-More
-
-Neemias Queta
-BOS - C
-Neemias Queta
-@ MEM Fri 5:10pm
-
-1.5
-Assists
-Less
 More
 
 Sam HauserGoblin
 BOS - F
 Sam Hauser
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
 0.5
 Assists
 More
 
-Jaylen WellsGoblin
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
+Jock LandaleGoblin
+ATL - C
+Jock Landale
+@ BOS Fri 4:40pm
 
 0.5
 Assists
 More
 
-Olivier-Maxence ProsperGoblin
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-
-0.5
-Assists
+Jalen DurenDemon
+DET - C
+Jalen Duren
+vs NOP Thu 4:10pm
+9.5
+FG Made
 More
 
-Taylor HendricksGoblin
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-
-0.5
-Assists
-More
-
-Deni Avdija
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-
-6
-Assists
-Less
-More
-
-Jrue Holiday
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-
-5.5
-Assists
-Less
-More
-
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-
-4.5
-Assists
-Less
-More
-
-Julius RandleGoblin
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-
-3.5
-Assists
-More
-
-Scoot HendersonGoblin
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-
-3.5
-Assists
-More
-
-Bones HylandGoblin
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-
-3.5
-Assists
-More
-
-Donte DiVincenzo
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-
-4
-Assists
-Less
-More
-
-Donovan ClinganGoblin
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-
-1.5
-Assists
-More
-
-Jaden McDanielsGoblin
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-1.5
-Assists
-More
-
-Toumani CamaraGoblin
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-1.5
-Assists
-More
-
-Naz ReidGoblin
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-1.5
-Assists
-More
-
-Jerami GrantGoblin
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-1.5
-Assists
-More
-
-Rudy GobertGoblin
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-
-1.5
-Assists
-More
-
-Robert WilliamsGoblin
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
-
-0.5
-Assists
-More
-
-Nikola Jokić
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-10
-Assists
-Less
-More
-
-Jamal Murray
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-
-6
-Assists
-Less
-More
-
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-
-6
-Assists
-Less
-More
-
-Scottie Barnes
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-
-5
-Assists
-Less
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-4
-Assists
-Less
-More
-
-Jamal Shead
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-
-4
-Assists
-Less
-More
-
-RJ BarrettGoblin
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-
-2.5
-Assists
-More
-
-Aaron GordonGoblin
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-
-1.5
-Assists
-More
-
-Christian BraunGoblin
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-
-1.5
-Assists
-More
-
-Cameron JohnsonGoblin
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-
-1.5
-Assists
-More
-
-Jakob PoeltlGoblin
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-
-1.5
-Assists
-More
-
-Bruce BrownGoblin
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-
-1.5
-Assists
-More
-
-Sandro MamukelashviliGoblin
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-
-0.5
-Assists
-More
-
-Tim HardawayDemon
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-2.5
-Assists
-More
-
-
-
-
-Jalen Brunson
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-8.5
+Trey Murphy
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
+6.5
 FG Made
 Less
 More
 
-OG AnunobyDemon
+Daniss JenkinsDemon
+DET - G
+Daniss Jenkins
+vs NOP Thu 4:10pm
+6.5
+FG Made
+More
+
+Ausar ThompsonDemon
+DET - G-F
+Ausar Thompson
+vs NOP Thu 4:10pm
+5.5
+FG Made
+More
+
+Herbert JonesDemon
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
+3.5
+FG Made
+More
+
+Precious AchiuwaGoblin
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+4.5
+FG Made
+More
+
+Tristan SilvaDemon
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+4.5
+FG Made
+More
+
+Wendell Carter
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+4.5
+FG Made
+Less
+More
+
+Brandon Miller
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+6.5
+FG Made
+Less
+More
+
+Kon KnueppelDemon
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+6.5
+FG Made
+More
+
+OG AnunobyGoblin
 NYK - F-G
 OG Anunoby
-@ BKN Fri 4:40pm
-6.5
+@ CHA Thu 4:10pm
+5.5
 FG Made
 More
 
-Landry Shamet
+Coby White
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+4.5
+FG Made
+Less
+More
+
+Josh Hart
 NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
+Josh Hart
+@ CHA Thu 4:10pm
+4.5
+FG Made
+Less
+More
+
+Moussa DiabatéDemon
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
 3.5
 FG Made
-Less
-More
-
-Jordan Clarkson
-NYK - G
-Jordan Clarkson
-@ BKN Fri 4:40pm
-3.5
-FG Made
-Less
-More
-
-Nic ClaxtonGoblin
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-3.5
-FG Made
-More
-
-Danny WolfGoblin
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-3.5
-FG Made
-More
-
-Nolan Traore
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-3.5
-FG Made
-Less
-More
-
-Drake Powell
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-2.5
-FG Made
-Less
-More
-
-Mohamed DiawaraDemon
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-2.5
-FG Made
-More
-
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-5.5
-FG Made
-Less
-More
-
-Gui SantosDemon
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-5.5
-FG Made
-More
-
-De'Anthony MeltonDemon
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-5.5
-FG Made
-More
-
-Gary PaytonDemon
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-4.5
-FG Made
-More
-
-Tobias HarrisGoblin
-DET - F
-Tobias Harris
-vs GSW Fri 4:40pm
-4.5
-FG Made
-More
-
-Draymond GreenGoblin
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-2.5
-FG Made
-More
-
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
-8.5
-FG Made
-Less
-More
-
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-7.5
-FG Made
-Less
-More
-
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-7.5
-FG Made
-Less
-More
-
-Dyson DanielsDemon
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
-5.5
-FG Made
-More
-
-Jabari Smith
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-5.5
-FG Made
-Less
-More
-
-Onyeka OkongwuDemon
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
-5.5
-FG Made
-More
-
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-4.5
-FG Made
-Less
-More
-
-Tari EasonDemon
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-4.5
-FG Made
-More
-
-Jaylen BrownDemon
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
-9.5
-FG Made
-More
-
-Jayson Tatum
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
-7.5
-FG Made
-Less
-More
-
-Ty Jerome
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-6.5
-FG Made
-Less
-More
-
-Payton PritchardGoblin
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-
-5.5
-FG Made
-More
-
-Derrick White
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-5.5
-FG Made
-Less
-More
-
-Neemias Queta
-BOS - C
-Neemias Queta
-@ MEM Fri 5:10pm
-4.5
-FG Made
-Less
-More
-
-Jaylen WellsGoblin
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-3.5
-FG Made
-More
-
-Olivier-Maxence ProsperGoblin
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-3.5
-FG Made
-More
-
-Taylor Hendricks
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-3.5
-FG Made
-Less
-More
-
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-6.5
-FG Made
-Less
-More
-
-Jaden McDanielsDemon
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-6.5
-FG Made
-More
-
-Rudy GobertDemon
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-5.5
-FG Made
-More
-
-Scoot HendersonDemon
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-4.5
-FG Made
-More
-
-Bones HylandDemon
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-4.5
-FG Made
-More
-
-Toumani CamaraDemon
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-4.5
-FG Made
-More
-
-Donte DiVincenzoDemon
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-4.5
-FG Made
-More
-
-Nikola JokićGoblin
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-9.5
-FG Made
-More
-
-Brandon IngramGoblin
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-7.5
-FG Made
-More
-
-Scottie Barnes
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-6.5
-FG Made
-Less
-More
-
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-5.5
-FG Made
-Less
-More
-
-Jakob Poeltl
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-5.5
-FG Made
-Less
-More
-
-Christian Braun
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-4.5
-FG Made
-Less
-More
-
-Cameron JohnsonDemon
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-4.5
-FG Made
-More
-
-Tim Hardaway
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-3.5
-FG Made
-Less
-More
-
-Bruce BrownDemon
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-2.5
-FG Made
-More
-
-Jamal SheadDemon
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-2.5
-FG Made
-More
-
-Sandro Mamukelashvili
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-2.5
-FG Made
-Less
-More
-
-Karl-Anthony Towns
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
-
-14.5
-Rebs+Asts
-Less
-More
-
-Jalen Brunson
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-
-10.5
-Rebs+Asts
-Less
-More
-
-Mitchell RobinsonGoblin
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
-
-9.5
-Rebs+Asts
-More
-
-Danny Wolf
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-
-8.5
-Rebs+Asts
-Less
-More
-
-Nic Claxton
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-
-8.5
-Rebs+Asts
-Less
-More
-
-Mikal Bridges
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-
-7.5
-Rebs+Asts
-Less
-More
-
-OG Anunoby
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
-
-7.5
-Rebs+Asts
-Less
-More
-
-Landry ShametGoblin
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-
-3.5
-Rebs+Asts
-More
-
-Nolan Traore
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-
-5.5
-Rebs+Asts
-Less
 More
 
 Jordan ClarksonGoblin
 NYK - G
 Jordan Clarkson
-@ BKN Fri 4:40pm
-
+@ CHA Thu 4:10pm
 2.5
-Rebs+Asts
+FG Made
 More
 
-Mohamed Diawara
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-
-3.5
-Rebs+Asts
+Grant Williams
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+1.5
+FG Made
 Less
-More
-
-Drake PowellGoblin
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-
-2.5
-Rebs+Asts
 More
 
 Jalen Duren
 DET - C
 Jalen Duren
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 13.5
 Rebs+Asts
 Less
 More
 
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
+Dejounte MurrayGoblin
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
 
-10
+9.5
+Rebs+Asts
+More
+
+Daniss Jenkins
+DET - G
+Daniss Jenkins
+vs NOP Thu 4:10pm
+
+11
 Rebs+Asts
 Less
 More
@@ -4394,3486 +2675,1854 @@ More
 Ausar Thompson
 DET - G-F
 Ausar Thompson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 9.5
 Rebs+Asts
 Less
 More
 
-Brandin Podziemski
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
+Trey MurphyGoblin
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
 
-9
+7.5
 Rebs+Asts
-Less
 More
 
-Gui Santos
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
+Zion WilliamsonGoblin
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
+
+7.5
+Rebs+Asts
+More
+
+Tobias Harris
+DET - F
+Tobias Harris
+vs NOP Thu 4:10pm
 
 8.5
 Rebs+Asts
 Less
 More
 
-Daniss Jenkins
-DET - G
-Daniss Jenkins
-vs GSW Fri 4:40pm
-
-9.5
-Rebs+Asts
-Less
-More
-
-Tobias Harris
-DET - F
-Tobias Harris
-vs GSW Fri 4:40pm
-
-9
-Rebs+Asts
-Less
-More
-
-Gary Payton
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-
-7.5
-Rebs+Asts
-Less
-More
-
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-
-7
-Rebs+Asts
-Less
-More
-
-Pat Spencer
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-
-6
-Rebs+Asts
-Less
-More
-
-De'Anthony Melton
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-
-6
-Rebs+Asts
-Less
-More
-
-Caris LeVertGoblin
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
+Derik QueenGoblin
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
 
 5.5
 Rebs+Asts
 More
 
-Duncan Robinson
+Saddiq Bey
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+
+8
+Rebs+Asts
+Less
+More
+
+Yves Missi
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
+
+6.5
+Rebs+Asts
+Less
+More
+
+Herbert Jones
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
+
+6
+Rebs+Asts
+Less
+More
+
+Duncan RobinsonGoblin
 DET - F
 Duncan Robinson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-5
-Rebs+Asts
-Less
-More
-
-Will RichardGoblin
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
-
-3.5
+4.5
 Rebs+Asts
 More
-Trending
-17.9K
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
 
-17
+Kevin HuerterGoblin
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
+
+4.5
 Rebs+Asts
-Less
 More
 
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-
-14.5
-Rebs+Asts
-Less
-More
-
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
+Paolo Banchero
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
 
 13.5
 Rebs+Asts
 Less
 More
 
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
-
-11.5
-Rebs+Asts
-Less
-More
-
-Kevin Durant
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-
-10
-Rebs+Asts
-Less
-More
-
-Onyeka Okongwu
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
-
-9.5
-Rebs+Asts
-Less
-More
-
-Jabari Smith
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-
-8.5
-Rebs+Asts
-Less
-More
-
-Tari EasonGoblin
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-
-7.5
-Rebs+Asts
-More
-
-CJ McCollum
-ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
-
-6.5
-Rebs+Asts
-Less
-More
-
-Nickeil Alexander-WalkerGoblin
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-
-5.5
-Rebs+Asts
-More
-
-Jock LandaleGoblin
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
-
-4.5
-Rebs+Asts
-More
-
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-
-6
-Rebs+Asts
-Less
-More
-Trending
-13.7K
-Zaccharie RisacherDemon
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-
-6.5
-Rebs+Asts
-More
-
-Jaylen BrownGoblin
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
+Maxime Raynaud
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
 
 10.5
 Rebs+Asts
-More
-
-Jayson Tatum
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
-
-12
-Rebs+Asts
 Less
 More
 
-Neemias Queta
-BOS - C
-Neemias Queta
-@ MEM Fri 5:10pm
-
-11
-Rebs+Asts
-Less
-More
-
-Derrick White
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
+Wendell Carter
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
 
 9.5
 Rebs+Asts
 Less
 More
 
-Payton Pritchard
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
+Dylan CardwellGoblin
+SAC - C
+Dylan Cardwell
+@ ORL Thu 4:10pm
 
-8.5
-Rebs+Asts
-Less
-More
-
-Cedric Coward
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-
-7.5
-Rebs+Asts
-Less
-More
-
-Ty JeromeGoblin
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-
-7.5
+6.5
 Rebs+Asts
 More
 Trending
-26.6K
-Baylor ScheiermanDemon
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
+15.8K
+Desmond BaneDemon
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
+
+11.5
+Rebs+Asts
+More
+
+Jalen Suggs
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
 
 9.5
 Rebs+Asts
+Less
 More
 
-Cam SpencerGoblin
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
+Precious AchiuwaGoblin
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
 
-5.5
+8.5
 Rebs+Asts
 More
 
-Sam HauserGoblin
-BOS - F
-Sam Hauser
-@ MEM Fri 5:10pm
+Devin CarterGoblin
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
 
-4.5
+7.5
 Rebs+Asts
 More
 
-Walter ClaytonGoblin
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
+Malik Monk
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
 
-5.5
-Rebs+Asts
-More
-
-Olivier-Maxence Prosper
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-
-5
+7.5
 Rebs+Asts
 Less
 More
 
-Taylor Hendricks
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
+DeMar DeRozan
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
 
-5.5
+7
 Rebs+Asts
 Less
 More
 
-Jaylen WellsGoblin
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
+Tristan Silva
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
 
-2.5
+6.5
+Rebs+Asts
+Less
+More
+
+Goga BitadzeGoblin
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+
+5.5
 Rebs+Asts
 More
 
-Rudy GobertGoblin
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
+Jamal CainGoblin
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
 
-12.5
+3.5
 Rebs+Asts
 More
 
-Donovan Clingan
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
+Karl-Anthony Towns
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
 
 13
 Rebs+Asts
 Less
 More
 
-Deni Avdija
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
+Moussa DiabatéGoblin
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
 
-12.5
+10.5
+Rebs+Asts
+More
+
+Josh Hart
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+
+12
 Rebs+Asts
 Less
 More
 
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
 
 11.5
 Rebs+Asts
 Less
 More
 
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
+Jalen Brunson
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+
+10
+Rebs+Asts
+Less
+More
+
+Mitchell Robinson
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+
+7.5
+Rebs+Asts
+Less
+More
+
+Brandon Miller
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
 
 8.5
 Rebs+Asts
 Less
 More
-Trending
-20.4K
-Jrue HolidayDemon
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
 
-10.5
-Rebs+Asts
-More
+Kon Knueppel
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
 
-Robert Williams
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
-
-8.5
+7.5
 Rebs+Asts
 Less
 More
 
-Donte DiVincenzo
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
+Miles Bridges
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
 
 8
 Rebs+Asts
 Less
 More
 
-Naz Reid
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-8
-Rebs+Asts
-Less
-More
-
-Scoot HendersonGoblin
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-
-5.5
-Rebs+Asts
-More
-
-Toumani CamaraGoblin
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-6.5
-Rebs+Asts
-More
-
-Jaden McDaniels
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
+Mikal Bridges
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
 
 7
 Rebs+Asts
 Less
 More
 
-Bones Hyland
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-
-6
-Rebs+Asts
-Less
-More
-
-Jerami GrantGoblin
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-4.5
-Rebs+Asts
-More
-
-Nikola Jokić
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-23
-Rebs+Asts
-Less
-More
-
-Jakob Poeltl
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-
-10.5
-Rebs+Asts
-Less
-More
-
-Jamal MurrayGoblin
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-
-9.5
-Rebs+Asts
-More
-
-Scottie Barnes
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-
-11.5
-Rebs+Asts
-Less
-More
-
-Immanuel QuickleyGoblin
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-
-8.5
-Rebs+Asts
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-9
-Rebs+Asts
-Less
-More
-
-RJ Barrett
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-
-9
-Rebs+Asts
-Less
-More
-
-Aaron Gordon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-
-8
-Rebs+Asts
-Less
-More
-
-Christian Braun
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-
-8
-Rebs+Asts
-Less
-More
-
-Jamal Shead
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-
-6
-Rebs+Asts
-Less
-More
-
-Cameron JohnsonGoblin
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-
-4.5
-Rebs+Asts
-More
-
-Bruce Brown
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-
-5
-Rebs+Asts
-Less
-More
-Trending
-34.4K
-Sandro MamukelashviliDemon
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-
-5.5
-Rebs+Asts
-
-
-Landry ShametGoblin
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-5.5
-3PTA
-More
-
-Drake PowellGoblin
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-3.5
-3PTA
-More
-
-Mohamed DiawaraDemon
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-3.5
-3PTA
-More
-
-Nolan TraoreGoblin
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-2.5
-3PTA
-More
-
-Duncan Robinson
-DET - F
-Duncan Robinson
-vs GSW Fri 4:40pm
-7.5
-3PTA
-Less
-More
-
-Gui SantosDemon
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-5.5
-3PTA
-More
-
-Brandin PodziemskiGoblin
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-5.5
-3PTA
-More
-
-Kristaps PorziņģisGoblin
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-4.5
-3PTA
-More
-
-Gary PaytonDemon
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-3.5
-3PTA
-More
-
-Nickeil Alexander-WalkerDemon
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-8.5
-3PTA
-More
-
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-7.5
-3PTA
-Less
-More
-
-CJ McCollumGoblin
-ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
-6.5
-3PTA
-More
-
-Kevin DurantDemon
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-5.5
-3PTA
-More
-
-Jabari SmithGoblin
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-5.5
-3PTA
-More
-
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
-4.5
-3PTA
-Less
-More
-
-Tari EasonGoblin
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-3.5
-3PTA
-More
-
-Zaccharie RisacherGoblin
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-2.5
-3PTA
-More
-
-Alperen SengunDemon
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-1.5
-3PTA
-More
-
-Amen ThompsonDemon
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-1.5
-3PTA
-More
-
-Dyson DanielsDemon
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
-1.5
-3PTA
-More
-
-Jock LandaleGoblin
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
-1.5
-3PTA
-More
-
-Derrick WhiteDemon
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-7.5
-3PTA
-More
-
-Ty Jerome
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-6.5
-3PTA
-Less
-More
-
-Payton PritchardGoblin
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-6.5
-3PTA
-More
-
-Taylor HendricksDemon
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-4.5
-3PTA
-More
-
-Baylor ScheiermanGoblin
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-3.5
-3PTA
-More
-
-Cedric CowardGoblin
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-3.5
-3PTA
-More
-
-Ayo DosunmuDemon
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-5.5
-3PTA
-More
-
-Scoot HendersonGoblin
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-4.5
-3PTA
-More
-
-Julius RandleDemon
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-4.5
-3PTA
-More
-
-Naz ReidGoblin
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-4.5
-3PTA
-More
-
-Donovan ClinganDemon
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-3.5
-3PTA
-More
-
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-6.5
-3PTA
-Less
-More
-
-Jamal Murray
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-6.5
-3PTA
-Less
-More
-
-RJ Barrett
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-5.5
-3PTA
-Less
-More
-
-Tim HardawayGoblin
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-5.5
-3PTA
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-4.5
-3PTA
-Less
-More
-
-Nikola JokićDemon
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-4.5
-3PTA
-More
-
-Aaron GordonGoblin
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-3.5
-3PTA
-More
-
-Christian BraunDemon
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-3.5
-3PTA
-More
-
-Scottie BarnesDemon
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-3.5
-3PTA
-More
-
-Jamal Shead
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-2.5
-3PTA
-Less
-More
-
-Sandro MamukelashviliGoblin
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-2.5
-3PTA
-More
-
-Bruce BrownGoblin
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-1.5
-3PTA
-More
-
-
-Jalen Brunson
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-
-32.5
-Pts+Asts
-Less
-More
-
-Karl-Anthony Towns
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
-
-21.5
-Pts+Asts
-Less
-More
-
 OG Anunoby
 NYK - F-G
 OG Anunoby
-@ BKN Fri 4:40pm
+@ CHA Thu 4:10pm
 
-19.5
-Pts+Asts
+7
+Rebs+Asts
 Less
 More
 
-Mikal Bridges
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
+Coby WhiteGoblin
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
 
-16.5
-Pts+Asts
-Less
+5.5
+Rebs+Asts
 More
 
-Danny Wolf
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
+Sion JamesGoblin
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
 
-13.5
-Pts+Asts
-Less
+3.5
+Rebs+Asts
 More
 
-Nic Claxton
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
+Grant WilliamsGoblin
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
 
-12.5
-Pts+Asts
-Less
+2.5
+Rebs+Asts
 More
-
-Nolan Traore
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-
-12.5
-Pts+Asts
-Less
-More
-
-Landry Shamet
+Trending
+33.4K
+Jordan ClarksonDemon
 NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
+Jordan Clarkson
+@ CHA Thu 4:10pm
 
-12.5
-Pts+Asts
-Less
+5.5
+Rebs+Asts
 More
 
-Drake Powell
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-8.5
-Pts+Asts
-Less
+Mohamed DiawaraGoblin
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+
+1.5
+Rebs+Asts
 More
 
-Jalen Duren
-DET - C
-Jalen Duren
-vs GSW Fri 4:40pm
-
-24.5
-Pts+Asts
-Less
-More
-
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-
-18.5
-Pts+Asts
-Less
-More
-
-Daniss Jenkins
-DET - G
-Daniss Jenkins
-vs GSW Fri 4:40pm
-
-20.5
-Pts+Asts
-Less
-More
-
-Brandin Podziemski
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-
-16.5
-Pts+Asts
-Less
-More
-
-De'Anthony Melton
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-
-17.5
-Pts+Asts
-Less
-More
-
-Gui Santos
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-
-16.5
-Pts+Asts
-Less
-More
-
-Tobias Harris
-DET - F
-Tobias Harris
-vs GSW Fri 4:40pm
-
-16.5
-Pts+Asts
-Less
-More
-
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-
-13.5
-Pts+Asts
-Less
-More
-
-Pat Spencer
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-
-11.5
-Pts+Asts
-Less
-More
-
-Ausar Thompson
-DET - G-F
-Ausar Thompson
-vs GSW Fri 4:40pm
-
-14
-Pts+Asts
-Less
-More
-
-Duncan Robinson
-DET - F
-Duncan Robinson
-vs GSW Fri 4:40pm
-
-14.5
-Pts+Asts
-Less
-More
-
-Caris LeVert
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
-
-13.5
-Pts+Asts
-Less
-More
-
-Gary Payton
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-
-12.5
-Pts+Asts
-Less
-More
-
-Will RichardDemon
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
-14.5
-Pts+Asts
-More
-
-Jalen Johnson
+Jalen JohnsonGoblin
 ATL - F
 Jalen Johnson
-@ HOU Fri 5:10pm
-
-30.5
-Pts+Asts
-Less
-More
-
-Kevin Durant
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-
-28.5
-Pts+Asts
-Less
-More
-
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-
-25
-Pts+Asts
-Less
-More
-
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-
-24.5
-Pts+Asts
-Less
-More
-
-CJ McCollum
-ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
-
-21.5
-Pts+Asts
-Less
-More
-
-Nickeil Alexander-Walker
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-
-22.5
-Pts+Asts
-Less
-More
-
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
-
-17
-Pts+Asts
-Less
-More
-
-Jabari Smith
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-
-17.5
-Pts+Asts
-Less
-More
-
-Onyeka Okongwu
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
-
-15.5
-Pts+Asts
-Less
-More
-
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
+@ BOS Fri 4:40pm
 
 16.5
-Pts+Asts
-Less
-More
-
-Tari Eason
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-
-12.5
-Pts+Asts
-Less
-More
-
-Jock LandaleGoblin
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
-
-4.5
-Pts+Asts
-More
-
-Zaccharie RisacherGoblin
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-
-4.5
-Pts+Asts
-More
-
-Jaylen Brown
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
-
-30.5
-Pts+Asts
-Less
+Rebs+Asts
 More
 
 Jayson Tatum
 BOS - F-G
 Jayson Tatum
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
-26.5
-Pts+Asts
+13
+Rebs+Asts
 Less
 More
 
-Ty Jerome
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-
-24.5
-Pts+Asts
-Less
-More
-
-Derrick White
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-
-21.5
-Pts+Asts
-Less
-More
-
-Payton Pritchard
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-
-21.5
-Pts+Asts
-Less
-More
-
-Cedric Coward
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-
-14.5
-Pts+Asts
-Less
-More
-
-Jaylen WellsGoblin
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
+Jaylen BrownGoblin
+BOS - G-F
+Jaylen Brown
+vs ATL Fri 4:40pm
 
 9.5
-Pts+Asts
+Rebs+Asts
 More
 
-Olivier-Maxence ProsperGoblin
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
+Dyson Daniels
+ATL - G
+Dyson Daniels
+@ BOS Fri 4:40pm
 
-11.5
-Pts+Asts
+10.5
+Rebs+Asts
+Less
+More
+
+Derrick White
+BOS - G
+Derrick White
+vs ATL Fri 4:40pm
+
+9.5
+Rebs+Asts
+Less
 More
 
 Neemias QuetaGoblin
 BOS - C
 Neemias Queta
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
 9.5
-Pts+Asts
+Rebs+Asts
 More
 
-Taylor Hendricks
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
+Onyeka OkongwuGoblin
+ATL - F-C
+Onyeka Okongwu
+@ BOS Fri 4:40pm
 
-10.5
-Pts+Asts
+7.5
+Rebs+Asts
+More
+
+CJ McCollum
+ATL - G
+CJ McCollum
+@ BOS Fri 4:40pm
+
+6.5
+Rebs+Asts
 Less
 More
 
-Cam Spencer
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
+Nickeil Alexander-WalkerGoblin
+ATL - G
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
 
-13.5
-Pts+Asts
-Less
+5.5
+Rebs+Asts
 More
 
-Baylor Scheierman
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-
-8.5
-Pts+Asts
-Less
-More
-
-Sam Hauser
+Sam HauserGoblin
 BOS - F
 Sam Hauser
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
-10
-Pts+Asts
+3.5
+Rebs+Asts
+More
+
+Jock Landale
+ATL - C
+Jock Landale
+@ BOS Fri 4:40pm
+
+4.5
+Rebs+Asts
 Less
 More
 
-Walter Clayton
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-11.5
-Pts+Asts
+Saddiq BeyDemon
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+6.5
+3PTA
+More
+
+Dejounte MurrayDemon
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
+5.5
+3PTA
+More
+
+Tobias Harris
+DET - F
+Tobias Harris
+vs NOP Thu 4:10pm
+3.5
+3PTA
 Less
 More
 
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
+Tristan SilvaDemon
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+5.5
+3PTA
+More
 
-28.5
-Pts+Asts
+Paolo BancheroDemon
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
+4.5
+3PTA
+More
+
+DeMar DeRozanDemon
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+1.5
+3PTA
+More
+
+Precious Achiuwa
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+1.5
+3PTA
 Less
 More
 
-Deni Avdija
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-
-29.5
-Pts+Asts
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
+11
+3PTA
 Less
 More
 
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-
-22.5
-Pts+Asts
+Brandon Miller
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+8.5
+3PTA
 Less
 More
 
-Jrue Holiday
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-
-21.5
-Pts+Asts
+Jalen Brunson
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+5.5
+3PTA
 Less
 More
 
-Jerami Grant
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-18.5
-Pts+Asts
+Josh Hart
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+3.5
+3PTA
 Less
 More
 
-Jaden McDaniels
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-19.5
-Pts+Asts
-Less
+Mohamed DiawaraDemon
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+2.5
+3PTA
 More
 
-Bones Hyland
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-
-16.5
-Pts+Asts
-Less
+Jordan ClarksonGoblin
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+2.5
+3PTA
 More
 
-Naz Reid
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-16.5
-Pts+Asts
-Less
-More
-
-Donte DiVincenzo
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-
-16.5
-Pts+Asts
-Less
-More
-
-Scoot Henderson
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-
-16.5
-Pts+Asts
-Less
-More
-
-Donovan Clingan
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-
-14.5
-Pts+Asts
-Less
-More
-
-Toumani Camara
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-13.5
-Pts+Asts
-Less
-More
-
-Rudy Gobert
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-
-14.5
-Pts+Asts
-Less
-More
-
-Robert WilliamsDemon
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
-
-14.5
-Pts+Asts
-More
-
-Nikola Jokić
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-38.5
-Pts+Asts
-Less
-More
-
-Jamal Murray
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-
-31.5
-Pts+Asts
-Less
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-25.5
-Pts+Asts
-Less
-More
-
-RJ Barrett
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
+Trey Murphy
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
 
 23.5
 Pts+Asts
 Less
 More
 
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
+Zion Williamson
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
 
-22.5
+23.5
 Pts+Asts
 Less
 More
 
-Scottie Barnes
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
+Daniss Jenkins
+DET - G
+Daniss Jenkins
+vs NOP Thu 4:10pm
 
-22.5
+25.5
 Pts+Asts
-Less
-More
-
-Aaron Gordon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-
-17.5
-Pts+Asts
-Less
-More
-
-Cameron Johnson
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-
-13.5
-Pts+Asts
-Less
-More
-
-Christian Braun
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-
-14.5
-Pts+Asts
-Less
-More
-
-Jakob Poeltl
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-
-14.5
-Pts+Asts
-Less
-More
-
-Bruce Brown
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-
-8.5
-Pts+Asts
-Less
-More
-
-Jamal Shead
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-
-10.5
-Pts+Asts
-Less
-
-
-
-
-OG Anunoby
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
-2.5
-FTM
-Less
-More
-
-Danny Wolf
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-1.5
-FTM
-Less
-More
-
-Nic Claxton
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-1.5
-FTM
-Less
-More
-
-Landry Shamet
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-0.5
-FTM
 Less
 More
 
 Jalen Duren
 DET - C
 Jalen Duren
-vs GSW Fri 4:40pm
-4.5
-FTM
+vs NOP Thu 4:10pm
+
+25.5
+Pts+Asts
 Less
 More
 
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-3.5
-FTM
+Saddiq Bey
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+
+20.5
+Pts+Asts
 Less
 More
 
-De'Anthony MeltonDemon
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-2.5
-FTM
-More
-
-Daniss JenkinsDemon
-DET - G
-Daniss Jenkins
-vs GSW Fri 4:40pm
-2.5
-FTM
-More
-
-Brandin PodziemskiDemon
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-2.5
-FTM
-More
-
-Draymond GreenDemon
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-0.5
-FTM
-More
-
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-3.5
-FTM
-Less
-More
-
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
-3.5
-FTM
-Less
-More
-
-Alperen SengunGoblin
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-2.5
-FTM
-More
-
-Onyeka Okongwu
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
-1.5
-FTM
-Less
-More
-
-Jabari SmithGoblin
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-1.5
-FTM
-More
-
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
-0.5
-FTM
-Less
-More
-
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-0.5
-FTM
-Less
-More
-
-Tari Eason
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-0.5
-FTM
-Less
-More
-
-Zaccharie RisacherDemon
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-0.5
-FTM
-More
-
-Jock LandaleDemon
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
-0.5
-FTM
-More
-
-Jaylen Brown
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
-5.5
-FTM
-Less
-More
-
-Jayson Tatum
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
-3.5
-FTM
-Less
-More
-
-Ty JeromeGoblin
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-2.5
-FTM
-More
-
-Neemias QuetaDemon
-BOS - C
-Neemias Queta
-@ MEM Fri 5:10pm
-1.5
-FTM
-More
-
-Derrick WhiteGoblin
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-1.5
-FTM
-More
-
-Jaylen Wells
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-1.5
-FTM
-Less
-More
-
-Cedric CowardGoblin
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-1.5
-FTM
-More
-
-Baylor ScheiermanDemon
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-0.5
-FTM
-More
-
-Sam HauserDemon
-BOS - F
-Sam Hauser
-@ MEM Fri 5:10pm
-0.5
-FTM
-More
-
-Payton PritchardGoblin
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-0.5
-FTM
-More
-
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-5.5
-FTM
-Less
-More
-
-Jerami Grant
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-3.5
-FTM
-Less
-More
-
-Rudy GobertDemon
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-2.5
-FTM
-More
-
-Ayo DosunmuDemon
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-2.5
-FTM
-More
-
-Jaden McDanielsGoblin
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-1.5
-FTM
-More
-
-Jrue Holiday
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-1.5
-FTM
-Less
-More
-
-Naz Reid
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-1.5
-FTM
-Less
-More
-
-Bones HylandDemon
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-1.5
-FTM
-More
-
-Nikola JokićGoblin
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-5.5
-FTM
-More
-
-Brandon IngramDemon
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-4.5
-FTM
-More
-
-Scottie BarnesDemon
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-3.5
-FTM
-More
-
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-2.5
-FTM
-Less
-More
-
-Cameron Johnson
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-1.5
-FTM
-Less
-More
-
-Tim Hardaway
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-1.5
-FTM
-Less
-More
-
-Jakob PoeltlDemon
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-1.5
-FTM
-
-
-
-OG Anunoby
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
-12.5
-FG Attempted
-Less
-More
-
-Karl-Anthony Towns
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
-12.5
-FG Attempted
-Less
-More
-
-Mikal Bridges
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-10.5
-FG Attempted
-Less
-More
-
-Jordan Clarkson
-NYK - G
-Jordan Clarkson
-@ BKN Fri 4:40pm
-8.5
-FG Attempted
-Less
-More
-
-Drake Powell
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-6.5
-FG Attempted
-Less
-More
-
-Mohamed Diawara
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-5.5
-FG Attempted
-Less
-More
-
-Mitchell RobinsonDemon
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
-4.5
-FG Attempted
-More
-
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-12.5
-FG Attempted
-Less
-More
-
-De'Anthony Melton
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-11.5
-FG Attempted
-Less
-More
-
-Ausar Thompson
-DET - G-F
-Ausar Thompson
-vs GSW Fri 4:40pm
-8.5
-FG Attempted
-Less
-More
-
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-7.5
-FG Attempted
-Less
-More
-
-Kevin Durant
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-18
-FG Attempted
-Less
-More
-
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-14.5
-FG Attempted
-Less
-More
-
-Nickeil Alexander-Walker
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-14.5
-FG Attempted
-Less
-More
-
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-13.5
-FG Attempted
-Less
-More
-
-Jabari Smith
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-12.5
-FG Attempted
-Less
-More
-
-Reed SheppardDemon
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-11.5
-FG Attempted
-More
-
-Onyeka Okongwu
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
-10.5
-FG Attempted
-Less
-More
-
-Jayson Tatum
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
-16.5
-FG Attempted
-Less
-More
-
-Derrick White
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-12.5
-FG Attempted
-Less
-More
-
-Payton Pritchard
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-12.5
-FG Attempted
-Less
-More
-
-Cedric Coward
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-9.5
-FG Attempted
-Less
-More
-
-Taylor HendricksDemon
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-8.5
-FG Attempted
-More
-
-Baylor Scheierman
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-5.5
-FG Attempted
-Less
-More
-
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-16.5
-FG Attempted
-Less
-More
-
-Deni Avdija
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-15.5
-FG Attempted
-Less
-More
-
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-13.5
-FG Attempted
-Less
-More
-
-Scoot Henderson
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-10.5
-FG Attempted
-Less
-More
-
-Toumani CamaraGoblin
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-9.5
-FG Attempted
-More
-
-Rudy GobertDemon
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-8.5
-FG Attempted
-More
-
-RJ Barrett
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-15.5
-FG Attempted
-Less
-More
-
-Scottie Barnes
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-13.5
-FG Attempted
-Less
-More
-
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-12.5
-FG Attempted
-Less
-More
-
-Aaron GordonDemon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-10.5
-FG Attempted
-More
-
-Christian Braun
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-8.5
-FG Attempted
-Less
-More
-
-Tim HardawayDemon
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-8.5
-FG Attempted
-More
-
-Sandro Mamukelashvili
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-5.5
-FG Attempted
-Less
-More
-
-Bruce BrownGoblin
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-4.5
-FG Attempted
-More
-
-
-
-
-Jalen Brunson
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-
-27.5
-Pts+Rebs
-Less
-More
-
-Karl-Anthony Towns
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
-
-30.5
-Pts+Rebs
-Less
-More
-
-OG Anunoby
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
+Dejounte Murray
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
 
 22.5
-Pts+Rebs
-Less
-More
-
-Danny Wolf
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-
-17.5
-Pts+Rebs
-Less
-More
-
-Mikal Bridges
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-
-16.5
-Pts+Rebs
-Less
-More
-
-Nic Claxton
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-
-14.5
-Pts+Rebs
-Less
-More
-
-Mitchell Robinson
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
-
-17.5
-Pts+Rebs
-Less
-More
-
-Nolan Traore
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-
-11.5
-Pts+Rebs
-Less
-More
-
-Landry Shamet
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-
-13.5
-Pts+Rebs
-Less
-More
-
-Drake Powell
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-
-9.5
-Pts+Rebs
-Less
-More
-
-Mohamed DiawaraDemon
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-14.5
-Pts+Rebs
-More
-
-Jalen Duren
-DET - C
-Jalen Duren
-vs GSW Fri 4:40pm
-
-34.5
-Pts+Rebs
-Less
-More
-
-Brandin Podziemski
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-
-18.5
-Pts+Rebs
-Less
-More
-
-De'Anthony Melton
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-
-18.5
-Pts+Rebs
-Less
-More
-
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-
-21.5
-Pts+Rebs
+Pts+Asts
 Less
 More
 
 Tobias Harris
 DET - F
 Tobias Harris
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
-19.5
-Pts+Rebs
+17.5
+Pts+Asts
 Less
 More
 
-Gui Santos
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
+Duncan Robinson
+DET - F
+Duncan Robinson
+vs NOP Thu 4:10pm
 
-18.5
-Pts+Rebs
+14.5
+Pts+Asts
 Less
 More
 
 Ausar Thompson
 DET - G-F
 Ausar Thompson
-vs GSW Fri 4:40pm
-
-17.5
-Pts+Rebs
-Less
-More
-
-Daniss Jenkins
-DET - G
-Daniss Jenkins
-vs GSW Fri 4:40pm
-
-18.5
-Pts+Rebs
-Less
-More
-
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-
-13.5
-Pts+Rebs
-Less
-More
-
-Duncan Robinson
-DET - F
-Duncan Robinson
-vs GSW Fri 4:40pm
-
-14.5
-Pts+Rebs
-Less
-More
-
-Ronald Holland
-DET - F
-Ronald Holland
-vs GSW Fri 4:40pm
-
-11.5
-Pts+Rebs
-Less
-More
-
-Caris LeVert
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
-
-12.5
-Pts+Rebs
-Less
-More
-
-Gary Payton
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-
-15.5
-Pts+Rebs
-Less
-More
-
-Pat Spencer
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-
-10
-Pts+Rebs
-Less
-More
-
-Will Richard
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
-
-10.5
-Pts+Rebs
-Less
-More
-
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
-
-31.5
-Pts+Rebs
-Less
-More
-
-Kevin Durant
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-
-30.5
-Pts+Rebs
-Less
-More
-
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-
-28.5
-Pts+Rebs
-Less
-More
-
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-
-26.5
-Pts+Rebs
-Less
-More
-
-CJ McCollum
-ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
-
-20.5
-Pts+Rebs
-Less
-More
-
-Jabari Smith
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-
-21.5
-Pts+Rebs
-Less
-More
-
-Nickeil Alexander-Walker
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-
-21.5
-Pts+Rebs
-Less
-More
-
-Onyeka Okongwu
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
-
-20.5
-Pts+Rebs
-Less
-More
-
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
-
-17.5
-Pts+Rebs
-Less
-More
-
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-
-15.5
-Pts+Rebs
-Less
-More
-
-Tari Eason
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-
-16.5
-Pts+Rebs
-Less
-More
-
-Jock Landale
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
-
-10.5
-Pts+Rebs
-Less
-More
-
-Zaccharie Risacher
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-
-10.5
-Pts+Rebs
-Less
-More
-
-Jaylen Brown
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
-
-31.5
-Pts+Rebs
-Less
-More
-
-Jayson Tatum
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
-
-30.5
-Pts+Rebs
-Less
-More
-
-Ty Jerome
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-
-21.5
-Pts+Rebs
-Less
-More
-
-Derrick White
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-
-20.5
-Pts+Rebs
-Less
-More
-
-Payton Pritchard
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-
-19.5
-Pts+Rebs
-Less
-More
-
-Neemias Queta
-BOS - C
-Neemias Queta
-@ MEM Fri 5:10pm
-
-20.5
-Pts+Rebs
-Less
-More
-
-Cedric Coward
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-
-17.5
-Pts+Rebs
-Less
-More
-
-Jaylen Wells
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-
-14.5
-Pts+Rebs
-Less
-More
-
-Olivier-Maxence Prosper
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-
-14.5
-Pts+Rebs
-Less
-More
-
-Baylor Scheierman
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-
-11.5
-Pts+Rebs
-Less
-More
-
-Sam Hauser
-BOS - F
-Sam Hauser
-@ MEM Fri 5:10pm
-
-12.5
-Pts+Rebs
-Less
-More
-
-Taylor Hendricks
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-
-14.5
-Pts+Rebs
-Less
-More
-
-Cam Spencer
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
-11.5
-Pts+Rebs
-Less
-More
-
-Walter Clayton
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-9.5
-Pts+Rebs
-Less
-More
-
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-
-30.5
-Pts+Rebs
-Less
-More
-
-Deni Avdija
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-
-29.5
-Pts+Rebs
-Less
-More
-
-Rudy Gobert
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-
-24.5
-Pts+Rebs
-Less
-More
-
-Donovan Clingan
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-
-22.5
-Pts+Rebs
-Less
-More
-
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-
-21.5
-Pts+Rebs
-Less
-More
-
-Jaden McDaniels
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-20.5
-Pts+Rebs
-Less
-More
-
-Jerami Grant
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-19.5
-Pts+Rebs
-Less
-More
-
-Naz Reid
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-19.5
-Pts+Rebs
-Less
-More
-
-Jrue Holiday
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-
-19.5
-Pts+Rebs
-Less
-More
-
-Donte DiVincenzo
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-
-16.5
-Pts+Rebs
-Less
-More
-
-Scoot Henderson
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-
-15.5
-Pts+Rebs
-Less
-More
-
-Toumani Camara
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-16.5
-Pts+Rebs
-Less
-More
-
-Bones Hyland
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
+vs NOP Thu 4:10pm
 
 15
-Pts+Rebs
+Pts+Asts
 Less
 More
 
-Robert Williams
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
+Kevin Huerter
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
+
+11.5
+Pts+Asts
+Less
+More
+
+Herbert Jones
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
+
+11.5
+Pts+Asts
+Less
+More
+
+Derik Queen
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
+
+9.5
+Pts+Asts
+Less
+More
+
+Paolo Banchero
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
+
+31
+Pts+Asts
+Less
+More
+
+Desmond Bane
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
+
+25.5
+Pts+Asts
+Less
+More
+
+Malik Monk
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
+
+21.5
+Pts+Asts
+Less
+More
+
+DeMar DeRozan
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+
+22.5
+Pts+Asts
+Less
+More
+
+Jalen Suggs
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
+
+20.5
+Pts+Asts
+Less
+More
+
+Devin Carter
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+
+16.5
+Pts+Asts
+Less
+More
+
+Maxime Raynaud
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+
+17.5
+Pts+Asts
+Less
+More
+
+Precious AchiuwaGoblin
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+
+9.5
+Pts+Asts
+More
+
+Tristan Silva
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
 
 14.5
-Pts+Rebs
+Pts+Asts
 Less
 More
 
-Nikola Jokić
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
+Wendell CarterGoblin
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
 
-40.5
-Pts+Rebs
+9.5
+Pts+Asts
+More
+
+Jalen Brunson
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+
+33.5
+Pts+Asts
 Less
 More
 
-Jamal Murray
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
 
+27.5
+Pts+Asts
+Less
+More
+
+Karl-Anthony Towns
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
+
+21.5
+Pts+Asts
+Less
+More
+
+Brandon Miller
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+
+22.5
+Pts+Asts
+Less
+More
+
+Kon Knueppel
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+
+21.5
+Pts+Asts
+Less
+More
+
+OG Anunoby
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+
+18.5
+Pts+Asts
+Less
+More
+
+Josh Hart
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+
+17.5
+Pts+Asts
+Less
+More
+
+Mikal Bridges
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+
+17
+Pts+Asts
+Less
+More
+
+Coby White
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+
+17.5
+Pts+Asts
+Less
+More
+
+Miles Bridges
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+
+16.5
+Pts+Asts
+Less
+More
+
+Moussa Diabaté
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+9.5
+Pts+Asts
+Less
+More
+
+Jaylen Brown
+BOS - G-F
+Jaylen Brown
+vs ATL Fri 4:40pm
+33.5
+Pts+Asts
+Less
+More
+
+Jalen Johnson
+ATL - F
+Jalen Johnson
+@ BOS Fri 4:40pm
+29.5
+Pts+Asts
+Less
+More
+
+Jayson Tatum
+BOS - F-G
+Jayson Tatum
+vs ATL Fri 4:40pm
 28.5
+Pts+Asts
+Less
+More
+
+Derrick White
+BOS - G
+Derrick White
+vs ATL Fri 4:40pm
+22.5
+Pts+Asts
+Less
+More
+
+CJ McCollum
+ATL - G
+CJ McCollum
+@ BOS Fri 4:40pm
+20.5
+Pts+Asts
+Less
+More
+
+Nickeil Alexander-Walker
+ATL - G
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
+20.5
+Pts+Asts
+Less
+More
+
+Dyson Daniels
+ATL - G
+Dyson Daniels
+@ BOS Fri 4:40pm
+14.5
+Pts+Asts
+Less
+More
+
+Onyeka Okongwu
+ATL - F-C
+Onyeka Okongwu
+@ BOS Fri 4:40pm
+13.5
+Pts+Asts
+Less
+More
+
+Neemias Queta
+BOS - C
+Neemias Queta
+vs ATL Fri 4:40pm
+11.5
+Pts+Asts
+Less
+More
+
+Jock Landale
+ATL - C
+Jock Landale
+@ BOS Fri 4:40pm
+7.5
+Pts+Asts
+Less
+More
+
+Trey MurphyDemon
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
+3.5
+FTM
+More
+
+Dejounte Murray
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
+2.5
+FTM
+Less
+More
+
+Tobias HarrisDemon
+DET - F
+Tobias Harris
+vs NOP Thu 4:10pm
+2.5
+FTM
+More
+
+Ausar ThompsonDemon
+DET - G-F
+Ausar Thompson
+vs NOP Thu 4:10pm
+1.5
+FTM
+More
+
+Kevin HuerterDemon
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
+0.5
+FTM
+More
+
+Herbert JonesGoblin
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
+0.5
+FTM
+More
+
+Devin CarterDemon
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+2.5
+FTM
+More
+
+Jalen SuggsDemon
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
+2.5
+FTM
+More
+
+Tristan Silva
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+0.5
+FTM
+Less
+More
+
+Brandon MillerDemon
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+2.5
+FTM
+More
+
+Kon KnueppelDemon
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+2.5
+FTM
+More
+
+Josh Hart
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+1.5
+FTM
+Less
+More
+
+OG AnunobyGoblin
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+1.5
+FTM
+More
+
+Grant WilliamsDemon
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+0.5
+FTM
+More
+
+Mikal Bridges
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+0.5
+FTM
+Less
+More
+
+Ryan KalkbrennerDemon
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+0.5
+FTM
+More
+
+Dejounte Murray
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
+13.5
+FG Attempted
+Less
+More
+
+Saddiq Bey
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+13.5
+FG Attempted
+Less
+More
+
+Duncan Robinson
+DET - F
+Duncan Robinson
+vs NOP Thu 4:10pm
+10.5
+FG Attempted
+Less
+More
+
+Maxime Raynaud
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+12.5
+FG Attempted
+Less
+More
+
+Devin Carter
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+11.5
+FG Attempted
+Less
+More
+
+Tristan Silva
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+9.5
+FG Attempted
+Less
+More
+
+Wendell Carter
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+8.5
+FG Attempted
+Less
+More
+
+Jalen Brunson
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+19.5
+FG Attempted
+Less
+More
+
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
+17.5
+FG Attempted
+Less
+More
+
+Kon Knueppel
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+12.5
+FG Attempted
+Less
+More
+
+OG Anunoby
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+12.5
+FG Attempted
+Less
+More
+
+Josh Hart
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+9.5
+FG Attempted
+Less
+More
+
+Sion James
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+3.5
+FG Attempted
+Less
+More
+
+Mohamed Diawara
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+3.5
+FG Attempted
+Less
+More
+
+Ryan KalkbrennerDemon
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+3.5
+FG Attempted
+More
+
+Jalen Duren
+DET - C
+Jalen Duren
+vs NOP Thu 4:10pm
+
+35
 Pts+Rebs
 Less
 More
 
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-26.5
-Pts+Rebs
-Less
-More
-
-RJ Barrett
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
+Trey Murphy
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
 
 25.5
 Pts+Rebs
 Less
 More
 
-Scottie Barnes
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
+Zion Williamson
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
 
-24.5
+26.5
 Pts+Rebs
 Less
 More
 
-Aaron Gordon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
+Saddiq Bey
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+
+23
+Pts+Rebs
+Less
+More
+
+Dejounte Murray
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
 
 21.5
 Pts+Rebs
 Less
 More
 
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
+Daniss Jenkins
+DET - G
+Daniss Jenkins
+vs NOP Thu 4:10pm
 
 20.5
 Pts+Rebs
 Less
 More
 
-Jakob Poeltl
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
+Tobias Harris
+DET - F
+Tobias Harris
+vs NOP Thu 4:10pm
 
-20.5
+20
 Pts+Rebs
 Less
 More
 
-Cameron Johnson
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
+Ausar Thompson
+DET - G-F
+Ausar Thompson
+vs NOP Thu 4:10pm
+
+17.5
+Pts+Rebs
+Less
+More
+
+Duncan Robinson
+DET - F
+Duncan Robinson
+vs NOP Thu 4:10pm
 
 15.5
 Pts+Rebs
 Less
 More
 
-Christian Braun
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
+Ronald Holland
+DET - F
+Ronald Holland
+vs NOP Thu 4:10pm
 
-16.5
+12.5
 Pts+Rebs
 Less
 More
 
-Tim Hardaway
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
+Derik Queen
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
 
-14
+11
 Pts+Rebs
 Less
 More
 
-Sandro Mamukelashvili
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
+Herbert Jones
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
 
-11.5
+12.5
 Pts+Rebs
 Less
 More
 
-Bruce Brown
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
+Kevin Huerter
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
 
-9.5
+12.5
 Pts+Rebs
 Less
 More
 
-Jamal SheadGoblin
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
+Yves Missi
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
 
-4.5
+11
 Pts+Rebs
-
-
-Mitchell RobinsonGoblin
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
-
-0.5
-Blocked Shots
+Less
 More
 
-Danny WolfDemon
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-1.5
-Blocked Shots
+Paolo Banchero
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
+
+33.5
+Pts+Rebs
+Less
 More
 
-Karl-Anthony TownsDemon
+Maxime Raynaud
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+
+25.5
+Pts+Rebs
+Less
+More
+
+Desmond Bane
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
+
+25.5
+Pts+Rebs
+Less
+More
+
+DeMar DeRozan
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+
+20.5
+Pts+Rebs
+Less
+More
+
+Devin Carter
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+
+17.5
+Pts+Rebs
+Less
+More
+
+Malik Monk
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
+
+18.5
+Pts+Rebs
+Less
+More
+
+Precious Achiuwa
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+
+20.5
+Pts+Rebs
+Less
+More
+
+Jalen Suggs
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
+
+18.5
+Pts+Rebs
+Less
+More
+
+Wendell Carter
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+
+19.5
+Pts+Rebs
+Less
+More
+
+Tristan Silva
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+
+15.5
+Pts+Rebs
+Less
+More
+
+Dylan Cardwell
+SAC - C
+Dylan Cardwell
+@ ORL Thu 4:10pm
+
+13.5
+Pts+Rebs
+Less
+More
+
+Goga Bitadze
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+
+10.5
+Pts+Rebs
+Less
+More
+
+Jamal Cain
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
+12.5
+Pts+Rebs
+Less
+More
+
+Karl-Anthony Towns
 NYK - C-F
 Karl-Anthony Towns
-@ BKN Fri 4:40pm
+@ CHA Thu 4:10pm
 
-1.5
-Blocked Shots
+29.5
+Pts+Rebs
+Less
 More
 
-Mikal BridgesDemon
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-1.5
-Blocked Shots
+Jalen Brunson
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+
+28.5
+Pts+Rebs
+Less
 More
 
-Nic Claxton
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
+Brandon Miller
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
 
-0.5
-Blocked Shots
+23.5
+Pts+Rebs
+Less
+More
+
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
+
+24.5
+Pts+Rebs
+Less
+More
+
+Kon Knueppel
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+
+23.5
+Pts+Rebs
 Less
 More
 
 OG Anunoby
 NYK - F-G
 OG Anunoby
-@ BKN Fri 4:40pm
+@ CHA Thu 4:10pm
 
-0.5
-Blocked Shots
+21.5
+Pts+Rebs
 Less
 More
 
-Drake PowellDemon
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-0.5
-Blocked Shots
-More
-
-Jalen BrunsonDemon
+Josh Hart
 NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
+Josh Hart
+@ CHA Thu 4:10pm
+
+19.5
+Pts+Rebs
+Less
+More
+
+Mikal Bridges
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+
+16.5
+Pts+Rebs
+Less
+More
+
+Coby WhiteGoblin
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+
+15.5
+Pts+Rebs
+More
+
+Miles Bridges
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+
+19.5
+Pts+Rebs
+Less
+More
+
+Moussa Diabaté
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+
+16.5
+Pts+Rebs
+Less
+More
+
+Mitchell Robinson
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+
+12.5
+Pts+Rebs
+Less
+More
+
+Ryan Kalkbrenner
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+
+9.5
+Pts+Rebs
+Less
+More
+
+Jaylen Brown
+BOS - G-F
+Jaylen Brown
+vs ATL Fri 4:40pm
+34
+Pts+Rebs
+Less
+More
+
+Jayson Tatum
+BOS - F-G
+Jayson Tatum
+vs ATL Fri 4:40pm
+32.5
+Pts+Rebs
+Less
+More
+
+Jalen Johnson
+ATL - F
+Jalen Johnson
+@ BOS Fri 4:40pm
+30.5
+Pts+Rebs
+Less
+More
+
+Derrick White
+BOS - G
+Derrick White
+vs ATL Fri 4:40pm
+21.5
+Pts+Rebs
+Less
+More
+
+Nickeil Alexander-Walker
+ATL - G
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
+20.5
+Pts+Rebs
+Less
+More
+
+CJ McCollum
+ATL - G
+CJ McCollum
+@ BOS Fri 4:40pm
+19.5
+Pts+Rebs
+Less
+More
+
+Neemias Queta
+BOS - C
+Neemias Queta
+vs ATL Fri 4:40pm
+18.5
+Pts+Rebs
+Less
+More
+
+Onyeka Okongwu
+ATL - F-C
+Onyeka Okongwu
+@ BOS Fri 4:40pm
+18.5
+Pts+Rebs
+Less
+More
+
+Dyson Daniels
+ATL - G
+Dyson Daniels
+@ BOS Fri 4:40pm
+17.5
+Pts+Rebs
+Less
+More
+
+Jock Landale
+ATL - C
+Jock Landale
+@ BOS Fri 4:40pm
+10.5
+Pts+Rebs
+Less
+More
+
+Yves MissiGoblin
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
+
 0.5
 Blocked Shots
 More
 
-Landry ShametDemon
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-0.5
-Blocked Shots
-More
-
-Nolan TraoreDemon
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-0.5
-Blocked Shots
-More
-
-Jordan ClarksonDemon
-NYK - G
-Jordan Clarkson
-@ BKN Fri 4:40pm
-0.5
-Blocked Shots
-More
-
-Mohamed DiawaraDemon
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-0.5
-Blocked Shots
-More
-
-Kristaps PorziņģisDemon
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-
-3.5
-Blocked Shots
-More
-
-De'Anthony MeltonDemon
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-
-1.5
-Blocked Shots
-More
-
-Draymond GreenDemon
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-
-1.5
-Blocked Shots
-More
-
-Gary PaytonDemon
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-
-1.5
-Blocked Shots
-More
-
-Gui SantosDemon
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-
-1.5
-Blocked Shots
-More
-
-Ausar ThompsonDemon
+Ausar ThompsonGoblin
 DET - G-F
 Ausar Thompson
-vs GSW Fri 4:40pm
-1.5
-Blocked Shots
-More
+vs NOP Thu 4:10pm
 
-Caris LeVertDemon
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
-
-1.5
+0.5
 Blocked Shots
 More
 
 Jalen DurenGoblin
 DET - C
 Jalen Duren
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 0.5
 Blocked Shots
 More
 
-Brandin PodziemskiDemon
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-0.5
+Herbert JonesDemon
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
+1.5
 Blocked Shots
 More
 
-Pat SpencerDemon
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-0.5
+Tobias HarrisDemon
+DET - F
+Tobias Harris
+vs NOP Thu 4:10pm
+
+1.5
 Blocked Shots
 More
 
-Will RichardDemon
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
+Trey MurphyDemon
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
+1.5
+Blocked Shots
+More
+
+Zion Williamson
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
+
 0.5
+Blocked Shots
+Less
+More
+
+Derik QueenDemon
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
+1.5
+Blocked Shots
+More
+
+Kevin HuerterDemon
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
+
+1.5
 Blocked Shots
 More
 
 Daniss JenkinsDemon
 DET - G
 Daniss Jenkins
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Dejounte MurrayDemon
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
 0.5
 Blocked Shots
 More
@@ -7881,23 +4530,285 @@ More
 Duncan RobinsonDemon
 DET - F
 Duncan Robinson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 0.5
 Blocked Shots
 More
 
-Tobias HarrisDemon
-DET - F
-Tobias Harris
-vs GSW Fri 4:40pm
+Saddiq BeyDemon
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
 0.5
 Blocked Shots
 More
 
-Alperen SengunGoblin
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
+Precious AchiuwaGoblin
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+
+0.5
+Blocked Shots
+More
+
+Dylan CardwellGoblin
+SAC - C
+Dylan Cardwell
+@ ORL Thu 4:10pm
+
+0.5
+Blocked Shots
+More
+
+Jalen SuggsGoblin
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
+
+0.5
+Blocked Shots
+More
+
+Maxime RaynaudDemon
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+1.5
+Blocked Shots
+More
+
+Paolo BancheroDemon
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
+
+1.5
+Blocked Shots
+More
+
+Tristan SilvaDemon
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+
+1.5
+Blocked Shots
+More
+
+Wendell CarterDemon
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+1.5
+Blocked Shots
+More
+
+Goga BitadzeDemon
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+1.5
+Blocked Shots
+More
+
+DeMar DeRozanDemon
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Desmond BaneDemon
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Devin CarterDemon
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Malik MonkDemon
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Jamal CainDemon
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Moussa DiabatéGoblin
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+
+0.5
+Blocked Shots
+More
+
+Ryan KalkbrennerGoblin
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+
+0.5
+Blocked Shots
+More
+
+Mitchell RobinsonGoblin
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+
+0.5
+Blocked Shots
+More
+
+Brandon MillerDemon
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+
+1.5
+Blocked Shots
+More
+
+Mikal Bridges
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+
+0.5
+Blocked Shots
+Less
+More
+
+OG AnunobyDemon
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+
+1.5
+Blocked Shots
+More
+
+Miles BridgesDemon
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+
+1.5
+Blocked Shots
+More
+
+Grant WilliamsDemon
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Jalen BrunsonDemon
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Josh HartDemon
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Karl-Anthony TownsDemon
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Kon KnueppelDemon
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+LaMelo BallDemon
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Jordan ClarksonDemon
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Mohamed DiawaraDemon
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Coby WhiteDemon
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Sion JamesDemon
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+0.5
+Blocked Shots
+More
+
+Derrick WhiteGoblin
+BOS - G
+Derrick White
+vs ATL Fri 4:40pm
+
+0.5
+Blocked Shots
+More
+
+Neemias QuetaGoblin
+BOS - C
+Neemias Queta
+vs ATL Fri 4:40pm
 
 0.5
 Blocked Shots
@@ -7906,44 +4817,24 @@ More
 Onyeka OkongwuGoblin
 ATL - F-C
 Onyeka Okongwu
-@ HOU Fri 5:10pm
+@ BOS Fri 4:40pm
 
 0.5
-Blocked Shots
-More
-
-Amen ThompsonDemon
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-
-1.5
 Blocked Shots
 More
 
 CJ McCollumDemon
 ATL - G
 CJ McCollum
-@ HOU Fri 5:10pm
-
-1.5
+@ BOS Fri 4:40pm
+0.5
 Blocked Shots
 More
 
 Dyson DanielsDemon
 ATL - G
 Dyson Daniels
-@ HOU Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Jabari SmithGoblin
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-
+@ BOS Fri 4:40pm
 0.5
 Blocked Shots
 More
@@ -7951,107 +4842,7 @@ More
 Jalen JohnsonDemon
 ATL - F
 Jalen Johnson
-@ HOU Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Kevin Durant
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-
-0.5
-Blocked Shots
-Less
-More
-
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-
-0.5
-Blocked Shots
-Less
-More
-
-Tari EasonDemon
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Zaccharie RisacherDemon
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Nickeil Alexander-WalkerDemon
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Jock LandaleDemon
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Derrick WhiteGoblin
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-
-0.5
-Blocked Shots
-More
-
-Neemias QuetaGoblin
-BOS - C
-Neemias Queta
-@ MEM Fri 5:10pm
-
-0.5
-Blocked Shots
-More
-
-Cedric CowardDemon
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Taylor HendricksDemon
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-1.5
-Blocked Shots
-More
-
-Baylor ScheiermanDemon
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
+@ BOS Fri 4:40pm
 0.5
 Blocked Shots
 More
@@ -8059,15 +4850,7 @@ More
 Jaylen BrownDemon
 BOS - G-F
 Jaylen Brown
-@ MEM Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Jaylen WellsDemon
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
+vs ATL Fri 4:40pm
 0.5
 Blocked Shots
 More
@@ -8075,23 +4858,23 @@ More
 Jayson TatumDemon
 BOS - F-G
 Jayson Tatum
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 0.5
 Blocked Shots
 More
 
-Olivier-Maxence ProsperDemon
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
+Jock LandaleDemon
+ATL - C
+Jock Landale
+@ BOS Fri 4:40pm
 0.5
 Blocked Shots
 More
 
-Payton PritchardDemon
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
+Nickeil Alexander-WalkerDemon
+ATL - G
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
 0.5
 Blocked Shots
 More
@@ -8099,289 +4882,267 @@ More
 Sam HauserDemon
 BOS - F
 Sam Hauser
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 0.5
 Blocked Shots
 More
 
-Ty JeromeDemon
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Cam SpencerDemon
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Walter ClaytonDemon
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Donovan Clingan
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-
-1.5
-Blocked Shots
-Less
-More
-
-Robert WilliamsGoblin
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
-
-0.5
-Blocked Shots
-More
-
-Rudy Gobert
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-
-1.5
-Blocked Shots
-Less
-More
-
-Naz ReidGoblin
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-0.5
-Blocked Shots
-More
-
-Jaden McDanielsGoblin
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-0.5
-Blocked Shots
-More
-
-Deni AvdijaDemon
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Jerami GrantDemon
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Toumani CamaraDemon
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-1.5
-Blocked Shots
-More
-
-Ayo DosunmuDemon
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Bones HylandDemon
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Donte DiVincenzoDemon
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Julius RandleDemon
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Jrue HolidayDemon
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Scoot HendersonDemon
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-0.5
-Blocked Shots
-More
-
-Nikola JokićGoblin
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-0.5
-Blocked Shots
-More
-
-Scottie BarnesGoblin
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-
-0.5
-Blocked Shots
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-0.5
-Blocked Shots
-Less
-More
-
-Jakob PoeltlGoblin
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-
-0.5
-Blocked Shots
-More
-
-Aaron GordonDemon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-Bruce BrownDemon
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-Cameron JohnsonDemon
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-Christian BraunDemon
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-Immanuel QuickleyDemon
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-Jamal MurrayDemon
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-Jamal SheadDemon
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-RJ BarrettDemon
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-Sandro MamukelashviliDemon
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-Tim HardawayDemon
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-0.5
-Blocked Shots
-More
-
-
-OG Anunoby
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
+Ausar Thompson
+DET - G-F
+Ausar Thompson
+vs NOP Thu 4:10pm
 
 1.5
 Steals
 Less
 More
 
-Mitchell RobinsonGoblin
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
+Dejounte MurrayGoblin
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
+
+0.5
+Steals
+More
+
+Herbert JonesGoblin
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
+
+0.5
+Steals
+More
+
+Daniss JenkinsGoblin
+DET - G
+Daniss Jenkins
+vs NOP Thu 4:10pm
+
+0.5
+Steals
+More
+
+Saddiq BeyGoblin
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+
+0.5
+Steals
+More
+
+Trey MurphyGoblin
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
+
+0.5
+Steals
+More
+
+Zion WilliamsonGoblin
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
+
+0.5
+Steals
+More
+
+Jalen DurenGoblin
+DET - C
+Jalen Duren
+vs NOP Thu 4:10pm
+
+0.5
+Steals
+More
+
+Derik QueenDemon
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
+
+2.5
+Steals
+More
+
+Kevin HuerterGoblin
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
+
+0.5
+Steals
+More
+
+Duncan RobinsonDemon
+DET - F
+Duncan Robinson
+vs NOP Thu 4:10pm
+1.5
+Steals
+More
+
+Tobias HarrisGoblin
+DET - F
+Tobias Harris
+vs NOP Thu 4:10pm
+
+0.5
+Steals
+More
+
+Yves MissiDemon
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
+
+1.5
+Steals
+More
+
+Jalen SuggsDemon
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
+
+3.5
+Steals
+More
+
+Devin CarterGoblin
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+
+0.5
+Steals
+More
+
+Desmond BaneGoblin
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
+
+0.5
+Steals
+More
+
+Paolo BancheroGoblin
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
+
+0.5
+Steals
+More
+
+Tristan SilvaGoblin
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+
+0.5
+Steals
+More
+
+Wendell CarterGoblin
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+
+0.5
+Steals
+More
+
+DeMar DeRozanDemon
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+1.5
+Steals
+More
+
+Maxime RaynaudDemon
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+
+1.5
+Steals
+More
+
+Precious AchiuwaGoblin
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+
+0.5
+Steals
+More
+
+Malik MonkDemon
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
+1.5
+Steals
+More
+
+Dylan CardwellDemon
+SAC - C
+Dylan Cardwell
+@ ORL Thu 4:10pm
+
+1.5
+Steals
+More
+
+Jamal Cain
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
+
+0.5
+Steals
+Less
+More
+
+Goga BitadzeDemon
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+
+1.5
+Steals
+More
+
+OG Anunoby
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+
+1.5
+Steals
+Less
+More
+
+Brandon MillerGoblin
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+
+0.5
+Steals
+More
+
+LaMelo BallGoblin
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
 
 0.5
 Steals
@@ -8390,7 +5151,16 @@ More
 Jalen BrunsonGoblin
 NYK - G
 Jalen Brunson
-@ BKN Fri 4:40pm
+@ CHA Thu 4:10pm
+
+0.5
+Steals
+More
+
+Josh HartGoblin
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
 
 0.5
 Steals
@@ -8399,16 +5169,7 @@ More
 Karl-Anthony TownsGoblin
 NYK - C-F
 Karl-Anthony Towns
-@ BKN Fri 4:40pm
-
-0.5
-Steals
-More
-
-Landry ShametGoblin
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
+@ CHA Thu 4:10pm
 
 0.5
 Steals
@@ -8417,44 +5178,52 @@ More
 Mikal BridgesGoblin
 NYK - G-F
 Mikal Bridges
-@ BKN Fri 4:40pm
+@ CHA Thu 4:10pm
 
 0.5
 Steals
 More
 
-Danny WolfDemon
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-
-1.5
-Steals
-More
-
-Nic ClaxtonDemon
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-
-1.5
-Steals
-More
-
-Nolan Traore
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
+Miles BridgesGoblin
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
 
 0.5
 Steals
-Less
 More
 
-Drake PowellDemon
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
+Moussa DiabatéDemon
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+
+2.5
+Steals
+More
+
+Coby WhiteDemon
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+
+1.5
+Steals
+More
+
+Kon KnueppelGoblin
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+
+0.5
+Steals
+More
+
+Sion JamesDemon
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
 
 1.5
 Steals
@@ -8463,153 +5232,50 @@ More
 Jordan ClarksonDemon
 NYK - G
 Jordan Clarkson
-@ BKN Fri 4:40pm
+@ CHA Thu 4:10pm
 
 1.5
+Steals
+More
+
+Josh GreenDemon
+CHA - G
+Josh Green
+vs NYK Thu 4:10pm
+
+1.5
+Steals
+More
+
+Mitchell RobinsonGoblin
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+
+0.5
+Steals
+More
+
+Grant WilliamsDemon
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+0.5
+Steals
+More
+
+Ryan KalkbrennerDemon
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+0.5
 Steals
 More
 
 Mohamed DiawaraDemon
 NYK - F
 Mohamed Diawara
-@ BKN Fri 4:40pm
-0.5
-Steals
-More
-
-Ausar Thompson
-DET - G-F
-Ausar Thompson
-vs GSW Fri 4:40pm
-
-1.5
-Steals
-Less
-More
-
-Draymond GreenGoblin
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-
-0.5
-Steals
-More
-
-Gary PaytonGoblin
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-
-0.5
-Steals
-More
-
-Daniss JenkinsGoblin
-DET - G
-Daniss Jenkins
-vs GSW Fri 4:40pm
-
-0.5
-Steals
-More
-
-Brandin PodziemskiGoblin
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-
-0.5
-Steals
-More
-
-De'Anthony MeltonGoblin
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-
-0.5
-Steals
-More
-
-Gui SantosGoblin
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-
-0.5
-Steals
-More
-
-Will RichardGoblin
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
-
-0.5
-Steals
-More
-
-Jalen DurenGoblin
-DET - C
-Jalen Duren
-vs GSW Fri 4:40pm
-
-0.5
-Steals
-More
-
-Tobias HarrisGoblin
-DET - F
-Tobias Harris
-vs GSW Fri 4:40pm
-
-0.5
-Steals
-More
-
-Caris LeVertGoblin
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
-
-0.5
-Steals
-More
-
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-
-0.5
-Steals
-Less
-More
-
-Pat SpencerGoblin
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-
-0.5
-Steals
-More
-
-Duncan Robinson
-DET - F
-Duncan Robinson
-vs GSW Fri 4:40pm
-
-0.5
-Steals
-Less
-More
-
-Ronald HollandGoblin
-DET - F
-Ronald Holland
-vs GSW Fri 4:40pm
+@ CHA Thu 4:10pm
 0.5
 Steals
 More
@@ -8617,44 +5283,16 @@ More
 Dyson DanielsGoblin
 ATL - G
 Dyson Daniels
-@ HOU Fri 5:10pm
+@ BOS Fri 4:40pm
 
 1.5
 Steals
 More
 
-Nickeil Alexander-Walker
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-
-1.5
-Steals
-Less
-More
-
-Amen ThompsonGoblin
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-
-0.5
-Steals
-More
-
-Alperen SengunGoblin
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-
-0.5
-Steals
-More
-
-Jabari SmithGoblin
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
+Derrick WhiteGoblin
+BOS - G
+Derrick White
+vs ATL Fri 4:40pm
 
 0.5
 Steals
@@ -8663,80 +5301,7 @@ More
 Jalen JohnsonGoblin
 ATL - F
 Jalen Johnson
-@ HOU Fri 5:10pm
-
-0.5
-Steals
-More
-
-Kevin DurantGoblin
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-
-0.5
-Steals
-More
-
-Onyeka OkongwuGoblin
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
-
-0.5
-Steals
-More
-
-Reed SheppardGoblin
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-
-0.5
-Steals
-More
-
-Tari EasonGoblin
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-
-0.5
-Steals
-More
-
-CJ McCollumGoblin
-ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
-
-0.5
-Steals
-More
-
-Jock LandaleDemon
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
-
-1.5
-Steals
-More
-
-Zaccharie Risacher
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-
-0.5
-Steals
-Less
-More
-
-Derrick WhiteGoblin
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
+@ BOS Fri 4:40pm
 
 0.5
 Steals
@@ -8745,7 +5310,7 @@ More
 Jaylen BrownGoblin
 BOS - G-F
 Jaylen Brown
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
 0.5
 Steals
@@ -8754,7 +5319,16 @@ More
 Jayson TatumGoblin
 BOS - F-G
 Jayson Tatum
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
+
+0.5
+Steals
+More
+
+Nickeil Alexander-WalkerGoblin
+ATL - G
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
 
 0.5
 Steals
@@ -8763,849 +5337,249 @@ More
 Neemias QuetaGoblin
 BOS - C
 Neemias Queta
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 
 0.5
 Steals
 More
 
-Payton PritchardGoblin
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-
-0.5
-Steals
-More
-
-Taylor HendricksGoblin
-MEM - F
-Taylor Hendricks
-vs BOS Fri 5:10pm
-
-0.5
-Steals
-More
-
-Baylor ScheiermanGoblin
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-
-0.5
-Steals
-More
-
-Cedric CowardDemon
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-
-1.5
-Steals
-More
-
-Jaylen Wells
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-
-0.5
-Steals
-Less
-More
-
-Olivier-Maxence ProsperGoblin
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-
-0.5
-Steals
-More
-
-Sam Hauser
-BOS - F
-Sam Hauser
-@ MEM Fri 5:10pm
-
-0.5
-Steals
-Less
-More
-
-Ty JeromeGoblin
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-
-0.5
-Steals
-More
-
-Cam SpencerDemon
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
-
-1.5
-Steals
-More
-
-Walter ClaytonDemon
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-
-1.5
-Steals
-More
-
-Ayo DosunmuGoblin
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-
-0.5
-Steals
-More
-
-Donte DiVincenzoDemon
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-
-3.5
-Steals
-More
-
-Julius RandleGoblin
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-
-0.5
-Steals
-More
-
-Jrue HolidayGoblin
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-
-0.5
-Steals
-More
-
-Toumani CamaraGoblin
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-
-0.5
-Steals
-More
-
-Jaden McDanielsGoblin
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-0.5
-Steals
-More
-
-Rudy GobertGoblin
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-
-0.5
-Steals
-More
-
-Naz ReidGoblin
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-
-0.5
-Steals
-More
-
-Deni AvdijaGoblin
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-
-0.5
-Steals
-More
-
-Donovan ClinganDemon
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-1.5
-Steals
-More
-
-Jerami GrantGoblin
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-
-0.5
-Steals
-More
-
-Robert Williams
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
-
-0.5
-Steals
-Less
-More
-
-Scoot HendersonDemon
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-
-1.5
-Steals
-More
-
-Bones HylandGoblin
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-0.5
-Steals
-More
-
-Brandon IngramGoblin
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-
-0.5
-Steals
-More
-
-Christian BraunGoblin
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-
-0.5
-Steals
-More
-
-Immanuel QuickleyGoblin
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-
-0.5
-Steals
-More
-
-Jamal MurrayGoblin
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-
-0.5
-Steals
-More
-
-Nikola JokićGoblin
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-0.5
-Steals
-More
-
-RJ BarrettGoblin
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-
-0.5
-Steals
-More
-
-Scottie BarnesGoblin
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-
-0.5
-Steals
-More
-
-Jakob PoeltlGoblin
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-
-0.5
-Steals
-More
-
-Aaron GordonGoblin
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-
-0.5
-Steals
-More
-
-Bruce BrownGoblin
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-
-0.5
-Steals
-More
-
-Cameron JohnsonGoblin
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-
-0.5
-Steals
-More
-
-Jamal SheadGoblin
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-
-0.5
-Steals
-More
-
-Sandro MamukelashviliDemon
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-
-1.5
-Steals
-More
-
-Tim HardawayDemon
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-1.5
-Steals
-More
-
-
-
-Danny WolfDemon
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-2.5
-FTA
-More
-
-Drake PowellDemon
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-1.5
-FTA
-More
-
-Nolan TraoreGoblin
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-1.5
-FTA
-More
-
-Jordan ClarksonGoblin
-NYK - G
-Jordan Clarkson
-@ BKN Fri 4:40pm
-1.5
-FTA
-More
-
-Mohamed DiawaraDemon
-NYK - F
-Mohamed Diawara
-@ BKN Fri 4:40pm
-
-0.5
-FTA
-More
-
-Jalen Duren
-DET - C
-Jalen Duren
-vs GSW Fri 4:40pm
-6.5
-FTA
-Less
-More
-
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-4.5
-FTA
-Less
-More
-
-Brandin Podziemski
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-2.5
-FTA
-Less
-More
-
-De'Anthony Melton
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-2.5
-FTA
-Less
-More
-
-Gui SantosDemon
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-2.5
-FTA
-More
-
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-0.5
-FTA
-Less
-More
-
-Pat Spencer
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-0.5
-FTA
-Less
-More
-
-Alperen Sengun
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-4.5
-FTA
-Less
-More
-
-Amen Thompson
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-4.5
-FTA
-Less
-More
-
-Jalen Johnson
-ATL - F
-Jalen Johnson
-@ HOU Fri 5:10pm
-4.5
-FTA
-Less
-More
-
-CJ McCollumDemon
+CJ McCollumGoblin
 ATL - G
 CJ McCollum
-@ HOU Fri 5:10pm
-3.5
-FTA
-More
+@ BOS Fri 4:40pm
 
-Nickeil Alexander-WalkerDemon
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-3.5
-FTA
-More
-
-Jabari SmithDemon
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-2.5
-FTA
-More
-
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
-1.5
-FTA
-Less
+0.5
+Steals
 More
 
 Onyeka OkongwuGoblin
 ATL - F-C
 Onyeka Okongwu
-@ HOU Fri 5:10pm
-1.5
-FTA
+@ BOS Fri 4:40pm
+
+0.5
+Steals
 More
 
-Jaylen Brown
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
+Sam HauserDemon
+BOS - F
+Sam Hauser
+vs ATL Fri 4:40pm
+
+1.5
+Steals
+More
+
+Jock LandaleDemon
+ATL - C
+Jock Landale
+@ BOS Fri 4:40pm
+
+1.5
+Steals
+More
+
+Jalen DurenDemon
+DET - C
+Jalen Duren
+vs NOP Thu 4:10pm
 6.5
 FTA
-Less
 More
 
-Ty Jerome
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
+Daniss Jenkins
+DET - G
+Daniss Jenkins
+vs NOP Thu 4:10pm
 3.5
 FTA
 Less
 More
 
-Cedric CowardDemon
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
+Dejounte Murray
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
+3.5
+FTA
+Less
+More
+
+Trey Murphy
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
+3.5
+FTA
+Less
+More
+
+Ausar ThompsonDemon
+DET - G-F
+Ausar Thompson
+vs NOP Thu 4:10pm
 2.5
 FTA
 More
 
-Derrick WhiteDemon
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
+Tobias Harris
+DET - F
+Tobias Harris
+vs NOP Thu 4:10pm
 2.5
 FTA
+Less
 More
 
-Neemias QuetaGoblin
-BOS - C
-Neemias Queta
-@ MEM Fri 5:10pm
-1.5
-FTA
-More
-
-Payton Pritchard
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
+Herbert Jones
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
 1.5
 FTA
 Less
 More
 
-Baylor ScheiermanDemon
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
+Duncan RobinsonGoblin
+DET - F
+Duncan Robinson
+vs NOP Thu 4:10pm
 0.5
 FTA
 More
 
-Julius Randle
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-7.5
-FTA
-Less
-More
-
-Jerami Grant
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
+DeMar DeRozan
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
 4.5
 FTA
 Less
 More
 
-Scoot Henderson
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-3.5
-FTA
-Less
-More
-
-Naz ReidDemon
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-2.5
-FTA
-More
-
-Ayo Dosunmu
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-2.5
-FTA
-Less
-More
-
-Jaden McDanielsDemon
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-2.5
-FTA
-More
-
-Toumani Camara
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-1.5
-FTA
-Less
-More
-
-Jrue HolidayGoblin
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-1.5
-FTA
-More
-
-Donte DiVincenzoDemon
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-0.5
-FTA
-More
-
-Robert Williams
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
-0.5
-FTA
-Less
-More
-
-RJ Barrett
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
+Desmond BaneDemon
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
 4.5
 FTA
-Less
 More
 
-Aaron Gordon
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-3.5
-FTA
-Less
-More
-
-Immanuel Quickley
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-3.5
-FTA
-Less
-More
-
-Bruce Brown
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-1.5
-FTA
-Less
-More
-
-Cameron JohnsonGoblin
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-1.5
+Jalen SuggsDemon
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
+2.5
 FTA
 More
 
-Christian BraunGoblin
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-1.5
+Precious AchiuwaDemon
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+2.5
 FTA
 More
 
-Jakob PoeltlGoblin
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-1.5
-FTA
-More
-
-Sandro Mamukelashvili
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-1.5
-FTA
-Less
-More
-
-Tim HardawayGoblin
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-1.5
-FTA
-More
-
-Jamal Shead
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-0.5
-FTA
-Less
-More
-
-
-
-OG AnunobyGoblin
-NYK - F-G
-OG Anunoby
-@ BKN Fri 4:40pm
-
-1.5
-Blks+Stls
-More
-
-Mikal BridgesGoblin
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-
-1.5
-Blks+Stls
-More
-
-Karl-Anthony TownsDemon
+Karl-Anthony Towns
 NYK - C-F
 Karl-Anthony Towns
-@ BKN Fri 4:40pm
+@ CHA Thu 4:10pm
+4.5
+FTA
+Less
+More
+
+Coby White
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+3.5
+FTA
+Less
+More
+
+Josh HartDemon
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+2.5
+FTA
+More
+
+Miles BridgesDemon
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+2.5
+FTA
+More
+
+OG Anunoby
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+2.5
+FTA
+Less
+More
+
+Jordan Clarkson
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+1.5
+FTA
+Less
+More
+
+Grant WilliamsDemon
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+0.5
+FTA
+More
+
+Mitchell Robinson
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+0.5
+FTA
+Less
+More
+
+Ryan Kalkbrenner
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+0.5
+FTA
+Less
+More
+
+Sion JamesDemon
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+0.5
+FTA
+More
+
+Ausar ThompsonGoblin
+DET - G-F
+Ausar Thompson
+vs NOP Thu 4:10pm
+
 2.5
 Blks+Stls
 More
 
-Danny WolfGoblin
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-
-0.5
-Blks+Stls
-More
-
-Jalen BrunsonDemon
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-1.5
-Blks+Stls
-More
-
-Landry ShametDemon
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-1.5
-Blks+Stls
-More
-
-Nic ClaxtonGoblin
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-
-0.5
-Blks+Stls
-More
-
-Mitchell RobinsonGoblin
-NYK - C-F
-Mitchell Robinson
-@ BKN Fri 4:40pm
-1.5
-Blks+Stls
-More
-
-Drake Powell
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-0.5
-Blks+Stls
-Less
-More
-
-Nolan TraoreGoblin
-BKN - G
-Nolan Traore
-vs NYK Fri 4:40pm
-0.5
-Blks+Stls
-More
-
-Kristaps PorziņģisGoblin
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
+Herbert JonesGoblin
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
 
 1.5
 Blks+Stls
@@ -9614,152 +5588,358 @@ More
 Jalen DurenGoblin
 DET - C
 Jalen Duren
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 
 1.5
 Blks+Stls
 More
 
-Gui SantosDemon
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
+Trey MurphyDemon
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
 2.5
 Blks+Stls
 More
 
-Brandin PodziemskiDemon
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
+Yves MissiDemon
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
+2.5
+Blks+Stls
+More
+
+Kevin HuerterDemon
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
 1.5
 Blks+Stls
 More
 
-Draymond GreenDemon
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
+Saddiq BeyDemon
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
 1.5
 Blks+Stls
-More
-
-Gary PaytonGoblin
-GSW - G
-Gary Payton
-@ DET Fri 4:40pm
-1.5
-Blks+Stls
-More
-
-Will Richard
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
-1.5
-Blks+Stls
-Less
-More
-
-Caris LeVert
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
-1.5
-Blks+Stls
-Less
 More
 
 Tobias HarrisDemon
 DET - F
 Tobias Harris
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 1.5
 Blks+Stls
+More
+
+Zion Williamson
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
+1.5
+Blks+Stls
+Less
 More
 
 Daniss JenkinsGoblin
 DET - G
 Daniss Jenkins
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 1.5
 Blks+Stls
 More
 
-Ausar ThompsonGoblin
-DET - G-F
-Ausar Thompson
-vs GSW Fri 4:40pm
+Derik QueenDemon
+NOP - C
+Derik Queen
+@ DET Thu 4:10pm
 1.5
-Blks+Stls
-More
-
-Pat SpencerGoblin
-GSW - G
-Pat Spencer
-@ DET Fri 4:40pm
-0.5
 Blks+Stls
 More
 
 Duncan RobinsonGoblin
 DET - F
 Duncan Robinson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 0.5
 Blks+Stls
 More
 
-Dyson DanielsGoblin
+Jalen SuggsGoblin
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
+
+1.5
+Blks+Stls
+More
+
+Desmond BaneDemon
+ORL - G
+Desmond Bane
+vs SAC Thu 4:10pm
+2.5
+Blks+Stls
+More
+
+Precious AchiuwaDemon
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+2.5
+Blks+Stls
+More
+
+Devin CarterDemon
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+1.5
+Blks+Stls
+More
+
+Maxime RaynaudGoblin
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+
+0.5
+Blks+Stls
+More
+
+Wendell Carter
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+1.5
+Blks+Stls
+Less
+More
+
+Paolo BancheroDemon
+ORL - F
+Paolo Banchero
+vs SAC Thu 4:10pm
+1.5
+Blks+Stls
+More
+
+Goga BitadzeDemon
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+1.5
+Blks+Stls
+More
+
+Dylan CardwellGoblin
+SAC - C
+Dylan Cardwell
+@ ORL Thu 4:10pm
+1.5
+Blks+Stls
+More
+
+DeMar DeRozanGoblin
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+0.5
+Blks+Stls
+More
+
+Malik MonkGoblin
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
+0.5
+Blks+Stls
+More
+
+Jamal CainGoblin
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
+0.5
+Blks+Stls
+More
+
+OG AnunobyGoblin
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+
+1.5
+Blks+Stls
+More
+
+Brandon MillerDemon
+CHA - F
+Brandon Miller
+vs NYK Thu 4:10pm
+2.5
+Blks+Stls
+More
+
+Mitchell RobinsonGoblin
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+
+1.5
+Blks+Stls
+More
+
+Moussa DiabatéGoblin
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+
+1.5
+Blks+Stls
+More
+
+Jalen BrunsonDemon
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+1.5
+Blks+Stls
+More
+
+Josh HartDemon
+NYK - G
+Josh Hart
+@ CHA Thu 4:10pm
+1.5
+Blks+Stls
+More
+
+Karl-Anthony TownsGoblin
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
+
+0.5
+Blks+Stls
+More
+
+Mikal Bridges
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+1.5
+Blks+Stls
+Less
+More
+
+Ryan KalkbrennerDemon
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+1.5
+Blks+Stls
+More
+
+LaMelo BallDemon
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
+1.5
+Blks+Stls
+More
+
+Miles BridgesGoblin
+CHA - F
+Miles Bridges
+vs NYK Thu 4:10pm
+
+0.5
+Blks+Stls
+More
+
+Grant Williams
+CHA - F
+Grant Williams
+vs NYK Thu 4:10pm
+0.5
+Blks+Stls
+Less
+More
+
+Kon KnueppelGoblin
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+0.5
+Blks+Stls
+More
+
+Jordan Clarkson
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+0.5
+Blks+Stls
+Less
+More
+
+Mohamed DiawaraDemon
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+0.5
+Blks+Stls
+More
+
+Sion James
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+0.5
+Blks+Stls
+Less
+More
+
+Josh GreenDemon
+CHA - G
+Josh Green
+vs NYK Thu 4:10pm
+0.5
+Blks+Stls
+More
+
+Dyson DanielsDemon
 ATL - G
 Dyson Daniels
-@ HOU Fri 5:10pm
-
-1.5
+@ BOS Fri 4:40pm
+2.5
 Blks+Stls
 More
 
-Onyeka OkongwuGoblin
-ATL - F-C
-Onyeka Okongwu
-@ HOU Fri 5:10pm
-
-1.5
+Neemias QuetaDemon
+BOS - C
+Neemias Queta
+vs ATL Fri 4:40pm
+2.5
 Blks+Stls
 More
 
-Alperen SengunGoblin
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
-
-1.5
+Derrick White
+BOS - G
+Derrick White
+vs ATL Fri 4:40pm
+2.5
 Blks+Stls
+Less
 More
 
-Nickeil Alexander-WalkerGoblin
+CJ McCollumDemon
 ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
-
-1.5
-Blks+Stls
-More
-
-Amen ThompsonGoblin
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-
-1.5
-Blks+Stls
-More
-
-Jabari SmithGoblin
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-
+CJ McCollum
+@ BOS Fri 4:40pm
 1.5
 Blks+Stls
 More
@@ -9767,131 +5947,33 @@ More
 Jalen JohnsonDemon
 ATL - F
 Jalen Johnson
-@ HOU Fri 5:10pm
-2.5
-Blks+Stls
-More
-
-Kevin DurantDemon
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-2.5
-Blks+Stls
-More
-
-Reed SheppardGoblin
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-
+@ BOS Fri 4:40pm
 1.5
 Blks+Stls
 More
 
-Tari EasonGoblin
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-
+Jaylen Brown
+BOS - G-F
+Jaylen Brown
+vs ATL Fri 4:40pm
 1.5
 Blks+Stls
+Less
 More
 
-CJ McCollumDemon
+Nickeil Alexander-Walker
 ATL - G
-CJ McCollum
-@ HOU Fri 5:10pm
+Nickeil Alexander-Walker
+@ BOS Fri 4:40pm
 1.5
 Blks+Stls
+Less
 More
 
 Jock LandaleGoblin
 ATL - C
 Jock Landale
-@ HOU Fri 5:10pm
-0.5
-Blks+Stls
-More
-
-Zaccharie RisacherGoblin
-ATL - F
-Zaccharie Risacher
-@ HOU Fri 5:10pm
-0.5
-Blks+Stls
-More
-
-Derrick WhiteGoblin
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-
-1.5
-Blks+Stls
-More
-
-Neemias QuetaGoblin
-BOS - C
-Neemias Queta
-@ MEM Fri 5:10pm
-
-1.5
-Blks+Stls
-More
-
-Olivier-Maxence ProsperDemon
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Jaylen BrownDemon
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Jayson TatumDemon
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Baylor ScheiermanGoblin
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-0.5
-Blks+Stls
-More
-
-Cedric CowardGoblin
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
-0.5
-Blks+Stls
-More
-
-Jaylen WellsGoblin
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-0.5
-Blks+Stls
-More
-
-Payton PritchardGoblin
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
+@ BOS Fri 4:40pm
 0.5
 Blks+Stls
 More
@@ -9899,363 +5981,81 @@ More
 Sam HauserGoblin
 BOS - F
 Sam Hauser
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 0.5
 Blks+Stls
 More
 
-Ty JeromeGoblin
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-0.5
-Blks+Stls
-More
-
-Walter ClaytonGoblin
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-0.5
-Blks+Stls
-More
-
-Rudy GobertGoblin
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-
-2.5
-Blks+Stls
-More
-
-Jaden McDanielsGoblin
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-
-1.5
-Blks+Stls
-More
-
-Robert WilliamsGoblin
-POR - C-F
-Robert Williams
-@ MIN Fri 5:10pm
-
-1.5
-Blks+Stls
-More
-
-Naz ReidDemon
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-2.5
-Blks+Stls
-More
-
-Donovan ClinganGoblin
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-
-1.5
-Blks+Stls
-More
-
-Donte DiVincenzoGoblin
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Jerami GrantDemon
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Julius RandleGoblin
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Toumani CamaraDemon
-POR - F
-Toumani Camara
-@ MIN Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Bones HylandDemon
-MIN - G
-Bones Hyland
-vs POR Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Jrue HolidayDemon
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Deni AvdijaDemon
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-1.5
-Blks+Stls
-More
-
-Scoot HendersonGoblin
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-0.5
-Blks+Stls
-More
-
-Scottie BarnesDemon
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
+Dejounte MurrayDemon
+NOP - G
+Dejounte Murray
+@ DET Thu 4:10pm
 3.5
-Blks+Stls
-More
-
-Nikola Jokić
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-
-2.5
-Blks+Stls
-Less
-More
-
-Jakob PoeltlGoblin
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-
-1.5
-Blks+Stls
-More
-
-Brandon Ingram
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-1.5
-Blks+Stls
-Less
-More
-
-Cameron JohnsonDemon
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-1.5
-Blks+Stls
-More
-
-Christian BraunDemon
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-1.5
-Blks+Stls
-More
-
-Jamal MurrayDemon
-DEN - G
-Jamal Murray
-vs TOR Fri 6:10pm
-1.5
-Blks+Stls
-More
-
-RJ BarrettDemon
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-1.5
-Blks+Stls
-More
-
-Sandro MamukelashviliGoblin
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-
-0.5
-Blks+Stls
-More
-
-Aaron GordonGoblin
-DEN - F
-Aaron Gordon
-vs TOR Fri 6:10pm
-0.5
-Blks+Stls
-More
-
-Bruce BrownGoblin
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-0.5
-Blks+Stls
-More
-
-Jamal SheadGoblin
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-0.5
-Blks+Stls
-More
-
-Tim HardawayGoblin
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-0.5
-Blks+Stls
-More
-
-Jalen Brunson
-NYK - G
-Jalen Brunson
-@ BKN Fri 4:40pm
-2.5
 Turnovers
-Less
 More
 
-Karl-Anthony TownsDemon
-NYK - C-F
-Karl-Anthony Towns
-@ BKN Fri 4:40pm
+Daniss JenkinsDemon
+DET - G
+Daniss Jenkins
+vs NOP Thu 4:10pm
+3.5
+Turnovers
+More
+
+Zion WilliamsonDemon
+NOP - F
+Zion Williamson
+@ DET Thu 4:10pm
 2.5
 Turnovers
 More
 
-Danny WolfGoblin
-BKN - F
-Danny Wolf
-vs NYK Fri 4:40pm
-1.5
-Turnovers
-More
-
-Drake PowellDemon
-BKN - G-F
-Drake Powell
-vs NYK Fri 4:40pm
-1.5
-Turnovers
-More
-
-Nic ClaxtonDemon
-BKN - C
-Nic Claxton
-vs NYK Fri 4:40pm
-1.5
-Turnovers
-More
-
-Mikal BridgesDemon
-NYK - G-F
-Mikal Bridges
-@ BKN Fri 4:40pm
-1.5
-Turnovers
-More
-
-Jordan ClarksonDemon
-NYK - G
-Jordan Clarkson
-@ BKN Fri 4:40pm
-1.5
-Turnovers
-More
-
-Landry ShametGoblin
-NYK - G
-Landry Shamet
-@ BKN Fri 4:40pm
-0.5
-Turnovers
-More
-
-Draymond Green
-GSW - F
-Draymond Green
-@ DET Fri 4:40pm
-2.5
-Turnovers
-Less
-More
-
-Gui SantosDemon
-GSW - F
-Gui Santos
-@ DET Fri 4:40pm
-2.5
-Turnovers
-More
-
-Brandin PodziemskiGoblin
-GSW - G
-Brandin Podziemski
-@ DET Fri 4:40pm
-1.5
-Turnovers
-More
-
-De'Anthony MeltonGoblin
-GSW - G
-De'Anthony Melton
-@ DET Fri 4:40pm
-1.5
-Turnovers
-More
-
-Kristaps Porziņģis
-GSW - F-C
-Kristaps Porziņģis
-@ DET Fri 4:40pm
-1.5
-Turnovers
-Less
-More
-
-Jalen DurenGoblin
+Jalen DurenDemon
 DET - C
 Jalen Duren
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
+2.5
+Turnovers
+More
+
+Ausar Thompson
+DET - G-F
+Ausar Thompson
+vs NOP Thu 4:10pm
+1.5
+Turnovers
+Less
+More
+
+Saddiq Bey
+NOP - G-F
+Saddiq Bey
+@ DET Thu 4:10pm
+1.5
+Turnovers
+Less
+More
+
+Tobias HarrisDemon
+DET - F
+Tobias Harris
+vs NOP Thu 4:10pm
 1.5
 Turnovers
 More
 
-Caris LeVertGoblin
-DET - G
-Caris LeVert
-vs GSW Fri 4:40pm
+Herbert JonesDemon
+NOP - F
+Herbert Jones
+@ DET Thu 4:10pm
+1.5
+Turnovers
+More
+
+Trey MurphyGoblin
+NOP - F
+Trey Murphy
+@ DET Thu 4:10pm
 1.5
 Turnovers
 More
@@ -10263,89 +6063,246 @@ More
 Duncan RobinsonDemon
 DET - F
 Duncan Robinson
-vs GSW Fri 4:40pm
+vs NOP Thu 4:10pm
 1.5
 Turnovers
 More
 
-Will RichardGoblin
-GSW - G
-Will Richard
-@ DET Fri 4:40pm
+Kevin HuerterGoblin
+DET - G-F
+Kevin Huerter
+vs NOP Thu 4:10pm
 0.5
 Turnovers
 More
 
-Alperen SengunDemon
-HOU - C
-Alperen Sengun
-vs ATL Fri 5:10pm
+Yves MissiGoblin
+NOP - C
+Yves Missi
+@ DET Thu 4:10pm
+0.5
+Turnovers
+More
+
+Malik MonkDemon
+SAC - G
+Malik Monk
+@ ORL Thu 4:10pm
+2.5
+Turnovers
+More
+
+DeMar DeRozanGoblin
+SAC - G-F
+DeMar DeRozan
+@ ORL Thu 4:10pm
+1.5
+Turnovers
+More
+
+Devin CarterGoblin
+SAC - G
+Devin Carter
+@ ORL Thu 4:10pm
+1.5
+Turnovers
+More
+
+Jalen SuggsGoblin
+ORL - G
+Jalen Suggs
+vs SAC Thu 4:10pm
+1.5
+Turnovers
+More
+
+Maxime RaynaudGoblin
+SAC - C
+Maxime Raynaud
+@ ORL Thu 4:10pm
+1.5
+Turnovers
+More
+
+Precious AchiuwaDemon
+SAC - F
+Precious Achiuwa
+@ ORL Thu 4:10pm
+1.5
+Turnovers
+More
+
+Tristan SilvaGoblin
+ORL - F
+Tristan Silva
+vs SAC Thu 4:10pm
+0.5
+Turnovers
+More
+
+Wendell CarterGoblin
+ORL - C-F
+Wendell Carter
+vs SAC Thu 4:10pm
+0.5
+Turnovers
+More
+
+Jamal Cain
+ORL - F
+Jamal Cain
+vs SAC Thu 4:10pm
+0.5
+Turnovers
+Less
+More
+
+Goga BitadzeDemon
+ORL - C-F
+Goga Bitadze
+vs SAC Thu 4:10pm
+0.5
+Turnovers
+More
+
+Coby WhiteDemon
+CHA - G
+Coby White
+vs NYK Thu 4:10pm
+2.5
+Turnovers
+More
+
+Karl-Anthony TownsDemon
+NYK - C-F
+Karl-Anthony Towns
+@ CHA Thu 4:10pm
+2.5
+Turnovers
+More
+
+LaMelo Ball
+CHA - G
+LaMelo Ball
+vs NYK Thu 4:10pm
+2.5
+Turnovers
+Less
+More
+
+Jalen BrunsonDemon
+NYK - G
+Jalen Brunson
+@ CHA Thu 4:10pm
+2.5
+Turnovers
+More
+
+Kon Knueppel
+CHA - G-F
+Kon Knueppel
+vs NYK Thu 4:10pm
+1.5
+Turnovers
+Less
+More
+
+Mikal BridgesDemon
+NYK - G-F
+Mikal Bridges
+@ CHA Thu 4:10pm
+1.5
+Turnovers
+More
+
+OG Anunoby
+NYK - F-G
+OG Anunoby
+@ CHA Thu 4:10pm
+1.5
+Turnovers
+Less
+More
+
+Josh GreenDemon
+CHA - G
+Josh Green
+vs NYK Thu 4:10pm
+0.5
+Turnovers
+More
+
+Mitchell Robinson
+NYK - C-F
+Mitchell Robinson
+@ CHA Thu 4:10pm
+0.5
+Turnovers
+Less
+More
+
+Moussa DiabatéGoblin
+CHA - F
+Moussa Diabaté
+vs NYK Thu 4:10pm
+0.5
+Turnovers
+More
+
+Ryan Kalkbrenner
+CHA - C
+Ryan Kalkbrenner
+vs NYK Thu 4:10pm
+0.5
+Turnovers
+Less
+More
+
+Sion JamesDemon
+CHA - G
+Sion James
+vs NYK Thu 4:10pm
+0.5
+Turnovers
+More
+
+Jordan ClarksonGoblin
+NYK - G
+Jordan Clarkson
+@ CHA Thu 4:10pm
+0.5
+Turnovers
+More
+
+Mohamed DiawaraDemon
+NYK - F
+Mohamed Diawara
+@ CHA Thu 4:10pm
+0.5
+Turnovers
+More
+
+Jaylen Brown
+BOS - G-F
+Jaylen Brown
+vs ATL Fri 4:40pm
 3.5
 Turnovers
-More
-
-Kevin DurantGoblin
-HOU - F
-Kevin Durant
-vs ATL Fri 5:10pm
-2.5
-Turnovers
-More
-
-Amen ThompsonDemon
-HOU - G-F
-Amen Thompson
-vs ATL Fri 5:10pm
-2.5
-Turnovers
-More
-
-Dyson Daniels
-ATL - G
-Dyson Daniels
-@ HOU Fri 5:10pm
-1.5
-Turnovers
 Less
 More
 
-Jabari SmithDemon
-HOU - F
-Jabari Smith
-vs ATL Fri 5:10pm
-1.5
-Turnovers
-More
-
-Reed Sheppard
-HOU - G
-Reed Sheppard
-vs ATL Fri 5:10pm
-1.5
-Turnovers
-Less
-More
-
-Tari EasonDemon
-HOU - F
-Tari Eason
-vs ATL Fri 5:10pm
-1.5
+Jalen JohnsonDemon
+ATL - F
+Jalen Johnson
+@ BOS Fri 4:40pm
+3.5
 Turnovers
 More
 
 CJ McCollumGoblin
 ATL - G
 CJ McCollum
-@ HOU Fri 5:10pm
-1.5
-Turnovers
-More
-
-Nickeil Alexander-WalkerGoblin
-ATL - G
-Nickeil Alexander-Walker
-@ HOU Fri 5:10pm
+@ BOS Fri 4:40pm
 1.5
 Turnovers
 More
@@ -10353,305 +6310,24 @@ More
 Onyeka OkongwuDemon
 ATL - F-C
 Onyeka Okongwu
-@ HOU Fri 5:10pm
+@ BOS Fri 4:40pm
 1.5
 Turnovers
 More
 
-Jock Landale
-ATL - C
-Jock Landale
-@ HOU Fri 5:10pm
-0.5
-Turnovers
-Less
-More
-
-Jaylen BrownGoblin
-BOS - G-F
-Jaylen Brown
-@ MEM Fri 5:10pm
-2.5
-Turnovers
-More
-
-Jayson TatumDemon
-BOS - F-G
-Jayson Tatum
-@ MEM Fri 5:10pm
-2.5
-Turnovers
-More
-
-Cedric Coward
-MEM - G
-Cedric Coward
-vs BOS Fri 5:10pm
+Dyson DanielsDemon
+ATL - G
+Dyson Daniels
+@ BOS Fri 4:40pm
 1.5
 Turnovers
-Less
-More
-
-Derrick White
-BOS - G
-Derrick White
-@ MEM Fri 5:10pm
-1.5
-Turnovers
-Less
 More
 
 Neemias QuetaDemon
 BOS - C
 Neemias Queta
-@ MEM Fri 5:10pm
+vs ATL Fri 4:40pm
 1.5
 Turnovers
 More
 
-Payton PritchardDemon
-BOS - G
-Payton Pritchard
-@ MEM Fri 5:10pm
-1.5
-Turnovers
-More
-
-Ty JeromeGoblin
-MEM - G-F
-Ty Jerome
-vs BOS Fri 5:10pm
-1.5
-Turnovers
-More
-
-Walter Clayton
-MEM - G
-Walter Clayton
-vs BOS Fri 5:10pm
-1.5
-Turnovers
-Less
-More
-
-Baylor ScheiermanGoblin
-BOS - G
-Baylor Scheierman
-@ MEM Fri 5:10pm
-0.5
-Turnovers
-More
-
-Jaylen WellsGoblin
-MEM - F
-Jaylen Wells
-vs BOS Fri 5:10pm
-0.5
-Turnovers
-More
-
-Olivier-Maxence ProsperGoblin
-MEM - F
-Olivier-Maxence Prosper
-vs BOS Fri 5:10pm
-0.5
-Turnovers
-More
-
-Cam SpencerGoblin
-MEM - G
-Cam Spencer
-vs BOS Fri 5:10pm
-0.5
-Turnovers
-More
-
-Deni AvdijaDemon
-POR - F
-Deni Avdija
-@ MIN Fri 5:10pm
-4.5
-Turnovers
-More
-
-Julius RandleDemon
-MIN - F-C
-Julius Randle
-vs POR Fri 5:10pm
-3.5
-Turnovers
-More
-
-Jrue HolidayGoblin
-POR - G
-Jrue Holiday
-@ MIN Fri 5:10pm
-2.5
-Turnovers
-More
-
-Scoot Henderson
-POR - G
-Scoot Henderson
-@ MIN Fri 5:10pm
-2.5
-Turnovers
-Less
-More
-
-Jaden McDanielsDemon
-MIN - F
-Jaden McDaniels
-vs POR Fri 5:10pm
-2.5
-Turnovers
-More
-
-Ayo DosunmuGoblin
-MIN - G
-Ayo Dosunmu
-vs POR Fri 5:10pm
-1.5
-Turnovers
-More
-
-Donte DiVincenzoDemon
-MIN - G
-Donte DiVincenzo
-vs POR Fri 5:10pm
-1.5
-Turnovers
-More
-
-Rudy Gobert
-MIN - C
-Rudy Gobert
-vs POR Fri 5:10pm
-1.5
-Turnovers
-Less
-More
-
-Jerami GrantGoblin
-POR - F
-Jerami Grant
-@ MIN Fri 5:10pm
-1.5
-Turnovers
-More
-
-Donovan Clingan
-POR - C
-Donovan Clingan
-@ MIN Fri 5:10pm
-1.5
-Turnovers
-Less
-More
-
-Naz Reid
-MIN - C-F
-Naz Reid
-vs POR Fri 5:10pm
-1.5
-Turnovers
-Less
-More
-
-Nikola JokićDemon
-DEN - C
-Nikola Jokić
-vs TOR Fri 6:10pm
-4.5
-Turnovers
-More
-
-Brandon IngramDemon
-TOR - F
-Brandon Ingram
-@ DEN Fri 6:10pm
-2.5
-Turnovers
-More
-
-Scottie BarnesDemon
-TOR - F-G
-Scottie Barnes
-@ DEN Fri 6:10pm
-2.5
-Turnovers
-More
-
-Immanuel QuickleyDemon
-TOR - G
-Immanuel Quickley
-@ DEN Fri 6:10pm
-1.5
-Turnovers
-More
-
-Jakob PoeltlDemon
-TOR - C
-Jakob Poeltl
-@ DEN Fri 6:10pm
-1.5
-Turnovers
-More
-
-RJ BarrettGoblin
-TOR - F-G
-RJ Barrett
-@ DEN Fri 6:10pm
-1.5
-Turnovers
-More
-
-Cameron JohnsonGoblin
-DEN - F
-Cameron Johnson
-vs TOR Fri 6:10pm
-0.5
-Turnovers
-More
-
-Christian BraunGoblin
-DEN - G
-Christian Braun
-vs TOR Fri 6:10pm
-0.5
-Turnovers
-More
-
-Jamal SheadGoblin
-TOR - G
-Jamal Shead
-@ DEN Fri 6:10pm
-0.5
-Turnovers
-More
-
-Sandro Mamukelashvili
-TOR - F-C
-Sandro Mamukelashvili
-@ DEN Fri 6:10pm
-0.5
-Turnovers
-Less
-More
-
-Tim Hardaway
-DEN - G-F
-Tim Hardaway
-vs TOR Fri 6:10pm
-0.5
-Turnovers
-Less
-More
-
-Bruce BrownGoblin
-DEN - G-F
-Bruce Brown
-vs TOR Fri 6:10pm
-0.5
-Turnovers
-More
