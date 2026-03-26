@@ -734,7 +734,18 @@ def _build_row(player_name, entry, result, model_variants):
   rank_breakdown = consensus.get("Rank", {}).get("rank_breakdown", {})
   signal_points = rank_breakdown.get("signal_points", {})
 
-  return {
+  sportsbook_entries = {e.get("bookmaker", ""): e for e in result.get("sportsbook_odds", [])}
+  sportsbook_column_map = [
+    ("fanduel", "FanDuel"),
+    ("draftkings", "DraftKings"),
+    ("betrivers", "BetRivers"),
+    ("betonlineag", "BetOnline"),
+    ("bovada", "Bovada"),
+    ("betmgm", "BetMGM"),
+  ]
+  chosen_edge_key = "edge_over" if prediction == "OVER" else "edge_under"
+
+  row = {
     "Player": player_name,
     "Stat": entry['stat'],
     "Line": entry['line'],
@@ -779,6 +790,16 @@ def _build_row(player_name, entry, result, model_variants):
     "probability_std": _float_or_blank(probability_std, digits=4),
     "Agreement ratio": _pct_or_blank(agreement_ratio),
   }
+
+  for book_key, book_label in sportsbook_column_map:
+    book = sportsbook_entries.get(book_key, {})
+    row[f"{book_label} line"] = _float_or_blank(book.get("line"), digits=1)
+    row[f"{book_label} line_delta"] = _float_or_blank(book.get("line_delta"), digits=1)
+    row[f"{book_label} over_hit_prob"] = _pct_or_blank(book.get("over_hit_prob"))
+    row[f"{book_label} under_hit_prob"] = _pct_or_blank(book.get("under_hit_prob"))
+    row[f"{book_label} edge"] = _float_or_blank(book.get(chosen_edge_key), digits=4)
+
+  return row
 
 
 # ── Main pipeline ──────────────────────────────────────────

@@ -211,111 +211,192 @@ def _decimal_to_american(decimal_odds: float) -> int:
   """Convert decimal odds to American odds."""
   if decimal_odds >= 2.0:
     return round((decimal_odds - 1) * 100)
-  else:
-    return round(-100 / (decimal_odds - 1))
+  return round(-100 / (decimal_odds - 1))
 
 
-def _enrich_bookmaker_entry(entry: dict, model_prob_over: float | None, dfs_line: float | None) -> dict:
-  """
-  Enrich a raw bookmaker entry with derived fields:
-    - American odds
-    - Implied probabilities (with vig)
-    - Vig
-    - True probabilities (no vig)
-    - Line delta vs DFS
-    - EV and edge (only when sportsbook line == DFS line)
-  """
+def _clip_prob(p: float, floor: float = 0.01, ceil: float = 0.99) -> float:
+  return max(floor, min(ceil, float(p)))
+
+
+def _safe_round(value: float | None, digits: int = 4):
+  return round(float(value), digits) if value is not None else None
+
+
+def _apply_line_override_to_feature_frame(
+  base_frame: pd.DataFrame,
+  stat_name: str,
+  old_line: float | None,
+  new_line: float,
+) -> pd.DataFrame:
+  """Approximate line-sensitive feature updates for alternate sportsbook lines."""
+  df = base_frame.copy()
+  if old_line is None:
+    old_line = new_line
+  delta = float(new_line) - float(old_line)
+  if abs(delta) < 1e-12:
+    return df
+
+  pl_col = f"PL_{stat_name}"
+  if pl_col in df.columns:
+    df[pl_col] = float(new_line)
+
+  line_diff_col = f"{stat_name}_LINE_DIFF"
+  z_line_col = f"{stat_name}_Z_LINE"
+  line_diff_x_min_col = f"{stat_name}_LINE_DIFF_X_MIN"
+  anchor_col = f"{stat_name}_ANCHOR"
+  dist_anchor_col = f"{stat_name}_DIST_FROM_ANCHOR"
+
+  old_line_diff = None
+  new_line_diff = None
+  if line_diff_col in df.columns:
+    old_line_diff = pd.to_numeric(df.iloc[0][line_diff_col], errors="coerce")
+    if pd.notna(old_line_diff):
+      new_line_diff = float(old_line_diff) - delta
+      df[line_diff_col] = new_line_diff
+
+  if z_line_col in df.columns:
+    old_z = pd.to_numeric(df.iloc[0][z_line_col], errors="coerce")
+    if pd.notna(old_z):
+      if new_line_diff is not None and old_line_diff is not None and abs(float(old_z)) > 1e-12:
+        std_est = float(old_line_diff) / float(old_z)
+        if abs(std_est) > 1e-12:
+          df[z_line_col] = float(new_line_diff) / std_est
+      elif new_line_diff is not None and old_line_diff is not None and abs(float(old_line_diff)) > 1e-12:
+        df[z_line_col] = float(old_z) * (float(new_line_diff) / float(old_line_diff))
+
+  if line_diff_x_min_col in df.columns:
+    min_col = "MIN"
+    if new_line_diff is not None and min_col in df.columns:
+      min_val = pd.to_numeric(df.iloc[0][min_col], errors="coerce")
+      if pd.notna(min_val):
+        df[line_diff_x_min_col] = float(new_line_diff) * float(min_val)
+    elif old_line_diff is not None:
+      old_ldxm = pd.to_numeric(df.iloc[0][line_diff_x_min_col], errors="coerce")
+      if pd.notna(old_ldxm) and abs(float(old_line_diff)) > 1e-12 and new_line_diff is not None:
+        df[line_diff_x_min_col] = float(old_ldxm) * (float(new_line_diff) / float(old_line_diff))
+
+  if anchor_col in df.columns and dist_anchor_col in df.columns:
+    anchor_val = pd.to_numeric(df.iloc[0][anchor_col], errors="coerce")
+    if pd.notna(anchor_val):
+      df[dist_anchor_col] = abs(float(new_line) - float(anchor_val))
+
+  return df
+
+
+def _compute_family_prob_over_for_line(
+  *,
+  family_key: str,
+  stat_name: str,
+  old_line: float | None,
+  new_line: float,
+  mode_base_frames: Dict[str, pd.DataFrame],
+) -> float:
+  family_cfg = CHAMPION_FAMILIES[family_key]
+  model = model_registry[family_key].get(stat_name)
+  expected_features = feature_registry[family_key].get(stat_name)
+  if model is None or expected_features is None:
+    raise HTTPException(status_code=404, detail=f"No model/features for family '{family_key}' and stat '{stat_name}'")
+
+  mode = family_cfg["feature_mode"]
+  override_frame = _apply_line_override_to_feature_frame(
+    mode_base_frames[mode], stat_name=stat_name, old_line=old_line, new_line=new_line
+  )
+  x_frame = override_frame.reindex(columns=expected_features, fill_value=0)
+  x_frame = x_frame.apply(pd.to_numeric, errors="coerce").fillna(0)
+  return float(model.predict_proba(x_frame)[0, 1])
+
+
+def _enrich_bookmaker_entry(
+  entry: dict,
+  model_prob_over_dfs: float | None,
+  model_prob_over_by_line: Dict[float, float] | None,
+  dfs_line: float | None,
+) -> dict:
+  """Enrich sportsbook entry, translating off-line books to the DFS line."""
   over_dec = entry.get("over_decimal")
   under_dec = entry.get("under_decimal")
   sb_line = entry.get("line")
 
-  # ── American odds ──
   if over_dec is not None:
     entry["over_american"] = _decimal_to_american(over_dec)
   if under_dec is not None:
     entry["under_american"] = _decimal_to_american(under_dec)
 
-  # ── Implied probabilities (include vig) ──
   over_implied = (1.0 / over_dec) if over_dec else None
   under_implied = (1.0 / under_dec) if under_dec else None
 
   if over_implied is not None:
-    entry["over_implied_prob"] = round(over_implied, 4)
+    entry["over_implied_prob"] = _safe_round(over_implied)
   if under_implied is not None:
-    entry["under_implied_prob"] = round(under_implied, 4)
+    entry["under_implied_prob"] = _safe_round(under_implied)
 
-  # ── Vig ──
+  total_implied = None
+  over_no_vig_prob = None
+  under_no_vig_prob = None
   if over_implied is not None and under_implied is not None:
     total_implied = over_implied + under_implied
-    vig = total_implied - 1.0
-    entry["vig"] = round(vig, 4)
-
-    # ── True probabilities (no vig) ──
-    hit_prob_over = over_implied / total_implied
-    hit_prob_under = under_implied / total_implied
-    entry["hit_prob_over"] = round(hit_prob_over, 4)
-    entry["hit_prob_under"] = round(hit_prob_under, 4)
+    entry["vig"] = _safe_round(total_implied - 1.0)
+    over_no_vig_prob = over_implied / total_implied
+    under_no_vig_prob = under_implied / total_implied
+    entry["over_no_vig_prob"] = _safe_round(over_no_vig_prob)
+    entry["under_no_vig_prob"] = _safe_round(under_no_vig_prob)
   elif over_implied is not None:
-    entry["hit_prob_over"] = round(over_implied, 4)
-    hit_prob_over = over_implied
-    hit_prob_under = None
+    over_no_vig_prob = over_implied
+    entry["over_no_vig_prob"] = _safe_round(over_no_vig_prob)
   elif under_implied is not None:
-    entry["hit_prob_under"] = round(under_implied, 4)
-    hit_prob_over = None
-    hit_prob_under = under_implied
-  else:
-    hit_prob_over = None
-    hit_prob_under = None
+    under_no_vig_prob = under_implied
+    entry["under_no_vig_prob"] = _safe_round(under_no_vig_prob)
 
-  # ── Line delta vs DFS ──
+  lines_match = False
   if dfs_line is not None and sb_line is not None:
-    line_delta = sb_line - dfs_line
-    entry["line_delta"] = round(line_delta, 1)
+    line_delta = float(sb_line) - float(dfs_line)
+    entry["line_delta"] = _safe_round(line_delta, 1)
     lines_match = abs(line_delta) < 0.01
-    entry["lines_match"] = lines_match
   else:
-    lines_match = False
-    entry["lines_match"] = False
+    entry["line_delta"] = None
+  entry["lines_match"] = lines_match
 
-  # ── EV and Edge (only meaningful when lines match) ──
-  if model_prob_over is not None and lines_match:
-    model_prob_under = 1.0 - model_prob_over
+  if model_prob_over_dfs is None or sb_line is None:
+    return entry
 
-    if hit_prob_over is not None:
-      entry["edge_over"] = round(model_prob_over - hit_prob_over, 4)
-    if hit_prob_under is not None:
-      entry["edge_under"] = round(model_prob_under - hit_prob_under, 4)
+  if model_prob_over_by_line is None:
+    model_prob_over_by_line = {}
 
-    if over_dec is not None:
-      ev_over = (model_prob_over * (over_dec - 1)) - (model_prob_under * 1)
-      entry["ev_over"] = round(ev_over, 4)
-    if under_dec is not None:
-      ev_under = (model_prob_under * (under_dec - 1)) - (model_prob_over * 1)
-      entry["ev_under"] = round(ev_under, 4)
+  model_prob_over_book = float(model_prob_over_by_line.get(float(sb_line), model_prob_over_dfs))
+  entry["model_prob_over_at_book_line"] = _safe_round(model_prob_over_book)
+  entry["model_prob_over_at_dfs_line"] = _safe_round(model_prob_over_dfs)
+
+  if over_no_vig_prob is not None:
+    translated_over = _clip_prob(over_no_vig_prob + (model_prob_over_dfs - model_prob_over_book))
+    translated_under = 1.0 - translated_over
+    entry["over_hit_prob"] = _safe_round(translated_over)
+    entry["under_hit_prob"] = _safe_round(translated_under)
+
+    anchor_over = 0.65 * float(model_prob_over_dfs) + 0.35 * translated_over
+    anchor_under = 1.0 - anchor_over
+    entry["anchor_prob_over"] = _safe_round(anchor_over)
+    entry["anchor_prob_under"] = _safe_round(anchor_under)
+
+    entry["edge_over"] = _safe_round(anchor_over - translated_over)
+    entry["edge_under"] = _safe_round(anchor_under - translated_under)
+
+    if total_implied is not None:
+      priced_over_raw = translated_over * total_implied
+      priced_under_raw = translated_under * total_implied
+      priced_over_decimal = 1.0 / priced_over_raw
+      priced_under_decimal = 1.0 / priced_under_raw
+      entry["priced_over_decimal_at_dfs"] = _safe_round(priced_over_decimal)
+      entry["priced_under_decimal_at_dfs"] = _safe_round(priced_under_decimal)
+      entry["priced_over_american_at_dfs"] = _decimal_to_american(priced_over_decimal)
+      entry["priced_under_american_at_dfs"] = _decimal_to_american(priced_under_decimal)
+      entry["ev_over"] = _safe_round(anchor_over * (priced_over_decimal - 1.0) - anchor_under)
+      entry["ev_under"] = _safe_round(anchor_under * (priced_under_decimal - 1.0) - anchor_over)
 
   return entry
 
 
-def _lookup_player_odds(
-  player_name: str,
-  stat: str,
-  model_prob_over: float | None = None,
-  dfs_line: float | None = None,
-) -> list | None:
-  """
-  Look up sportsbook odds for a player+stat using lazy per-event-per-market caching.
-
-  Flow:
-    1. Get events list (cached, free)
-    2. For each event, check cache for (event_id, market)
-    3. Cache miss → fetch that one market for that event (1 quota unit)
-    4. Search the cached+indexed response for the player
-    5. Stop searching events once we find the player
-
-  Cost: At most 1 quota unit per unique (event, market) pair.
-        If the player's event+market was already fetched for another player
-        in the same game, it's a cache hit (0 cost).
-  """
+def _lookup_player_odds_raw(player_name: str, stat: str, team_name: str | None = None) -> list | None:
+  """Look up raw sportsbook odds for a player+stat without enrichment."""
   market = STAT_TO_MARKET.get(stat)
   if market is None:
     return None
@@ -325,19 +406,30 @@ def _lookup_player_odds(
     return None
 
   target = _norm_name(player_name)
+
+  prioritized_event_ids = []
+  if team_name:
+    team_event_id = team_to_event.get(_norm_name(team_name))
+    if team_event_id:
+      prioritized_event_ids.append(team_event_id)
+
+  for ev in events:
+    eid = ev.get("id")
+    if eid and eid not in prioritized_event_ids:
+      prioritized_event_ids.append(eid)
+
+  event_map = {ev.get("id"): ev for ev in events if ev.get("id")}
   results = []
 
-  for event in events:
-    event_id = event.get("id")
-    if not event_id:
+  for event_id in prioritized_event_ids:
+    event = event_map.get(event_id)
+    if not event:
       continue
 
-    # Get odds for this event+market (cached or fresh)
     event_data = _get_event_market_cached(event_id, market)
     if event_data is None:
       continue
 
-    # Use the player index for fast lookup instead of scanning all outcomes
     player_index = _get_player_index(event_id, market, event_data)
     found_in_event = False
 
@@ -349,7 +441,6 @@ def _lookup_player_odds(
         if mkt.get("key") != market:
           continue
 
-        # Use index: check if this player exists in this bookmaker's outcomes
         idx_key = (book_key, target)
         player_outcomes = player_index.get(idx_key)
         if player_outcomes is None:
@@ -364,21 +455,37 @@ def _lookup_player_odds(
           entry = {
             "bookmaker": book_key,
             "bookmaker_title": book_title,
-            "line": line,
+            "line": float(line),
           }
           if over_price is not None:
-            entry["over_decimal"] = over_price
+            entry["over_decimal"] = float(over_price)
           if under_price is not None:
-            entry["under_decimal"] = under_price
-
-          entry = _enrich_bookmaker_entry(entry, model_prob_over, dfs_line)
+            entry["under_decimal"] = float(under_price)
           results.append(entry)
 
-    # If we found the player in this event, no need to check other events
     if found_in_event:
       break
 
   return results if results else None
+
+
+def _enrich_raw_sportsbook_entries(
+  raw_entries: list | None,
+  model_prob_over_dfs: float | None,
+  model_prob_over_by_line: Dict[float, float] | None,
+  dfs_line: float | None,
+) -> list | None:
+  if not raw_entries:
+    return None
+  return [
+    _enrich_bookmaker_entry(
+      entry=dict(raw_entry),
+      model_prob_over_dfs=model_prob_over_dfs,
+      model_prob_over_by_line=model_prob_over_by_line,
+      dfs_line=dfs_line,
+    )
+    for raw_entry in raw_entries
+  ]
 
 
 # ── Player index for fast odds lookup ──────────────────────
@@ -549,6 +656,49 @@ def get_recommendation(confidence: float, min_conf: float, optimal_conf: float) 
   else:
     return "STRONG BET"
 
+def _summarize_sportsbook_for_rank(prediction: str, sportsbook_odds: list | None) -> dict:
+  summary = {
+    "same_line_books": 0,
+    "all_books": 0,
+    "avg_same_line_market_prob_side": None,
+    "avg_all_books_market_prob_side": None,
+    "avg_edge_side": 0.0,
+    "avg_ev_side": 0.0,
+  }
+  if not sportsbook_odds:
+    return summary
+
+  prob_key = "over_hit_prob" if prediction == "OVER" else "under_hit_prob"
+  edge_key = "edge_over" if prediction == "OVER" else "edge_under"
+  ev_key = "ev_over" if prediction == "OVER" else "ev_under"
+
+  same_probs = []
+  all_probs = []
+  edges = []
+  evs = []
+
+  for entry in sportsbook_odds:
+    prob = entry.get(prob_key)
+    if prob is not None:
+      all_probs.append(float(prob))
+      if entry.get("lines_match"):
+        same_probs.append(float(prob))
+    edge = entry.get(edge_key)
+    if edge is not None:
+      edges.append(float(edge))
+    ev = entry.get(ev_key)
+    if ev is not None:
+      evs.append(float(ev))
+
+  summary["same_line_books"] = len(same_probs)
+  summary["all_books"] = len(all_probs)
+  summary["avg_same_line_market_prob_side"] = float(np.mean(same_probs)) if same_probs else None
+  summary["avg_all_books_market_prob_side"] = float(np.mean(all_probs)) if all_probs else None
+  summary["avg_edge_side"] = float(np.mean(edges)) if edges else 0.0
+  summary["avg_ev_side"] = float(np.mean(evs)) if evs else 0.0
+  return summary
+
+
 def compute_rank_score(
   confidence: float,
   tier: str,
@@ -559,7 +709,10 @@ def compute_rank_score(
   momentum: float,
   prediction: str,
   last10_rate: float,
-  last5_rate: float
+  last5_rate: float,
+  agreement_ratio: float,
+  probability_std: float,
+  sportsbook_odds: list | None = None,
 ) -> dict:
   direction = 1 if prediction == "OVER" else -1
   confidence_points = confidence * 100
@@ -578,22 +731,60 @@ def compute_rank_score(
     last10_points = 2 * (1 - last10_rate)
     last5_points = 2 * (1 - last5_rate)
 
-  final_score = (
-    confidence_points +
-    tier_points +
+  signal_total = (
     z_line_points +
     z_recent_points +
     z_matchup_points +
     line_diff_points +
     momentum_points +
-    last10_points
+    last10_points +
+    last5_points
+  )
+
+  sportsbook_summary = _summarize_sportsbook_for_rank(prediction, sportsbook_odds)
+  avg_same = sportsbook_summary["avg_same_line_market_prob_side"]
+  avg_all = sportsbook_summary["avg_all_books_market_prob_side"]
+  avg_edge = sportsbook_summary["avg_edge_side"]
+  avg_ev = sportsbook_summary["avg_ev_side"]
+
+  same_line_market_points = 100 * (avg_same - 0.5) if avg_same is not None else 0.0
+  all_books_market_points = 100 * (avg_all - 0.5) if avg_all is not None else 0.0
+  edge_points = 100 * avg_edge
+  agreement_points = 5 * agreement_ratio - 10 * probability_std
+
+  if sportsbook_summary["same_line_books"] > 0 and avg_same is not None:
+    hard_penalty = -20.0 if avg_same < 0.50 else 0.0
+    continuous_penalty = -25.0 * max(0.0, 0.50 - avg_same)
+  elif avg_all is not None:
+    hard_penalty = -8.0 if avg_all < 0.50 else 0.0
+    continuous_penalty = -15.0 * max(0.0, 0.50 - avg_all)
+  else:
+    hard_penalty = 0.0
+    continuous_penalty = 0.0
+
+  penalty_points = hard_penalty + continuous_penalty
+
+  final_score = (
+    0.55 * confidence_points +
+    1.00 * edge_points +
+    0.50 * same_line_market_points +
+    0.25 * all_books_market_points +
+    1.00 * signal_total +
+    agreement_points +
+    tier_points +
+    penalty_points
   )
 
   return {
     "rank_score": final_score,
     "rank_breakdown": {
       "confidence_points": confidence_points,
+      "edge_points": edge_points,
+      "same_line_market_points": same_line_market_points,
+      "all_books_market_points": all_books_market_points,
+      "agreement_points": agreement_points,
       "tier_points": tier_points,
+      "penalty_points": penalty_points,
       "signal_points": {
         "z_line": z_line_points,
         "z_recent": z_recent_points,
@@ -601,8 +792,17 @@ def compute_rank_score(
         "line_diff": line_diff_points,
         "momentum": momentum_points,
         "last10": last10_points,
-        "last5": last5_points
-      }
+        "last5": last5_points,
+        "signal_total": signal_total,
+      },
+      "sportsbook_summary": {
+        "same_line_books": sportsbook_summary["same_line_books"],
+        "all_books": sportsbook_summary["all_books"],
+        "avg_same_line_market_prob_side": _safe_round(avg_same) if avg_same is not None else None,
+        "avg_all_books_market_prob_side": _safe_round(avg_all) if avg_all is not None else None,
+        "avg_edge_side": _safe_round(avg_edge),
+        "avg_ev_side": _safe_round(avg_ev),
+      },
     }
   }
 
@@ -709,7 +909,10 @@ def build_single_model_response(
   family_key: str,
   x_frame: pd.DataFrame,
   prob: float,
-  feature_count: int
+  feature_count: int,
+  sportsbook_odds: list | None = None,
+  agreement_ratio: float = 1.0,
+  probability_std: float = 0.0,
 ) -> dict:
   prediction = "OVER" if prob >= 0.5 else "UNDER"
   confidence = prob if prob >= 0.5 else (1.0 - prob)
@@ -743,7 +946,10 @@ def build_single_model_response(
     momentum=momentum,
     prediction=prediction,
     last10_rate=last10_rate,
-    last5_rate=last5_rate
+    last5_rate=last5_rate,
+    agreement_ratio=agreement_ratio,
+    probability_std=probability_std,
+    sportsbook_odds=sportsbook_odds,
   )
 
   family_meta = CHAMPION_FAMILIES[family_key]
@@ -787,13 +993,8 @@ def run_prediction(input_data: NBAPredictionInput, stat_name: str, family: Champ
   raw_df = pd.DataFrame([input_data.model_dump()])
 
   families_to_run = resolve_families_for_stat(stat_name, family)
-
-  # ── Apply category mappings ONCE (shared across all families) ──
   mapped_df = apply_category_mappings(raw_df.copy())
 
-  # ── Build feature frames grouped by feature_mode (full vs reduced) ──
-  # Instead of calling prepare_inference_frame 4 times (which copies + maps each time),
-  # build the base feature frame once per mode, then reindex per family.
   mode_base_frames = {}
   for fam in families_to_run:
     family_cfg = CHAMPION_FAMILIES[fam]
@@ -803,77 +1004,116 @@ def run_prediction(input_data: NBAPredictionInput, stat_name: str, family: Champ
         mapped_df.copy(), target_stat=stat_name, feature_mode=mode
       )
 
-  model_outputs = {}
-  x_frames = {}
+  model_probs_by_family: Dict[str, float] = {}
+  feature_count_by_family: Dict[str, int] = {}
+  x_frames: Dict[str, pd.DataFrame] = {}
 
   for fam in families_to_run:
     family_cfg = CHAMPION_FAMILIES[fam]
     model = model_registry[fam].get(stat_name)
     expected_features = feature_registry[fam].get(stat_name)
-
     if model is None or expected_features is None:
       continue
 
     mode = family_cfg["feature_mode"]
     base_frame = mode_base_frames[mode]
-
-    # Reindex to expected features + coerce numerics
     x_frame = base_frame.reindex(columns=expected_features, fill_value=0)
     x_frame = x_frame.apply(pd.to_numeric, errors="coerce").fillna(0)
 
     prob = float(model.predict_proba(x_frame)[0, 1])
-
-    model_outputs[fam] = build_single_model_response(
-      stat_name=stat_name,
-      player_name=input_data.PLAYER_NAME,
-      parlay_line=parlay_line,
-      family_key=fam,
-      x_frame=x_frame,
-      prob=prob,
-      feature_count=len(expected_features)
-    )
+    model_probs_by_family[fam] = prob
+    feature_count_by_family[fam] = len(expected_features)
     x_frames[fam] = x_frame
 
-  if not model_outputs:
+  if not model_probs_by_family:
     raise HTTPException(
       status_code=404,
       detail=f"No usable model outputs for stat '{stat_name}'"
     )
 
-  # ── Compute consensus model_prob_over for odds enrichment ──
-  all_probs = [model_outputs[fam]["model_output"] for fam in model_outputs]
+  all_probs = list(model_probs_by_family.values())
   consensus_prob_over = float(np.mean(all_probs))
+  std_prob = float(np.std(all_probs)) if len(all_probs) > 1 else 0.0
+  consensus_prediction = "OVER" if consensus_prob_over >= 0.5 else "UNDER"
+  consensus_confidence = consensus_prob_over if consensus_prob_over >= 0.5 else (1.0 - consensus_prob_over)
+  agreement_ratio = float(np.mean([
+    1.0 if ((model_probs_by_family[fam] >= 0.5 and consensus_prediction == "OVER") or (model_probs_by_family[fam] < 0.5 and consensus_prediction == "UNDER")) else 0.0
+    for fam in model_probs_by_family
+  ])) if len(model_probs_by_family) > 1 else 1.0
 
-  # ── Fetch sportsbook odds (cached, enriched with edge/EV) ──
-  sportsbook_odds = _lookup_player_odds(
-    player_name=input_data.PLAYER_NAME,
-    stat=stat_name,
-    model_prob_over=consensus_prob_over,
-    dfs_line=float(parlay_line) if parlay_line is not None else None,
+  dfs_line_value = float(parlay_line) if parlay_line is not None else None
+  raw_sportsbook_odds = _lookup_player_odds_raw(
+    input_data.PLAYER_NAME,
+    stat_name,
+    getattr(input_data, "TEAM", None),
   )
 
-  if family != ChampionFamily.ALL and len(model_outputs) == 1:
-    fam = list(model_outputs.keys())[0]
-    out = model_outputs[fam]
+  consensus_sportsbook_odds = None
+  family_sportsbook_odds: Dict[str, list | None] = {fam: None for fam in model_probs_by_family}
+
+  if raw_sportsbook_odds and dfs_line_value is not None:
+    unique_lines = sorted({float(entry["line"]) for entry in raw_sportsbook_odds if entry.get("line") is not None})
+
+    family_prob_over_by_line: Dict[str, Dict[float, float]] = {fam: {dfs_line_value: model_probs_by_family[fam]} for fam in model_probs_by_family}
+    for line_value in unique_lines:
+      if abs(line_value - dfs_line_value) < 0.01:
+        continue
+      for fam in model_probs_by_family:
+        family_prob_over_by_line[fam][line_value] = _compute_family_prob_over_for_line(
+          family_key=fam,
+          stat_name=stat_name,
+          old_line=dfs_line_value,
+          new_line=line_value,
+          mode_base_frames=mode_base_frames,
+        )
+
+    consensus_prob_over_by_line = {}
+    for line_value in set(unique_lines + [dfs_line_value]):
+      probs_here = [family_prob_over_by_line[fam].get(line_value, model_probs_by_family[fam]) for fam in model_probs_by_family]
+      consensus_prob_over_by_line[line_value] = float(np.mean(probs_here))
+
+    consensus_sportsbook_odds = _enrich_raw_sportsbook_entries(
+      raw_entries=raw_sportsbook_odds,
+      model_prob_over_dfs=consensus_prob_over,
+      model_prob_over_by_line=consensus_prob_over_by_line,
+      dfs_line=dfs_line_value,
+    )
+
+    for fam in model_probs_by_family:
+      family_sportsbook_odds[fam] = _enrich_raw_sportsbook_entries(
+        raw_entries=raw_sportsbook_odds,
+        model_prob_over_dfs=model_probs_by_family[fam],
+        model_prob_over_by_line=family_prob_over_by_line[fam],
+        dfs_line=dfs_line_value,
+      )
+
+  finalized_model_outputs = {}
+  for fam in model_probs_by_family:
+    finalized_model_outputs[fam] = build_single_model_response(
+      stat_name=stat_name,
+      player_name=input_data.PLAYER_NAME,
+      parlay_line=parlay_line,
+      family_key=fam,
+      x_frame=x_frames[fam],
+      prob=model_probs_by_family[fam],
+      feature_count=feature_count_by_family[fam],
+      sportsbook_odds=family_sportsbook_odds.get(fam),
+      agreement_ratio=agreement_ratio,
+      probability_std=std_prob,
+    )
+
+  if family != ChampionFamily.ALL and len(finalized_model_outputs) == 1:
+    fam = list(finalized_model_outputs.keys())[0]
+    out = finalized_model_outputs[fam]
     result = {
       "stat": stat_name,
       "player": input_data.PLAYER_NAME,
       "parlay_line": parlay_line,
       **out
     }
-    if sportsbook_odds is not None:
-      result["sportsbook_odds"] = sportsbook_odds
+    if family_sportsbook_odds.get(fam) is not None:
+      result["sportsbook_odds"] = family_sportsbook_odds[fam]
     return result
-
-  mean_prob = consensus_prob_over
-  std_prob = float(np.std(all_probs))
-  consensus_prediction = "OVER" if mean_prob >= 0.5 else "UNDER"
-  consensus_confidence = mean_prob if mean_prob >= 0.5 else (1.0 - mean_prob)
-
-  agreement_ratio = float(np.mean([
-    1.0 if model_outputs[fam]["prediction"] == consensus_prediction else 0.0
-    for fam in model_outputs
-  ]))
 
   bet_info = BETTING_THRESHOLDS[stat_name]
   min_conf = bet_info["min_conf"]
@@ -883,7 +1123,7 @@ def run_prediction(input_data: NBAPredictionInput, stat_name: str, family: Champ
   bucket = get_confidence_bucket(consensus_confidence)
   expected_acc_at_confidence = bet_info["realistic_acc"][bucket]
 
-  ref_family = list(model_outputs.keys())[0]
+  ref_family = list(x_frames.keys())[0]
   ref_frame = x_frames[ref_family]
 
   z_line = safe_float_from_frame(ref_frame, f"{stat_name}_Z_LINE")
@@ -904,7 +1144,10 @@ def run_prediction(input_data: NBAPredictionInput, stat_name: str, family: Champ
     momentum=momentum,
     prediction=consensus_prediction,
     last10_rate=last10_rate,
-    last5_rate=last5_rate
+    last5_rate=last5_rate,
+    agreement_ratio=agreement_ratio,
+    probability_std=std_prob,
+    sportsbook_odds=consensus_sportsbook_odds,
   )
 
   result = {
@@ -913,11 +1156,11 @@ def run_prediction(input_data: NBAPredictionInput, stat_name: str, family: Champ
     "parlay_line": parlay_line,
     "consensus": {
       "prediction": consensus_prediction,
-      "model_output_avg": round(mean_prob, 4),
+      "model_output_avg": round(consensus_prob_over, 4),
       "confidence": round(consensus_confidence, 4),
       "probability_std": round(std_prob, 4),
       "agreement_ratio": round(agreement_ratio, 4),
-      "families_used": list(model_outputs.keys()),
+      "families_used": list(finalized_model_outputs.keys()),
       "betting_analysis": {
         "recommendation": recommendation,
         "stat_tier": bet_info["tier"],
@@ -928,11 +1171,11 @@ def run_prediction(input_data: NBAPredictionInput, stat_name: str, family: Champ
       },
       "Rank": rank_result
     },
-    "model_variants": model_outputs
+    "model_variants": finalized_model_outputs
   }
 
-  if sportsbook_odds is not None:
-    result["sportsbook_odds"] = sportsbook_odds
+  if consensus_sportsbook_odds is not None:
+    result["sportsbook_odds"] = consensus_sportsbook_odds
 
   return result
 

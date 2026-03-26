@@ -1,403 +1,13 @@
 
-Jalen Duren
+LaMelo Ball
 
-Detroit Pistons
+Charlotte Hornets
 
-vs. GSW - 4:30PM PDT
-
-Higher/Lower
-
-22.5
-Points
-
-Higher
-
-Lower
-
-36.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-10.5
-Rebounds
-
-Higher
-0.81x
-
-Lower
-1.06x
-1.5
-Assists
-
-Higher
-0.77x
-
-Lower
-1.05x
-13.5
-Rebounds + Assists
-
-Higher
-
-Lower
-34.5
-Points + Rebounds
-
-Higher
-
-Lower
-24.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-0.69x
-
-Lower
-1.3x
-
-6.5
-1Q Points
-
-Higher
-1.02x
-
-Lower
-0.89x
-
-3.5
-1Q Rebounds
-
-Higher
-1.08x
-
-Lower
-0.83x
-
-14.5
-FG Attempted
-
-Higher
-
-Lower
-
-
-
-
-Kristaps Porzingis
-
-Golden State Warriors
-
-@ DET - 4:30PM PDT
+vs. NYK - 4:00PM PDT
 
 Higher/Lower
 
-16.5
-Points
-
-Higher
-
-Lower
-
-23.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-4.5
-Rebounds
-
-Higher
-0.86x
-
-Lower
-1.06x
-1.5
-Assists
-
-Higher
-0.79x
-
-Lower
-1.1x
-
-1.5
-3-Pointers Made
-
-Higher
-0.85x
-
-Lower
-1.06x
-21.5
-Points + Rebounds
-
-Higher
-
-Lower
-18.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-6.67x
-
-4.5
-1Q Points
-
-Higher
-
-Lower
-
-1.5
-1Q Rebounds
-
-Higher
-1.03x
-
-Lower
-0.79x
-1.5
-Blocks
-
-Higher
-1.06x
-
-Lower
-0.86x
-2.5
-Blocks + Steals
-
-Higher
-1.05x
-
-Lower
-0.8x
-4.5
-3s Attempted
-
-Higher
-0.85x
-
-Lower
-1.06x
-
-
-Brandin Podziemski
-
-Golden State Warriors
-
-@ DET - 4:30PM PDT
-
-Higher/Lower
-
-12.5
-Points
-
-Higher
-0.94x
-
-Lower
-1.04x
-
-22.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-5.5
-Rebounds
-
-Higher
-1.06x
-
-Lower
-0.85x
-
-3.5
-Assists
-
-Higher
-0.86x
-
-Lower
-1.06x
-
-1.5
-3-Pointers Made
-
-Higher
-0.8x
-
-Lower
-1.08x
-
-9.5
-Rebounds + Assists
-
-Higher
-1.05x
-
-Lower
-0.87x
-0.5
-Double Doubles
-
-Higher
-6.67x
-
-3.5
-1Q Points
-
-Higher
-
-Lower
-
-1.5
-1Q Rebounds
-
-Higher
-1.08x
-
-Lower
-0.84x
-1.5
-Steals
-
-Higher
-1.22x
-
-Lower
-0.71x
-6.5
-3s Attempted
-
-Higher
-1.09x
-
-Lower
-0.83x
-
-
-
-Draymond Green
-
-Golden State Warriors
-
-@ DET - 4:30PM PDT
-
-Higher/Lower
-
-8.5
-Points
-
-Higher
-1.05x
-
-Lower
-0.87x
-
-17.5
-Pts + Rebs + Asts
-
-Higher
-0.94x
-
-Lower
-1.04x
-
-5.5
-Rebounds
-
-Higher
-1.08x
-
-Lower
-0.85x
-
-5.5
-Assists
-
-Higher
-1.05x
-
-Lower
-0.85x
-
-1.5
-3-Pointers Made
-
-Higher
-1.04x
-
-Lower
-0.87x
-
-10.5
-Rebounds + Assists
-
-Higher
-1.04x
-
-Lower
-0.87x
-0.5
-Double Doubles
-
-Higher
-7.13x
-
-1.5
-1Q Rebounds
-
-Higher
-1.08x
-
-Lower
-0.79x
-2.5
-Turnovers
-
-Higher
-
-Lower
-5.5
-3s Attempted
-
-Higher
-1.05x
-
-Lower
-0.87x
-
-
-
-Tobias Harris
-
-Detroit Pistons
-
-vs. GSW - 4:30PM PDT
-
-Higher/Lower
-
-13.5
+19.5
 Points
 
 Higher
@@ -406,215 +16,53 @@ Higher
 Lower
 1.03x
 
-23.5
+31.5
 Pts + Rebs + Asts
 
 Higher
 
 Lower
 
-5.5
+4.5
 Rebounds
-
-Higher
-0.83x
-
-Lower
-1.09x
-
-2.5
-Assists
-
-Higher
-0.83x
-
-Lower
-1.08x
-
-1.5
-3-Pointers Made
-
-Higher
-1.24x
-
-Lower
-0.7x
-
-8.5
-Rebounds + Assists
-
-Higher
-0.84x
-
-Lower
-1.06x
-20.5
-Points + Rebounds
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-3.41x
-
-3.5
-1Q Points
-
-Higher
-
-Lower
-
-1.5
-1Q Rebounds
-
-Higher
-
-Lower
-
-
-
-Ausar Thompson
-
-Detroit Pistons
-
-vs. GSW - 4:30PM PDT
-
-Higher/Lower
-
-10.5
-Points
-
-Higher
-
-Lower
-
-20.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-6.5
-Rebounds
-
-Higher
-1.06x
-
-Lower
-0.85x
-
-3.5
-Assists
-
-Higher
-1.07x
-
-Lower
-0.84x
-
-9.5
-Rebounds + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-2.78x
-
-1.5
-1Q Rebounds
-
-Higher
-1.04x
-
-Lower
-0.87x
-1.5
-Steals
-
-Higher
-0.82x
-
-Lower
-1.03x
-2.5
-Blocks + Steals
-
-Higher
-
-Lower
-
-
-
-Jalen Brunson
-
-New York Knicks
-
-@ BKN - 4:30PM PDT
-
-Higher/Lower
-
-24.5
-Points
-
-Higher
-
-Lower
-
-35.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-3.5
-Rebounds
-
-Higher
-1.03x
-
-Lower
-0.82x
-
-7.5
-Assists
-
-Higher
-
-Lower
-
-2.5
-3-Pointers Made
-
-Higher
-1.03x
-
-Lower
-0.82x
-
-11.5
-Rebounds + Assists
 
 Higher
 1.07x
 
 Lower
 0.86x
-27.5
+
+6.5
+Assists
+
+Higher
+0.88x
+
+Lower
+1.03x
+
+3.5
+3-Pointers Made
+
+Higher
+0.84x
+
+Lower
+1.06x
+
+11.5
+Rebounds + Assists
+
+Higher
+
+Lower
+24.5
 Points + Rebounds
 
 Higher
 
 Lower
-32.5
+27.5
 Points + Assists
 
 Higher
@@ -624,55 +72,46 @@ Lower
 Double Doubles
 
 Higher
-1.56x
+1.69x
 
 Lower
-0.63x
+0.62x
 
-8.5
+5.5
 1Q Points
 
 Higher
-1.03x
+0.82x
 
 Lower
-0.94x
+1.03x
 
 1.5
 1Q Rebounds
 
 Higher
-1.14x
+1.16x
 
 Lower
 0.74x
-
-2.5
-1Q Assists
-
-Higher
-0.83x
-
-Lower
-1.09x
 0.5
 1Q 3-Pointers Made
 
 Higher
-0.94x
+0.75x
 
 Lower
-1.03x
-12.5
+1.11x
+8.5
 1Q Pts + Rebs + Asts
 
 Higher
-0.83x
+0.87x
 
 Lower
-1.09x
+1.04x
 
-40.85
+37.85
 
 Fantasy Points
 
@@ -685,52 +124,62 @@ Turnovers
 Higher
 
 Lower
+1.5
+Steals
 
-4.5
+Higher
+1.18x
+
+Lower
+0.72x
+
+2.5
 FT Made
 
 Higher
-0.94x
+1.07x
 
 Lower
-1.03x
-13.5
+0.8x
+10.5
 1H Points
 
 Higher
-1.09x
+0.88x
 
 Lower
-0.83x
+1.03x
 1.5
 1H 3-Pointers Made
 
 Higher
-1.2x
+0.79x
 
 Lower
-0.72x
-19.5
+1.08x
+15.5
 1H Pts + Rebs + Asts
 
 Higher
 
 Lower
-6.5
+10.5
 3s Attempted
 
 Higher
-1.06x
 
 Lower
-0.86x
 
-18.5
+17.5
 FG Attempted
 
 Higher
+0.85x
 
 Lower
+1.06x
+
+
 
 
 
@@ -738,7 +187,7 @@ Karl-Anthony Towns
 
 New York Knicks
 
-@ BKN - 4:30PM PDT
+@ CHA - 4:00PM PDT
 
 Higher/Lower
 
@@ -746,56 +195,901 @@ Higher/Lower
 Points
 
 Higher
-1.04x
 
 Lower
-0.87x
 
-33.5
+32.5
 Pts + Rebs + Asts
 
 Higher
 
 Lower
 
-11.5
+10.5
 Rebounds
+
+Higher
+
+Lower
+
+2.5
+Assists
+
+Higher
+1.06x
+
+Lower
+0.86x
+
+1.5
+3-Pointers Made
+
+Higher
+1.05x
+
+Lower
+0.86x
+
+12.5
+Rebounds + Assists
 
 Higher
 0.88x
 
 Lower
 1.03x
-2.5
-Assists
-
-Higher
-
-Lower
-1.5
-3-Pointers Made
-
-Higher
-1.04x
-
-Lower
-0.81x
-
-14.5
-Rebounds + Assists
-
-Higher
-1.02x
-
-Lower
-0.89x
-30.5
+29.5
 Points + Rebounds
 
 Higher
 
 Lower
 21.5
+Points + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+0.75x
+
+Lower
+1.11x
+
+4.5
+1Q Points
+
+Higher
+1.06x
+
+Lower
+0.86x
+
+2.5
+1Q Rebounds
+
+Higher
+1.05x
+
+Lower
+0.85x
+6.5
+1Q Pts + Rebs + Asts
+
+Higher
+0.83x
+
+Lower
+1.09x
+
+38.25
+
+Fantasy Points
+
+Higher
+
+Lower
+2.5
+Turnovers
+
+Higher
+1.07x
+
+Lower
+0.8x
+
+4.5
+FT Made
+
+Higher
+
+Lower
+10.5
+1H Points
+
+Higher
+1.05x
+
+Lower
+0.85x
+5.5
+1H Rebounds
+
+Higher
+1.03x
+
+Lower
+0.82x
+16.5
+1H Pts + Rebs + Asts
+
+Higher
+
+Lower
+4.5
+3s Attempted
+
+Higher
+1.06x
+
+Lower
+0.79x
+
+
+Jalen Brunson
+
+New York Knicks
+
+@ CHA - 4:00PM PDT
+
+Higher/Lower
+
+25.5
+Points
+
+Higher
+0.88x
+
+Lower
+1.03x
+
+36.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+2.5
+Rebounds
+
+Higher
+0.83x
+
+Lower
+1.09x
+
+6.5
+Assists
+
+Higher
+0.86x
+
+Lower
+1.06x
+
+2.5
+3-Pointers Made
+
+Higher
+1.06x
+
+Lower
+0.77x
+
+9.5
+Rebounds + Assists
+
+Higher
+0.86x
+
+Lower
+1.07x
+28.5
+Points + Rebounds
+
+Higher
+
+Lower
+33.5
+Points + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+1.88x
+
+Lower
+0.6x
+
+8.5
+1Q Points
+
+Higher
+
+Lower
+
+2.5
+1Q Assists
+
+Higher
+1.05x
+
+Lower
+0.81x
+11.5
+1Q Pts + Rebs + Asts
+
+Higher
+1.05x
+
+Lower
+0.81x
+
+39.95
+
+Fantasy Points
+
+Higher
+
+Lower
+2.5
+Turnovers
+
+Higher
+1.06x
+
+Lower
+0.86x
+
+5.5
+FT Made
+
+Higher
+1.03x
+
+Lower
+0.78x
+12.5
+1H Points
+
+Higher
+0.8x
+
+Lower
+1.06x
+17.5
+1H Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+19.5
+FG Attempted
+
+Higher
+
+Lower
+1.03x
+5.5
+3s Attempted
+
+Higher
+
+Lower
+1.03x
+
+
+
+
+
+Kon Knueppel
+
+Charlotte Hornets
+
+vs. NYK - 4:00PM PDT
+
+Higher/Lower
+
+18.5
+Points
+
+Higher
+
+Lower
+
+26.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+4.5
+Rebounds
+
+Higher
+
+Lower
+
+3.5
+Assists
+
+Higher
+1.06x
+
+Lower
+0.84x
+
+3.5
+3-Pointers Made
+
+Higher
+1.03x
+
+Lower
+0.94x
+7.5
+Rebounds + Assists
+
+Higher
+0.88x
+
+Lower
+1.03x
+23.5
+Points + Rebounds
+
+Higher
+1.02x
+
+Lower
+0.89x
+21.5
+Points + Assists
+
+Higher
+0.88x
+
+Lower
+1.03x
+
+4.5
+1Q Points
+
+Higher
+
+Lower
+
+1.5
+1Q Rebounds
+
+Higher
+1.14x
+
+Lower
+0.74x
+0.5
+1Q 3-Pointers Made
+
+Higher
+0.77x
+
+Lower
+1.07x
+6.5
+1Q Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+29.95
+
+Fantasy Points
+
+Higher
+
+Lower
+1.5
+1H 3-Pointers Made
+
+Higher
+0.84x
+
+Lower
+1.07x
+8.5
+3s Attempted
+
+Higher
+1.09x
+
+Lower
+0.83x
+
+
+
+Coby White
+
+Charlotte Hornets
+
+vs. NYK - 4:00PM PDT
+
+Higher/Lower
+
+14.5
+Points
+
+Higher
+1.03x
+
+Lower
+0.88x
+
+20.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+2.5
+Rebounds
+
+Higher
+
+Lower
+
+3.5
+Assists
+
+Higher
+1.09x
+
+Lower
+0.83x
+
+1.5
+3-Pointers Made
+
+Higher
+0.76x
+
+Lower
+1.08x
+
+3.5
+1Q Points
+
+Higher
+1.06x
+
+Lower
+0.84x
+0.5
+1Q 3-Pointers Made
+
+Higher
+
+Lower
+2.5
+Turnovers
+
+Higher
+1.05x
+
+Lower
+0.81x
+1.5
+1H 3-Pointers Made
+
+Higher
+1.24x
+
+Lower
+0.68x
+5.5
+3s Attempted
+
+Higher
+0.88x
+
+Lower
+1.03x
+
+
+
+
+Brandon Miller
+
+Charlotte Hornets
+
+vs. NYK - 4:00PM PDT
+
+Higher/Lower
+
+19.5
+Points
+
+Higher
+1.05x
+
+Lower
+0.86x
+
+27.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+4.5
+Rebounds
+
+Higher
+0.84x
+
+Lower
+1.07x
+
+3.5
+Assists
+
+Higher
+
+Lower
+
+3.5
+3-Pointers Made
+
+Higher
+1.08x
+
+Lower
+0.82x
+8.5
+Rebounds + Assists
+
+Higher
+
+Lower
+23.5
+Points + Rebounds
+
+Higher
+0.88x
+
+Lower
+1.03x
+22.5
+Points + Assists
+
+Higher
+
+Lower
+
+5.5
+1Q Points
+
+Higher
+1.06x
+
+Lower
+0.86x
+
+1.5
+1Q Rebounds
+
+Higher
+1.24x
+
+Lower
+0.71x
+0.5
+1Q 3-Pointers Made
+
+Higher
+0.8x
+
+Lower
+1.06x
+5.5
+1Q Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+31.75
+
+Fantasy Points
+
+Higher
+
+Lower
+2.5
+Turnovers
+
+Higher
+1.05x
+
+Lower
+0.85x
+1.5
+Steals
+
+Higher
+1.17x
+
+Lower
+0.73x
+
+2.5
+FT Made
+
+Higher
+
+Lower
+1.5
+1H 3-Pointers Made
+
+Higher
+
+Lower
+8.5
+3s Attempted
+
+Higher
+
+Lower
+
+14.5
+FG Attempted
+
+Higher
+0.93x
+
+Lower
+1.04x
+
+
+
+OG Anunoby
+
+New York Knicks
+
+@ CHA - 4:00PM PDT
+
+Higher/Lower
+
+15.5
+Points
+
+Higher
+0.88x
+
+Lower
+1.03x
+
+23.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+4.5
+Rebounds
+
+Higher
+0.85x
+
+Lower
+1.05x
+2.5
+Assists
+
+Higher
+1.09x
+
+Lower
+0.76x
+
+2.5
+3-Pointers Made
+
+Higher
+1.08x
+
+Lower
+0.76x
+
+3.5
+1Q Points
+
+Higher
+0.87x
+
+Lower
+1.05x
+
+1.5
+1Q Rebounds
+
+Higher
+1.18x
+
+Lower
+0.72x
+0.5
+1Q 3-Pointers Made
+
+Higher
+
+Lower
+1.5
+Steals
+
+Higher
+1.05x
+
+Lower
+0.86x
+1.5
+1H 3-Pointers Made
+
+Higher
+1.34x
+
+Lower
+0.68x
+6.5
+3s Attempted
+
+Higher
+1.05x
+
+Lower
+0.87x
+
+
+
+Josh Hart
+
+New York Knicks
+
+@ CHA - 4:00PM PDT
+
+Higher/Lower
+
+12.5
+Points
+
+Higher
+1.03x
+
+Lower
+0.94x
+
+24.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+6.5
+Rebounds
+
+Higher
+0.83x
+
+Lower
+1.09x
+
+4.5
+Assists
+
+Higher
+0.85x
+
+Lower
+1.05x
+
+1.5
+3-Pointers Made
+
+Higher
+1.15x
+
+Lower
+0.74x
+
+11.5
+Rebounds + Assists
+
+Higher
+0.86x
+
+Lower
+1.07x
+19.5
+Points + Rebounds
+
+Higher
+1.04x
+
+Lower
+0.94x
+0.5
+Double Doubles
+
+Higher
+2.34x
+
+1.5
+1Q Rebounds
+
+Higher
+0.85x
+
+Lower
+1.07x
+
+
+Jalen Duren
+
+Detroit Pistons
+
+vs. NOP - 4:00PM PDT
+
+Higher/Lower
+
+23.5
+Points
+
+Higher
+1.03x
+
+Lower
+0.88x
+
+36.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+12.5
+Rebounds
+
+Higher
+1.03x
+
+Lower
+0.82x
+24.5
 Points + Assists
 
 Higher
@@ -808,35 +1102,33 @@ Higher
 0.68x
 
 Lower
-1.26x
+1.33x
 
-3.5
+6.5
 1Q Points
 
 Higher
-0.82x
+1.08x
 
 Lower
-1.02x
+0.83x
 
-2.5
+3.5
 1Q Rebounds
 
 Higher
-0.79x
+1.05x
 
 Lower
-1.08x
-7.5
+0.78x
+10.5
 1Q Pts + Rebs + Asts
 
 Higher
-1.06x
 
 Lower
-0.85x
 
-38.55
+43.05
 
 Fantasy Points
 
@@ -847,41 +1139,720 @@ Lower
 Turnovers
 
 Higher
-1.1x
+1.08x
 
 Lower
-0.79x
+0.77x
+
+5.5
+FT Made
+
+Higher
+1.07x
+
+Lower
+0.8x
+11.5
+1H Points
+
+Higher
+
+Lower
+5.5
+1H Rebounds
+
+Higher
+
+Lower
+18.5
+1H Pts + Rebs + Asts
+
+Higher
+1.04x
+
+Lower
+0.87x
+
+14.5
+FG Attempted
+
+Higher
+1.03x
+
+Lower
+
+
+
+Zion Williamson
+
+New Orleans Pelicans
+
+@ DET - 4:00PM PDT
+
+Higher/Lower
+
+20.5
+Points
+
+Higher
+
+Lower
+
+30.5
+Pts + Rebs + Asts
+
+Higher
+1.02x
+
+Lower
+0.89x
+
+5.5
+Rebounds
+
+Higher
+
+Lower
+
+2.5
+Assists
+
+Higher
+0.8x
+
+Lower
+1.07x
+8.5
+Rebounds + Assists
+
+Higher
+
+Lower
+26.5
+Points + Rebounds
+
+Higher
+
+Lower
+23.5
+Points + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+5.3x
 
 4.5
-FT Made
+1Q Points
+
+Higher
+1.03x
+
+Lower
+0.94x
+
+1.5
+1Q Rebounds
 
 Higher
 1.05x
 
 Lower
+0.78x
+2.5
+Turnovers
+
+Higher
+1.04x
+
+Lower
 0.77x
+
+
+
+Trey Murphy III
+
+New Orleans Pelicans
+
+@ DET - 4:00PM PDT
+
+Higher/Lower
+
+20.5
+Points
+
+Higher
+
+Lower
+
+29.5
+Pts + Rebs + Asts
+
+Higher
+1.03x
+
+Lower
+0.88x
+
+4.5
+Rebounds
+
+Higher
+0.86x
+
+Lower
+1.05x
+
+3.5
+Assists
+
+Higher
+
+Lower
+
+3.5
+3-Pointers Made
+
+Higher
+1.02x
+
+Lower
+0.89x
+8.5
+Rebounds + Assists
+
+Higher
+1.03x
+
+Lower
+0.88x
+25.5
+Points + Rebounds
+
+Higher
+1.03x
+
+Lower
+0.88x
+24.5
+Points + Assists
+
+Higher
+1.03x
+
+Lower
+0.88x
+0.5
+Double Doubles
+
+Higher
+8.39x
+
+5.5
+1Q Points
+
+Higher
+1.06x
+
+Lower
+0.85x
+1.5
+1Q Rebounds
+
+Higher
+1.07x
+
+Lower
+0.8x
+1.5
+Steals
+
+Higher
+1.11x
+
+Lower
+0.76x
+
+14.5
+FG Attempted
+
+Higher
+0.93x
+
+Lower
+1.03x
+9.5
+3s Attempted
+
+Higher
+
+Lower
+
+
+
+Dejounte Murray
+
+New Orleans Pelicans
+
+@ DET - 4:00PM PDT
+
+Higher/Lower
+
+16.5
+Points
+
+Higher
+
+Lower
+
+27.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+4.5
+Rebounds
+
+Higher
+0.87x
+
+Lower
+1.05x
+
 6.5
-1H Rebounds
+Assists
+
+Higher
+1.07x
+
+Lower
+0.84x
+
+1.5
+3-Pointers Made
+
+Higher
+0.8x
+
+Lower
+1.07x
+
+11.5
+Rebounds + Assists
+
+Higher
+1.03x
+
+Lower
+0.88x
+21.5
+Points + Rebounds
+
+Higher
+
+Lower
+23.5
+Points + Assists
+
+Higher
+1.03x
+
+Lower
+0.88x
+0.5
+Double Doubles
+
+Higher
+2.84x
+
+4.5
+1Q Points
+
+Higher
+1.04x
+
+Lower
+0.88x
+
+1.5
+1Q Rebounds
+
+Higher
+1.09x
+
+Lower
+0.78x
+3.5
+Turnovers
+
+Higher
+1.07x
+
+Lower
+0.8x
+1.5
+Steals
+
+Higher
+1.05x
+
+Lower
+0.88x
+5.5
+3s Attempted
+
+Higher
+1.08x
+
+Lower
+0.83x
+
+
+Tobias Harris
+
+Detroit Pistons
+
+vs. NOP - 4:00PM PDT
+
+Higher/Lower
+
+13.5
+Points
+
+Higher
+0.86x
+
+Lower
+1.05x
+
+22.5
+Pts + Rebs + Asts
+
+Higher
+0.88x
+
+Lower
+1.03x
+
+5.5
+Rebounds
+
+Higher
+1.06x
+
+Lower
+0.86x
+3.5
+Assists
+
+Higher
+1.06x
+
+Lower
+0.81x
+1.5
+3-Pointers Made
+
+Higher
+1.08x
+
+Lower
+0.79x
+8.5
+Rebounds + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+4.69x
+
+3.5
+1Q Points
+
+Higher
+0.84x
+
+Lower
+1.07x
+1.5
+1Q Rebounds
+
+Higher
+1.04x
+
+Lower
+0.87x
+
+
+
+
+
+Ausar Thompson
+
+Detroit Pistons
+
+vs. NOP - 4:00PM PDT
+
+Higher/Lower
+
+11.5
+Points
+
+Higher
+
+Lower
+
+21.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+5.5
+Rebounds
+
+Higher
+0.82x
+
+Lower
+1.08x
+
+3.5
+Assists
+
+Higher
+1.03x
+
+Lower
+0.88x
+
+9.5
+Rebounds + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+3.67x
+
+1.5
+1Q Rebounds
+
+Higher
+
+Lower
+1.5
+Steals
+
+Higher
+0.94x
+
+Lower
+2.5
+Blocks + Steals
+
+Higher
+0.85x
+
+Lower
+1.06x
+
+
+
+Paolo Banchero
+
+Orlando Magic
+
+vs. SAC - 4:00PM PDT
+
+Higher/Lower
+
+24.5
+Points
+
+Higher
+0.88x
+
+Lower
+1.03x
+
+39.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+8.5
+Rebounds
+
+Higher
+1.07x
+
+Lower
+0.86x
+
+5.5
+Assists
+
+Higher
+1.03x
+
+Lower
+0.93x
+
+1.5
+3-Pointers Made
+
+Higher
+1.05x
+
+Lower
+0.81x
+
+13.5
+Rebounds + Assists
+
+Higher
+0.86x
+
+Lower
+1.06x
+33.5
+Points + Rebounds
+
+Higher
+
+Lower
+30.5
+Points + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+1.16x
+
+Lower
+0.73x
+0.5
+Triple Doubles
+
+Higher
+10.32x
+
+5.5
+1Q Points
+
+Higher
+
+Lower
+
+2.5
+1Q Rebounds
 
 Higher
 1.06x
 
 Lower
 0.8x
-17.5
+10.5
+1Q Pts + Rebs + Asts
+
+Higher
+0.83x
+
+Lower
+1.09x
+
+43.85
+
+Fantasy Points
+
+Higher
+
+Lower
+2.5
+Turnovers
+
+Higher
+1.04x
+
+Lower
+0.88x
+
+5.5
+FT Made
+
+Higher
+0.87x
+
+Lower
+1.04x
+13.5
+1H Points
+
+Higher
+1.09x
+
+Lower
+0.83x
+4.5
+1H Rebounds
+
+Higher
+1.03x
+
+Lower
+0.94x
+20.5
 1H Pts + Rebs + Asts
 
 Higher
 
 Lower
 
+15.5
+FG Attempted
+
+Higher
+0.88x
+
+Lower
+1.03x
+4.5
+3s Attempted
+
+Higher
+1.03x
+
+Lower
+0.82x
 
 
-OG Anunoby
 
-New York Knicks
+DeMar DeRozan
 
-@ BKN - 4:30PM PDT
+Sacramento Kings
+
+@ ORL - 4:00PM PDT
 
 Higher/Lower
 
@@ -896,46 +1867,275 @@ Lower
 Pts + Rebs + Asts
 
 Higher
+1.02x
 
 Lower
+0.89x
 
-5.5
+2.5
 Rebounds
 
 Higher
-1.04x
 
 Lower
-0.82x
-2.5
+
+4.5
+Assists
+
+Higher
+1.03x
+
+Lower
+0.88x
+
+0.5
+3-Pointers Made
+
+Higher
+1.12x
+
+Lower
+0.74x
+7.5
+Rebounds + Assists
+
+Higher
+1.06x
+
+Lower
+0.86x
+
+4.5
+1Q Points
+
+Higher
+1.03x
+
+Lower
+0.88x
+Past performances
+
+
+
+Desmond Bane
+
+Orlando Magic
+
+vs. SAC - 4:00PM PDT
+
+Higher/Lower
+
+21.5
+Points
+
+Higher
+1.02x
+
+Lower
+0.89x
+
+29.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+4.5
+Rebounds
+
+Higher
+1.06x
+
+Lower
+0.8x
+
+4.5
 Assists
 
 Higher
 1.07x
 
 Lower
-0.77x
+0.84x
 
-1.5
+2.5
 3-Pointers Made
 
 Higher
-0.75x
+1.05x
 
 Lower
-1.1x
-7.5
+0.77x
+8.5
 Rebounds + Assists
 
 Higher
+1.05x
 
 Lower
-22.5
+0.87x
+25.5
 Points + Rebounds
 
 Higher
 
 Lower
+25.5
+Points + Assists
+
+Higher
+
+Lower
+
+4.5
+1Q Points
+
+Higher
+0.88x
+
+Lower
+1.03x
+
+1.5
+1Q Rebounds
+
+Higher
+1.27x
+
+Lower
+0.7x
+0.5
+1Q 3-Pointers Made
+
+Higher
+
+Lower
+7.5
+1Q Pts + Rebs + Asts
+
+Higher
+0.94x
+
+Lower
+1.03x
+
+34.85
+
+Fantasy Points
+
+Higher
+
+Lower
+1.5
+Steals
+
+Higher
+1.03x
+
+Lower
+0.78x
+
+3.5
+FT Made
+
+Higher
+1.03x
+
+Lower
+0.82x
+10.5
+1H Points
+
+Higher
+0.94x
+
+Lower
+1.02x
+1.5
+1H 3-Pointers Made
+
+Higher
+1.32x
+
+Lower
+0.69x
+
+14.5
+FG Attempted
+
+Higher
+0.89x
+
+Lower
+1.04x
+5.5
+3s Attempted
+
+Higher
+
+Lower
+
+
+
+
+Jalen Suggs
+
+Orlando Magic
+
+vs. SAC - 4:00PM PDT
+
+Higher/Lower
+
+14.5
+Points
+
+Higher
+
+Lower
+
+24.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+3.5
+Rebounds
+
+Higher
+0.82x
+
+Lower
+1.03x
+
+5.5
+Assists
+
+Higher
+0.88x
+
+Lower
+1.03x
+
+2.5
+3-Pointers Made
+
+Higher
+1.06x
+
+Lower
+0.77x
+
+9.5
+Rebounds + Assists
+
+Higher
+0.88x
+
+Lower
+1.03x
 20.5
 Points + Assists
 
@@ -946,523 +2146,65 @@ Lower
 Double Doubles
 
 Higher
-7.36x
+5.08x
 
-4.5
+3.5
 1Q Points
 
 Higher
-1.06x
 
 Lower
-0.86x
-
-1.5
-1Q Rebounds
-
-Higher
-1.08x
-
-Lower
-0.79x
 0.5
 1Q 3-Pointers Made
 
 Higher
+0.94x
 
 Lower
+1.03x
 1.5
 Steals
 
 Higher
+0.88x
 
 Lower
+1.03x
 2.5
 Blocks + Steals
 
 Higher
-1.05x
+1.06x
 
 Lower
-0.81x
+0.84x
 1.5
 1H 3-Pointers Made
 
 Higher
-1.32x
-
-Lower
-0.69x
-5.5
-3s Attempted
-
-Higher
-1.03x
-
-Lower
-0.94x
-
-
-
-Mikal Bridges
-
-New York Knicks
-
-@ BKN - 4:30PM PDT
-
-Higher/Lower
-
-12.5
-Points
-
-Higher
-
-Lower
-
-19.5
-Pts + Rebs + Asts
-
-Higher
-0.88x
-
-Lower
-1.03x
-
-3.5
-Rebounds
-
-Higher
-0.86x
-
-Lower
-1.05x
-
-3.5
-Assists
-
-Higher
-
-Lower
-
-1.5
-3-Pointers Made
-
-Higher
-1.08x
-
-Lower
-0.83x
-7.5
-Rebounds + Assists
-
-Higher
-
-Lower
-
-3.5
-1Q Points
-
-Higher
-1.04x
-
-Lower
-0.87x
-1.5
-Steals
-
-Higher
-1.12x
-
-Lower
-0.75x
-4.5
-3s Attempted
-
-Higher
-0.86x
-
-Lower
-1.04x
-
-
-
-Jordan Clarkson
-
-New York Knicks
-
-@ BKN - 4:30PM PDT
-
-Higher/Lower
-
-8.5
-Points
-
-Higher
-0.89x
-
-Lower
-1.02x
-
-14.5
-Pts + Rebs + Asts
-
-Higher
-1.03x
-
-Lower
-0.94x
-
-2.5
-Rebounds
-
-Higher
-1.03x
-
-Lower
-0.78x
-
-1.5
-Assists
-
-Higher
-
-Lower
-
-1.5
-3-Pointers Made
-
-Higher
-1.24x
+1.22x
 
 Lower
 0.71x
-
-
-
-Amen Thompson
-
-Houston Rockets
-
-vs. ATL - 5:00PM PDT
-
-Higher/Lower
-
-18.5
-Points
-
-Higher
-
-Lower
-
-32.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-7.5
-Rebounds
-
-Higher
-0.88x
-
-Lower
-1.03x
-
-5.5
-Assists
-
-Higher
-
-Lower
-
-0.5
-3-Pointers Made
-
-Higher
-1.31x
-
-Lower
-0.67x
-
-13.5
-Rebounds + Assists
-
-Higher
-1.04x
-
-Lower
-0.87x
-26.5
-Points + Rebounds
-
-Higher
-
-Lower
-24.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-1.27x
-
-Lower
-0.68x
-0.5
-Triple Doubles
-
-Higher
-11.15x
-
-4.5
-1Q Points
-
-Higher
-
-Lower
-
-1.5
-1Q Rebounds
-
-Higher
-0.83x
-
-Lower
-1.09x
-7.5
-1Q Pts + Rebs + Asts
-
-Higher
-0.78x
-
-Lower
-1.1x
-
-39.05
-
-Fantasy Points
-
-Higher
-
-Lower
-2.5
-Turnovers
-
-Higher
-1.05x
-
-Lower
-0.86x
-1.5
-Steals
-
-Higher
-1.04x
-
-Lower
-0.87x
-
-3.5
-FT Made
-
-Higher
-
-Lower
-16.5
-1H Pts + Rebs + Asts
-
-Higher
-1.05x
-
-Lower
-0.87x
-
-
-
-Kevin Durant
-
-Houston Rockets
-
-vs. ATL - 5:00PM PDT
-
-Higher/Lower
-
-24.5
-Points
-
-Higher
-
-Lower
-
-34.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-5.5
-Rebounds
-
-Higher
-
-Lower
-
-4.5
-Assists
-
-Higher
-1.07x
-
-Lower
-0.84x
-
-2.5
-3-Pointers Made
-
-Higher
-1.09x
-
-Lower
-0.76x
-
-9.5
-Rebounds + Assists
-
-Higher
-0.86x
-
-Lower
-1.06x
-30.5
-Points + Rebounds
-
-Higher
-
-Lower
-28.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-3.66x
-
 6.5
-1Q Points
-
-Higher
-1.07x
-
-Lower
-0.84x
-
-1.5
-1Q Rebounds
-
-Higher
-
-Lower
-0.5
-1Q 3-Pointers Made
-
-Higher
-
-Lower
-9.5
-1Q Pts + Rebs + Asts
-
-Higher
-0.81x
-
-Lower
-1.06x
-
-39.55
-
-Fantasy Points
-
-Higher
-
-Lower
-2.5
-Turnovers
-
-Higher
-0.79x
-
-Lower
-1.08x
-
-4.5
-FT Made
-
-Higher
-0.87x
-
-Lower
-1.04x
-12.5
-1H Points
-
-Higher
-1.06x
-
-Lower
-0.86x
-1.5
-1H 3-Pointers Made
-
-Higher
-1.26x
-
-Lower
-0.68x
-17.5
-1H Pts + Rebs + Asts
-
-Higher
-1.04x
-
-Lower
-0.87x
-
-17.5
-FG Attempted
-
-Higher
-
-Lower
-5.5
 3s Attempted
 
 Higher
-1.05x
 
 Lower
-0.85x
 
 
 
-Jalen Johnson
 
-Atlanta Hawks
+Jaylen Brown
 
-@ HOU - 5:00PM PDT
+Boston Celtics
+
+vs. ATL - Fri 4:30PM PDT
 
 Higher/Lower
 
-21.5
+27.5
 Points
 
 Higher
@@ -1476,194 +2218,14 @@ Higher
 
 Lower
 
-9.5
+6.5
 Rebounds
-
-Higher
-1.02x
-
-Lower
-0.89x
-
-7.5
-Assists
-
-Higher
-
-Lower
-
-1.5
-3-Pointers Made
-
-Higher
-1.07x
-
-Lower
-0.8x
-
-17.5
-Rebounds + Assists
-
-Higher
-1.03x
-
-Lower
-0.88x
-31.5
-Points + Rebounds
-
-Higher
-1.04x
-
-Lower
-0.94x
-29.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-0.76x
-
-Lower
-1.09x
-0.5
-Triple Doubles
-
-Higher
-2.07x
-
-5.5
-1Q Points
-
-Higher
-1.09x
-
-Lower
-0.83x
-
-2.5
-1Q Rebounds
-
-Higher
-1.02x
-
-Lower
-0.82x
-9.5
-1Q Pts + Rebs + Asts
-
-Higher
-0.79x
-
-Lower
-1.09x
-
-48.15
-
-Fantasy Points
-
-Higher
-
-Lower
-3.5
-Turnovers
 
 Higher
 1.05x
 
 Lower
-0.84x
-1.5
-Steals
-
-Higher
-1.11x
-
-Lower
-0.75x
-
-3.5
-FT Made
-
-Higher
-0.84x
-
-Lower
-1.08x
-11.5
-1H Points
-
-Higher
-1.07x
-
-Lower
-0.86x
-4.5
-1H Rebounds
-
-Higher
-
-Lower
-20.5
-1H Pts + Rebs + Asts
-
-Higher
-1.04x
-
-Lower
-0.87x
-
-18.5
-FG Attempted
-
-Higher
-1.04x
-
-Lower
-0.88x
-4.5
-3s Attempted
-
-Higher
-
-Lower
-
-
-Dyson Daniels
-
-Atlanta Hawks
-
-@ HOU - 5:00PM PDT
-
-Higher/Lower
-
-11.5
-Points
-
-Higher
-
-Lower
-
-23.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-5.5
-Rebounds
-
-Higher
-0.81x
-
-Lower
-1.06x
+0.85x
 
 5.5
 Assists
@@ -1671,123 +2233,27 @@ Assists
 Higher
 
 Lower
-0.94x
-
-0.5
+1.5
 3-Pointers Made
 
 Higher
-1.27x
 
 Lower
-0.7x
-
 11.5
 Rebounds + Assists
 
 Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-2.76x
-0.5
-Triple Doubles
-
-Higher
-11.21x
-
-1.5
-1Q Rebounds
-
-Higher
-
-Lower
-1.5
-Steals
-
-Higher
-0.82x
+0.88x
 
 Lower
 1.03x
-2.5
-Blocks + Steals
-
-Higher
-1.03x
-
-Lower
-0.82x
-
-
-
-Alperen Sengun
-
-Houston Rockets
-
-vs. ATL - 5:00PM PDT
-
-Higher/Lower
-
-18.5
-Points
-
-Higher
-0.85x
-
-Lower
-1.06x
-
 34.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-8.5
-Rebounds
-
-Higher
-
-Lower
-
-5.5
-Assists
-
-Higher
-0.83x
-
-Lower
-1.09x
-
-0.5
-3-Pointers Made
-
-Higher
-1.17x
-
-Lower
-0.73x
-
-13.5
-Rebounds + Assists
-
-Higher
-0.87x
-
-Lower
-1.04x
-28.5
 Points + Rebounds
 
 Higher
 
 Lower
-25.5
+33.5
 Points + Assists
 
 Higher
@@ -1797,255 +2263,30 @@ Lower
 Double Doubles
 
 Higher
-1.07x
+2.11x
 
-Lower
-0.83x
-0.5
-Triple Doubles
-
-Higher
-6.7x
-
-4.5
+7.5
 1Q Points
 
 Higher
-1.02x
 
 Lower
-0.83x
-
 1.5
 1Q Rebounds
 
 Higher
-0.78x
+0.85x
 
 Lower
-1.07x
-7.5
-1Q Pts + Rebs + Asts
-
-Higher
-0.77x
-
-Lower
-1.07x
-
-42.45
-
-Fantasy Points
-
-Higher
-
-Lower
+1.06x
 3.5
 Turnovers
 
 Higher
-1.1x
 
 Lower
-0.79x
-
-3.5
-FT Made
-
-Higher
-1.03x
-
-Lower
-0.94x
-4.5
-1H Rebounds
-
-Higher
-1.05x
-
-Lower
-0.81x
-17.5
-1H Pts + Rebs + Asts
-
-Higher
-1.04x
-
-Lower
-0.87x
-
-14.5
-FG Attempted
-
-Higher
-
-Lower
-
-
-
-
-Reed Sheppard
-
-Houston Rockets
-
-vs. ATL - 5:00PM PDT
-
-Higher/Lower
-
-12.5
-Points
-
-Higher
-0.88x
-
-Lower
-1.04x
-
-19.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-2.5
-Rebounds
-
-Higher
-0.87x
-
-Lower
-1.04x
-
-3.5
-Assists
-
-Higher
-1.04x
-
-Lower
-0.78x
-
-2.5
-3-Pointers Made
-
-Higher
-
-Lower
-0.5
-1Q 3-Pointers Made
-
-Higher
-0.84x
-
-Lower
-1.07x
 1.5
 Steals
-
-Higher
-1.04x
-
-Lower
-0.78x
-1.5
-1H 3-Pointers Made
-
-Higher
-1.04x
-
-Lower
-0.81x
-7.5
-3s Attempted
-
-Higher
-
-Lower
-
-
-
-CJ McCollum
-
-Atlanta Hawks
-
-@ HOU - 5:00PM PDT
-
-Higher/Lower
-
-17.5
-Points
-
-Higher
-
-Lower
-
-24.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-2.5
-Rebounds
-
-Higher
-0.78x
-
-Lower
-1.04x
-
-3.5
-Assists
-
-Higher
-1.08x
-
-Lower
-0.83x
-
-2.5
-3-Pointers Made
-
-Higher
-1.07x
-
-Lower
-0.8x
-20.5
-Points + Rebounds
-
-Higher
-
-Lower
-21.5
-Points + Assists
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-4.5
-1Q Points
-
-Higher
-1.05x
-
-Lower
-0.85x
-0.5
-1Q 3-Pointers Made
-
-Higher
-0.88x
-
-Lower
-1.03x
-1.5
-1H 3-Pointers Made
 
 Higher
 1.16x
@@ -2053,19 +2294,19 @@ Higher
 Lower
 0.73x
 
-14.5
+20.5
 FG Attempted
 
 Higher
-0.87x
+1.04x
 
 Lower
-1.03x
-6.5
+0.87x
+4.5
 3s Attempted
 
 Higher
-0.87x
+0.88x
 
 Lower
 1.04x
@@ -2076,66 +2317,64 @@ Jayson Tatum
 
 Boston Celtics
 
-@ MEM - 5:00PM PDT
+vs. ATL - Fri 4:30PM PDT
 
 Higher/Lower
 
-22.5
+23.5
 Points
 
 Higher
 
 Lower
 
-34.5
+37.5
 Pts + Rebs + Asts
 
 Higher
 
 Lower
 
-7.5
+8.5
 Rebounds
 
 Higher
-0.88x
 
 Lower
-1.04x
 
 4.5
 Assists
 
 Higher
-1.03x
+0.86x
 
 Lower
-0.88x
+1.06x
 
-2.5
+3.5
 3-Pointers Made
 
 Higher
-0.8x
+1.05x
 
 Lower
-1.04x
+0.86x
 
-12.5
+13.5
 Rebounds + Assists
 
 Higher
-1.03x
+1.05x
 
 Lower
-0.88x
-30.5
+0.94x
+32.5
 Points + Rebounds
 
 Higher
 
 Lower
-26.5
+28.5
 Points + Assists
 
 Higher
@@ -2145,284 +2384,270 @@ Lower
 Double Doubles
 
 Higher
-1.35x
+1.11x
 
 Lower
-0.68x
-0.5
-Triple Doubles
+0.75x
 
-Higher
-14.12x
-
-6.5
+5.5
 1Q Points
 
 Higher
-1.05x
 
 Lower
-0.87x
 
 2.5
 1Q Rebounds
 
 Higher
-1.04x
+1.06x
 
 Lower
-0.5
-1Q 3-Pointers Made
-
-Higher
-0.82x
-
-Lower
-1.03x
-10.5
-1Q Pts + Rebs + Asts
-
-Higher
-0.81x
-
-Lower
-1.04x
-
-39.25
-
-Fantasy Points
-
-Higher
-
-Lower
+0.77x
 2.5
 Turnovers
 
 Higher
-1.06x
+0.86x
 
 Lower
-0.8x
+1.06x
 1.5
 Steals
 
 Higher
-1.23x
-
-Lower
-0.71x
-
-2.5
-FT Made
-
-Higher
-0.87x
-
-Lower
-1.04x
-11.5
-1H Points
-
-Higher
-0.87x
-
-Lower
-1.04x
-1.5
-1H 3-Pointers Made
-
-Higher
-1.06x
-
-Lower
-0.86x
-18.5
-1H Pts + Rebs + Asts
-
-Higher
 1.03x
 
 Lower
-0.94x
-8.5
-3s Attempted
-
-Higher
-1.07x
-
-Lower
-0.85x
-
-16.5
-FG Attempted
-
-Higher
-1.03x
-
-Lower
-0.94x
-
-
-
-Jaylen Brown
-
-Boston Celtics
-
-@ MEM - 5:00PM PDT
-
-Higher/Lower
-
-25.5
-Points
-
-Higher
-
-Lower
-
-36.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-6.5
-Rebounds
-
-Higher
-1.07x
-
-Lower
-0.84x
-
-5.5
-Assists
-
-Higher
-1.05x
-
-Lower
-0.84x
-
-1.5
-3-Pointers Made
-
-Higher
-1.04x
-
-Lower
-0.93x
-
-11.5
-Rebounds + Assists
-
-Higher
-1.04x
-
-Lower
-0.87x
-31.5
-Points + Rebounds
-
-Higher
-
-Lower
-30.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-2.89x
-0.5
-Triple Doubles
-
-Higher
-15.58x
-
-7.5
-1Q Points
-
-Higher
-0.85x
-
-Lower
-1.06x
-
-1.5
-1Q Rebounds
-
-Higher
-0.79x
-
-Lower
-1.1x
-12.5
-1Q Pts + Rebs + Asts
-
-Higher
-1.05x
-
-Lower
-0.85x
-
-40.75
-
-Fantasy Points
-
-Higher
-
-Lower
-2.5
-Turnovers
-
-Higher
-0.8x
-
-Lower
-1.07x
-
-4.5
-FT Made
-
-Higher
-1.07x
-
-Lower
-0.86x
-13.5
-1H Points
-
-Higher
-
-Lower
-19.5
-1H Pts + Rebs + Asts
-
-Higher
-
-Lower
+0.82x
 
 17.5
 FG Attempted
 
 Higher
+
+Lower
+9.5
+3s Attempted
+
+Higher
+1.04x
+
+Lower
+0.87x
+
+
+
+
+CJ McCollum
+
+Atlanta Hawks
+
+@ BOS - Fri 4:30PM PDT
+
+Higher/Lower
+
+16.5
+Points
+
+Higher
+
+Lower
+
+23.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+2.5
+Rebounds
+
+Higher
+0.83x
+
+Lower
+1.08x
+
+3.5
+Assists
+
+Higher
+0.87x
+
+Lower
+1.04x
+
+2.5
+3-Pointers Made
+
+Higher
+1.05x
+
+Lower
+0.88x
+19.5
+Points + Rebounds
+
+Higher
+
+Lower
+20.5
+Points + Assists
+
+Higher
+
+Lower
+
+3.5
+1Q Points
+
+Higher
+
+Lower
+6.5
+3s Attempted
+
+Higher
+
+Lower
+
+
+
+Jalen Johnson
+
+Atlanta Hawks
+
+@ BOS - Fri 4:30PM PDT
+
+Higher/Lower
+
+21.5
+Points
+
+Higher
+
+Lower
+
+38.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+9.5
+Rebounds
+
+Higher
+1.05x
+
+Lower
+0.86x
+
+7.5
+Assists
+
+Higher
 0.88x
 
 Lower
 1.03x
+
+1.5
+3-Pointers Made
+
+Higher
+0.94x
+
+Lower
+1.03x
+
+17.5
+Rebounds + Assists
+
+Higher
+1.02x
+
+Lower
+0.89x
+30.5
+Points + Rebounds
+
+Higher
+
+Lower
+29.5
+Points + Assists
+
+Higher
+
+Lower
+0.5
+Double Doubles
+
+Higher
+0.81x
+
+Lower
+1.05x
+0.5
+Triple Doubles
+
+Higher
+2.66x
+
+5.5
+1Q Points
+
+Higher
+1.04x
+
+Lower
+0.87x
+
+2.5
+1Q Rebounds
+
+Higher
+1.05x
+
+Lower
+0.85x
+
+2.5
+1Q Assists
+
+Higher
+1.1x
+
+Lower
+0.76x
+3.5
+Turnovers
+
+Higher
+1.04x
+
+Lower
+0.81x
+
+17.5
+FG Attempted
+
+Higher
+
+Lower
 4.5
 3s Attempted
 
 Higher
-1.07x
+0.82x
 
 Lower
-0.84x
+1.04x
+
 
 
 
@@ -2430,65 +2655,63 @@ Derrick White
 
 Boston Celtics
 
-@ MEM - 5:00PM PDT
+vs. ATL - Fri 4:30PM PDT
 
 Higher/Lower
 
-15.5
+17.5
 Points
 
 Higher
-0.88x
 
 Lower
-1.03x
 
-25.5
+26.5
 Pts + Rebs + Asts
 
 Higher
 
 Lower
 
-3.5
+4.5
 Rebounds
-
-Higher
-0.78x
-
-Lower
-1.1x
-
-5.5
-Assists
 
 Higher
 1.05x
 
 Lower
-0.81x
+0.82x
+
+5.5
+Assists
+
+Higher
+1.07x
+
+Lower
+0.84x
 
 2.5
 3-Pointers Made
 
 Higher
-0.94x
+0.78x
 
 Lower
-
+1.03x
 9.5
 Rebounds + Assists
 
 Higher
 
 Lower
-20.5
+21.5
 Points + Rebounds
 
 Higher
 
 Lower
-21.5
+22.5
 Points + Assists
 
 Higher
@@ -2498,305 +2721,101 @@ Lower
 Double Doubles
 
 Higher
-7.3x
-0.5
-1Q 3-Pointers Made
+5.93x
+1.5
+Steals
 
 Higher
-0.85x
+1.07x
 
 Lower
-1.05x
-4.5
-1Q Pts + Rebs + Asts
+0.76x
+1.5
+Blocks
 
 Higher
+1.04x
+
+Lower
+0.78x
+2.5
+Blocks + Steals
+
+Higher
+
+Lower
+8.5
+3s Attempted
+
+Higher
+1.07x
+
+Lower
+0.84x
+
+
+
+
+Dyson Daniels
+
+Atlanta Hawks
+
+@ BOS - Fri 4:30PM PDT
+
+Higher/Lower
+
+10.5
+Points
+
+Higher
+
+Lower
+
+21.5
+Pts + Rebs + Asts
+
+Higher
+
+Lower
+
+6.5
+Rebounds
+
+Higher
+
+Lower
+
+4.5
+Assists
+
+Higher
+1.07x
+
+Lower
+0.8x
+
+0.5
+3-Pointers Made
+
+Higher
+1.15x
+
+Lower
 0.73x
 
-Lower
-1.17x
-
-34.25
-
-Fantasy Points
-
-Higher
-
-Lower
-1.5
-Blocks
-
-Higher
-1.12x
-
-Lower
-0.75x
-2.5
-Blocks + Steals
-
-Higher
-1.05x
-
-Lower
-0.81x
-
-2.5
-FT Made
-
-Higher
-1.26x
-
-Lower
-0.7x
-1.5
-1H 3-Pointers Made
-
-Higher
-1.07x
-
-Lower
-0.8x
-7.5
-3s Attempted
-
-Higher
-1.09x
-
-Lower
-0.82x
-
-
-
-Payton Pritchard
-
-Boston Celtics
-
-@ MEM - 5:00PM PDT
-
-Higher/Lower
-
-16.5
-Points
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-24.5
-Pts + Rebs + Asts
+10.5
+Rebounds + Assists
 
 Higher
 0.88x
 
 Lower
-1.03x
-
-3.5
-Rebounds
-
-Higher
 1.05x
-
-Lower
-0.81x
-
-5.5
-Assists
-
-Higher
-1.06x
-
-Lower
-0.86x
-
-2.5
-3-Pointers Made
-
-Higher
-
-Lower
-8.5
-Rebounds + Assists
-
-Higher
-
-Lower
-19.5
-Points + Rebounds
-
-Higher
-
-Lower
-21.5
-Points + Assists
-
-Higher
-
-Lower
 0.5
 Double Doubles
 
 Higher
-7.64x
-0.5
-1Q 3-Pointers Made
-
-Higher
-0.86x
-
-Lower
-1.07x
-1.5
-1H 3-Pointers Made
-
-Higher
-1.1x
-
-Lower
-0.78x
-6.5
-3s Attempted
-
-Higher
-0.83x
-
-Lower
-1.07x
-
-
-
-Jaylen Wells
-
-Memphis Grizzlies
-
-vs. BOS - 5:00PM PDT
-
-Higher/Lower
-
-11.5
-Points
-
-Higher
-0.89x
-
-Lower
-1.02x
-
-15.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-2.5
-Rebounds
-
-Higher
-0.85x
-
-Lower
-1.06x
-
-2.5
-3-Pointers Made
-
-Higher
-1.1x
-
-Lower
-0.79x
-5.5
-3s Attempted
-
-Higher
-0.86x
-
-Lower
-1.05x
-
-
-
-
-Julius Randle
-
-Minnesota Timberwolves
-
-vs. POR - 5:00PM PDT
-
-Higher/Lower
-
-23.5
-Points
-
-Higher
-
-Lower
-
-35.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-6.5
-Rebounds
-
-Higher
-
-Lower
-
-4.5
-Assists
-
-Higher
-0.86x
-
-Lower
-1.06x
-
-1.5
-3-Pointers Made
-
-Higher
-
-Lower
-
-11.5
-Rebounds + Assists
-
-Higher
-
-Lower
-30.5
-Points + Rebounds
-
-Higher
-
-Lower
-28.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-2.19x
-
-6.5
-1Q Points
-
-Higher
-1.05x
-
-Lower
-0.85x
+3.01x
 
 1.5
 1Q Rebounds
@@ -2804,610 +2823,40 @@ Lower
 Higher
 
 Lower
-9.5
-1Q Pts + Rebs + Asts
+1.5
+Steals
+
+Higher
+0.83x
+
+Lower
+1.08x
+2.5
+Blocks + Steals
 
 Higher
 1.08x
 
 Lower
-0.76x
-
-41.55
-
-Fantasy Points
-
-Higher
-
-Lower
-3.5
-Turnovers
-
-Higher
-1.03x
-
-Lower
 0.79x
-1.5
-Steals
 
-Higher
-1.03x
 
-Lower
-0.94x
 
-5.5
-FT Made
 
-Higher
-1.05x
+Onyeka Okongwu
 
-Lower
-0.85x
+Atlanta Hawks
+
+@ BOS - Fri 4:30PM PDT
+
+Higher/Lower
+
 11.5
-1H Points
-
-Higher
-
-Lower
-17.5
-1H Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-16.5
-FG Attempted
-
-Higher
-0.88x
-
-Lower
-1.03x
-4.5
-3s Attempted
-
-Higher
-1.05x
-
-Lower
-0.87x
-
-
-Deni Avdija
-
-Portland Trail Blazers
-
-@ MIN - 5:00PM PDT
-
-Higher/Lower
-
-23.5
 Points
 
 Higher
 
 Lower
-
-35.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-5.5
-Rebounds
-
-Higher
-0.86x
-
-Lower
-1.06x
-
-6.5
-Assists
-
-Higher
-1.04x
-
-Lower
-0.83x
-
-1.5
-3-Pointers Made
-
-Higher
-0.81x
-
-Lower
-1.04x
-
-12.5
-Rebounds + Assists
-
-Higher
-1.03x
-
-Lower
-0.88x
-29.5
-Points + Rebounds
-
-Higher
-
-Lower
-29.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-1.97x
-0.5
-Triple Doubles
-
-Higher
-13.38x
-
-5.5
-1Q Points
-
-Higher
-1.07x
-
-Lower
-0.86x
-
-1.5
-1Q Rebounds
-
-Higher
-
-Lower
-8.5
-1Q Pts + Rebs + Asts
-
-Higher
-0.84x
-
-Lower
-1.07x
-
-38.45
-
-Fantasy Points
-
-Higher
-
-Lower
-4.5
-Turnovers
-
-Higher
-1.05x
-
-Lower
-0.82x
-
-6.5
-FT Made
-
-Higher
-1.06x
-
-Lower
-0.8x
-11.5
-1H Points
-
-Higher
-1.07x
-
-Lower
-0.86x
-17.5
-1H Pts + Rebs + Asts
-
-Higher
-1.04x
-
-Lower
-0.87x
-
-15.5
-FG Attempted
-
-Higher
-
-Lower
-5.5
-3s Attempted
-
-Higher
-1.02x
-
-Lower
-0.89x
-
-
-
-Jaden McDaniels
-
-Minnesota Timberwolves
-
-vs. POR - 5:00PM PDT
-
-Higher/Lower
-
-16.5
-Points
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-23.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-3.5
-Rebounds
-
-Higher
-0.78x
-
-Lower
-1.04x
-
-2.5
-Assists
-
-Higher
-0.88x
-
-Lower
-1.03x
-
-1.5
-3-Pointers Made
-
-Higher
-
-Lower
-20.5
-Points + Rebounds
-
-Higher
-
-Lower
-19.5
-Points + Assists
-
-Higher
-
-Lower
-
-4.5
-1Q Points
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-1.5
-1Q Rebounds
-
-Higher
-1.26x
-
-Lower
-0.7x
-2.5
-Turnovers
-
-Higher
-1.11x
-
-Lower
-0.76x
-1.5
-Steals
-
-Higher
-1.06x
-
-Lower
-0.8x
-2.5
-Blocks + Steals
-
-Higher
-1.05x
-
-Lower
-0.81x
-4.5
-3s Attempted
-
-Higher
-
-Lower
-
-
-
-Jrue Holiday
-
-Portland Trail Blazers
-
-@ MIN - 5:00PM PDT
-
-Higher/Lower
-
-15.5
-Points
-
-Higher
-
-Lower
-
-25.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-3.5
-Rebounds
-
-Higher
-0.85x
-
-Lower
-1.05x
-
-5.5
-Assists
-
-Higher
-
-Lower
-
-2.5
-3-Pointers Made
-
-Higher
-1.08x
-
-Lower
-0.8x
-
-9.5
-Rebounds + Assists
-
-Higher
-
-Lower
-19.5
-Points + Rebounds
-
-Higher
-
-Lower
-21.5
-Points + Assists
-
-Higher
-1.03x
-
-Lower
-0.88x
-0.5
-Double Doubles
-
-Higher
-5.11x
-
-3.5
-1Q Points
-
-Higher
-1.06x
-
-Lower
-0.85x
-0.5
-1Q 3-Pointers Made
-
-Higher
-
-Lower
-2.5
-Turnovers
-
-Higher
-0.8x
-
-Lower
-1.05x
-1.5
-Steals
-
-Higher
-1.27x
-
-Lower
-0.7x
-1.5
-1H 3-Pointers Made
-
-Higher
-1.34x
-
-Lower
-0.68x
-5.5
-3s Attempted
-
-Higher
-
-Lower
-
-
-
-Rudy Gobert
-
-Minnesota Timberwolves
-
-vs. POR - 5:00PM PDT
-
-Higher/Lower
-
-12.5
-Points
-
-Higher
-1.04x
-
-Lower
-0.88x
-
-27.5
-Pts + Rebs + Asts
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-12.5
-Rebounds
-
-Higher
-1.03x
-
-Lower
-0.88x
-1.5
-Assists
-
-Higher
-0.87x
-
-Lower
-1.04x
-0.5
-Double Doubles
-
-Higher
-0.8x
-
-Lower
-1.09x
-
-3.5
-1Q Points
-
-Higher
-
-Lower
-0.88x
-
-2.5
-1Q Rebounds
-
-Higher
-0.79x
-
-Lower
-1.1x
-7.5
-1Q Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-35.15
-
-Fantasy Points
-
-Higher
-
-Lower
-1.5
-Steals
-
-Higher
-1.04x
-
-Lower
-0.82x
-1.5
-Blocks
-
-Higher
-
-Lower
-3.5
-Blocks + Steals
-
-Higher
-1.04x
-
-Lower
-0.78x
-
-3.5
-FT Made
-
-Higher
-1.09x
-
-Lower
-0.79x
-6.5
-1H Rebounds
-
-Higher
-1.09x
-
-Lower
-0.83x
-
-
-
-Donte DiVincenzo
-
-Minnesota Timberwolves
-
-vs. POR - 5:00PM PDT
-
-Higher/Lower
-
-12.5
-Points
-
-Higher
-1.03x
-
-Lower
-0.88x
 
 20.5
 Pts + Rebs + Asts
@@ -3416,1054 +2865,56 @@ Higher
 
 Lower
 
-3.5
+6.5
 Rebounds
 
 Higher
-0.86x
 
 Lower
-1.07x
 
-4.5
+2.5
 Assists
 
 Higher
-1.08x
+1.06x
 
 Lower
-0.83x
+0.77x
 
-2.5
+1.5
 3-Pointers Made
 
 Higher
-0.81x
 
 Lower
-1.04x
-7.5
+
+8.5
 Rebounds + Assists
 
 Higher
-0.85x
+0.87x
 
 Lower
-1.05x
+1.04x
 0.5
-1Q 3-Pointers Made
+Double Doubles
 
 Higher
-0.83x
+2.56x
 
-Lower
-1.08x
 1.5
-Steals
+1Q Rebounds
 
 Higher
-1.03x
-
-Lower
 0.88x
-1.5
-1H 3-Pointers Made
-
-Higher
-1.07x
 
 Lower
-0.84x
-7.5
+1.03x
+4.5
 3s Attempted
 
 Higher
-
-Lower
-
-
-
-Naz Reid
-
-Minnesota Timberwolves
-
-vs. POR - 5:00PM PDT
-
-Higher/Lower
-
-13.5
-Points
-
-Higher
-0.89x
-
-Lower
 1.02x
 
-22.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-5.5
-Rebounds
-
-Higher
-
-Lower
-2.5
-Assists
-
-Higher
-1.1x
-
-Lower
-0.79x
-
-1.5
-3-Pointers Made
-
-Higher
-0.78x
-
-Lower
-1.03x
-7.5
-Rebounds + Assists
-
-Higher
-0.86x
-
-Lower
-1.06x
-19.5
-Points + Rebounds
-
-Higher
-0.87x
-
-Lower
-1.04x
-0.5
-Double Doubles
-
-Higher
-3.73x
-1.5
-1Q Rebounds
-
-Higher
-1.04x
-
-Lower
-0.82x
-1.5
-Steals
-
-Higher
-1.1x
-
-Lower
-0.75x
-2.5
-Blocks + Steals
-
-Higher
-1.07x
-
-Lower
-0.77x
-4.5
-3s Attempted
-
-Higher
-0.81x
-
-Lower
-1.05x
-
-
-
-Nikola Jokic
-
-Denver Nuggets
-
-vs. TOR - 6:00PM PDT
-
-Higher/Lower
-
-27.5
-Points
-
-Higher
-
-Lower
-
-50.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-12.5
-Rebounds
-
-Higher
-1.04x
-
-Lower
-0.88x
-
-10.5
-Assists
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-1.5
-3-Pointers Made
-
-Higher
-
-Lower
-
-22.5
-Rebounds + Assists
-
-Higher
-
-Lower
-40.5
-Points + Rebounds
-
-Higher
-
-Lower
-38.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Lower
-3.64x
-0.5
-Triple Doubles
-
-Higher
-0.87x
-
-8.5
-1Q Points
-
-Higher
-0.88x
-
-Lower
-1.03x
-
-4.5
-1Q Rebounds
-
-Higher
-1.04x
-
-Lower
-0.81x
-
-3.5
-1Q Assists
-
-Higher
-
-Lower
-17.5
-1Q Pts + Rebs + Asts
-
-Higher
-1.06x
-
-Lower
-0.8x
-
-60.15
-
-Fantasy Points
-
-Higher
-
-Lower
-4.5
-Turnovers
-
-Higher
-1.09x
-
-Lower
-0.82x
-1.5
-Steals
-
-Higher
-1.09x
-
-Lower
-0.79x
-2.5
-Blocks + Steals
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-5.5
-FT Made
-
-Higher
-0.87x
-
-Lower
-1.04x
-13.5
-1H Points
-
-Higher
-
-Lower
-6.5
-1H Rebounds
-
-Higher
-1.09x
-
 Lower
 0.83x
-5.5
-1H Assists
-
-Higher
-1.03x
-
-Lower
-0.82x
-25.5
-1H Pts + Rebs + Asts
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-17.5
-FG Attempted
-
-Higher
-1.04x
-
-Lower
-0.87x
-4.5
-3s Attempted
-
-Higher
-1.08x
-
-Lower
-0.83x
-
-
-
-Brandon Ingram
-
-Toronto Raptors
-
-@ DEN - 6:00PM PDT
-
-Higher/Lower
-
-21.5
-Points
-
-Higher
-
-Lower
-
-31.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-5.5
-Rebounds
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-3.5
-Assists
-
-Higher
-0.86x
-
-Lower
-1.07x
-
-1.5
-3-Pointers Made
-
-Higher
-
-Lower
-8.5
-Rebounds + Assists
-
-Higher
-0.86x
-
-Lower
-1.06x
-26.5
-Points + Rebounds
-
-Higher
-0.88x
-
-Lower
-1.03x
-25.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-6.92x
-
-5.5
-1Q Points
-
-Higher
-0.87x
-
-Lower
-1.04x
-
-1.5
-1Q Rebounds
-
-Higher
-1.09x
-
-Lower
-0.79x
-8.5
-1Q Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-36.75
-
-Fantasy Points
-
-Higher
-
-Lower
-2.5
-Turnovers
-
-Higher
-1.05x
-
-Lower
-0.77x
-
-3.5
-FT Made
-
-Higher
-
-Lower
-10.5
-1H Points
-
-Higher
-
-Lower
-15.5
-1H Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-17.5
-FG Attempted
-
-Higher
-1.04x
-
-Lower
-0.88x
-4.5
-3s Attempted
-
-Higher
-
-Lower
-
-
-
-RJ Barrett
-
-Toronto Raptors
-
-@ DEN - 6:00PM PDT
-
-Higher/Lower
-
-19.5
-Points
-
-Higher
-
-Lower
-
-29.5
-Pts + Rebs + Asts
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-5.5
-Rebounds
-
-Higher
-
-Lower
-
-3.5
-Assists
-
-Higher
-1.06x
-
-Lower
-0.84x
-
-1.5
-3-Pointers Made
-
-Higher
-0.86x
-
-Lower
-1.06x
-8.5
-Rebounds + Assists
-
-Higher
-0.85x
-
-Lower
-1.05x
-25.5
-Points + Rebounds
-
-Higher
-
-Lower
-23.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-6.42x
-
-3.5
-1Q Points
-
-Higher
-0.83x
-
-Lower
-1.09x
-
-1.5
-1Q Rebounds
-
-Higher
-1.06x
-
-Lower
-0.76x
-6.5
-1Q Pts + Rebs + Asts
-
-Higher
-0.86x
-
-Lower
-1.05x
-
-32.85
-
-Fantasy Points
-
-Higher
-
-Lower
-
-3.5
-FT Made
-
-Higher
-1.06x
-
-Lower
-0.86x
-
-15.5
-FG Attempted
-
-Higher
-
-Lower
-0.94x
-5.5
-3s Attempted
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-
-
-Jamal Murray
-
-Denver Nuggets
-
-vs. TOR - 6:00PM PDT
-
-Higher/Lower
-
-24.5
-Points
-
-Higher
-
-Lower
-
-34.5
-Pts + Rebs + Asts
-
-Higher
-0.88x
-
-Lower
-1.03x
-
-3.5
-Rebounds
-
-Higher
-0.85x
-
-Lower
-1.06x
-
-6.5
-Assists
-
-Higher
-1.06x
-
-Lower
-0.86x
-
-2.5
-3-Pointers Made
-
-Higher
-0.84x
-
-Lower
-1.07x
-
-10.5
-Rebounds + Assists
-
-Higher
-1.03x
-
-Lower
-0.88x
-28.5
-Points + Rebounds
-
-Higher
-
-Lower
-30.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-2.63x
-
-6.5
-1Q Points
-
-Higher
-1.03x
-
-Lower
-0.88x
-0.5
-1Q 3-Pointers Made
-
-Higher
-0.84x
-
-Lower
-1.06x
-8.5
-1Q Pts + Rebs + Asts
-
-Higher
-1.09x
-
-Lower
-0.78x
-
-39.15
-
-Fantasy Points
-
-Higher
-
-Lower
-2.5
-Turnovers
-
-Higher
-1.04x
-
-Lower
-0.94x
-
-3.5
-FT Made
-
-Higher
-0.83x
-
-Lower
-1.08x
-11.5
-1H Points
-
-Higher
-
-Lower
-1.5
-1H 3-Pointers Made
-
-Higher
-1.05x
-
-Lower
-0.81x
-17.5
-1H Pts + Rebs + Asts
-
-Higher
-1.04x
-
-Lower
-0.87x
-
-17.5
-FG Attempted
-
-Higher
-
-Lower
-6.5
-3s Attempted
-
-Higher
-
-Lower
-
-
-
-Scottie Barnes
-
-Toronto Raptors
-
-@ DEN - 6:00PM PDT
-
-Higher/Lower
-
-17.5
-Points
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-28.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-6.5
-Rebounds
-
-Higher
-
-Lower
-
-4.5
-Assists
-
-Higher
-0.88x
-
-Lower
-1.03x
-
-0.5
-3-Pointers Made
-
-Higher
-0.75x
-
-Lower
-1.09x
-
-11.5
-Rebounds + Assists
-
-Higher
-
-Lower
-23.5
-Points + Rebounds
-
-Higher
-
-Lower
-22.5
-Points + Assists
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-2.23x
-0.5
-Triple Doubles
-
-Higher
-9.81x
-
-4.5
-1Q Points
-
-Higher
-1.07x
-
-Lower
-0.83x
-
-1.5
-1Q Rebounds
-
-Higher
-
-Lower
-7.5
-1Q Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-38.55
-
-Fantasy Points
-
-Higher
-
-Lower
-2.5
-Turnovers
-
-Higher
-1.07x
-
-Lower
-0.8x
-1.5
-Steals
-
-Higher
-1.07x
-
-Lower
-0.81x
-1.5
-Blocks
-
-Higher
-1.04x
-
-Lower
-0.78x
-2.5
-Blocks + Steals
-
-Higher
-
-Lower
-
-2.5
-FT Made
-
-Higher
-0.83x
-
-Lower
-1.08x
-
-
-Aaron Gordon
-
-Denver Nuggets
-
-vs. TOR - 6:00PM PDT
-
-Higher/Lower
-
-15.5
-Points
-
-Higher
-
-Lower
-
-23.5
-Pts + Rebs + Asts
-
-Higher
-
-Lower
-
-5.5
-Rebounds
-
-Higher
-1.03x
-
-Lower
-0.88x
-
-2.5
-Assists
-
-Higher
-1.07x
-
-Lower
-0.84x
-
-1.5
-3-Pointers Made
-
-Higher
-0.88x
-
-Lower
-1.03x
-7.5
-Rebounds + Assists
-
-Higher
-0.86x
-
-Lower
-1.07x
-21.5
-Points + Rebounds
-
-Higher
-
-Lower
-0.5
-Double Doubles
-
-Higher
-4.84x
-
-3.5
-1Q Points
-
-Higher
-0.84x
-
-Lower
-1.07x
-
-1.5
-1Q Rebounds
-
-Higher
-1.08x
-
-Lower
-0.84x
