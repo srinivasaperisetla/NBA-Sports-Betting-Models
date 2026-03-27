@@ -11,7 +11,7 @@ import uvicorn
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-from schema import NBAPredictionInput, Stat
+from new.schema import NBAPredictionInput, Stat
 
 import requests
 import os

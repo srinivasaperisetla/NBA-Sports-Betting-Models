@@ -1,8 +1,4 @@
-import os
-import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from pydantic import BaseModel, Field, create_model, ConfigDict
+from pydantic import Field, create_model, ConfigDict
 from enum import Enum
 from constants import ALLOWED_PLAYERS, ALLOWED_POSITIONS, ALLOWED_TEAMS
 from stat_utils import ADVANCED_COLS, STAT_COLS, MATCHUP_ALLOWED_METRICS, MATCHUP_ALLOWED_METRICS_W_PACE_DEF

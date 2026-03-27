@@ -1,3 +1,5 @@
+"""Verify predictions against actual game results."""
+import logging
 import time
 from datetime import datetime, timedelta
 
@@ -5,30 +7,33 @@ import pandas as pd
 from nba_api.stats.endpoints import PlayerGameLog
 from nba_api.stats.static import players
 
+from config import SEASONS, LOG_FORMAT
+
+logger = logging.getLogger(__name__)
+
 INPUT_CSV = "today_picks.csv"
 OUTPUT_CSV = "todays_picks_verified.csv"
-CURRENT_SEASON = "2025-26"
+CURRENT_SEASON = SEASONS[-1]
 
 # ── Date filter ──────────────────────────────────────────────
 # Set to a specific date string to only check games from that date.
 # Set to None to use the most recent game (today/yesterday).
-# Examples: "2026-03-20", "2026-03-15", None
-DATE = None #"2026-03-20"
+DATE = None  # e.g. "2026-03-20"
 # ─────────────────────────────────────────────────────────────
 
 TARGET_DATE = datetime.strptime(DATE, "%Y-%m-%d").date() if DATE else None
 
-all_players = players.get_players()
-PLAYER_LOOKUP = {p["full_name"]: p for p in all_players}
+all_nba_players = players.get_players()
+PLAYER_LOOKUP = {p["full_name"]: p for p in all_nba_players}
 
 df_picks = pd.read_csv(INPUT_CSV)
 
-print(f"📊 Loaded {len(df_picks)} predictions")
-print(f"🏀 Unique players: {df_picks['Player'].nunique()}")
+logger.info("Loaded %d predictions", len(df_picks))
+logger.info("Unique players: %d", df_picks['Player'].nunique())
 if TARGET_DATE:
-  print(f"📅 Filtering for games on: {TARGET_DATE}")
+  logger.info("Filtering for games on: %s", TARGET_DATE)
 else:
-  print(f"📅 Using most recent game (today/yesterday)")
+  logger.info("Using most recent game (today/yesterday)")
 
 required_output_cols = [
   "Result",
@@ -44,64 +49,67 @@ for col in required_output_cols:
     df_picks[col] = ""
 
 unique_players = df_picks["Player"].dropna().unique()
-
 player_games = {}
 
+MAX_RETRIES = 3
+
 for player_name in unique_players:
-  print(f"\n🔄 Fetching data for {player_name}...")
+  logger.info("Fetching data for %s...", player_name)
 
   player_obj = PLAYER_LOOKUP.get(player_name)
   if player_obj is None:
-    print(f"  ⚠️ Player not found: {player_name}")
+    logger.warning("Player not found: %s", player_name)
     player_games[player_name] = None
     continue
 
   player_id = player_obj["id"]
 
-  try:
-    time.sleep(0.6)
+  for attempt in range(MAX_RETRIES):
+    try:
+      time.sleep(0.6 + attempt * 0.5)
 
-    game_log = PlayerGameLog(
-      player_id=player_id,
-      season=CURRENT_SEASON,
-      season_type_all_star="Regular Season"
-    ).get_data_frames()[0]
+      game_log = PlayerGameLog(
+        player_id=player_id,
+        season=CURRENT_SEASON,
+        season_type_all_star="Regular Season"
+      ).get_data_frames()[0]
 
-    if game_log.empty:
-      print("  ⚠️ No games found")
-      player_games[player_name] = None
-      continue
+      if game_log.empty:
+        logger.warning("  No games found for %s", player_name)
+        player_games[player_name] = None
+        break
 
-    game_log["GAME_DATE"] = pd.to_datetime(game_log["GAME_DATE"], errors="coerce")
-    game_log = game_log.sort_values("GAME_DATE", ascending=False).reset_index(drop=True)
+      game_log["GAME_DATE"] = pd.to_datetime(game_log["GAME_DATE"], errors="coerce")
+      game_log = game_log.sort_values("GAME_DATE", ascending=False).reset_index(drop=True)
 
-    if TARGET_DATE:
-      # Filter for the exact target date
-      match = game_log[game_log["GAME_DATE"].dt.date == TARGET_DATE]
-      if match.empty:
-        print(f"  ⚠️ No game found on {TARGET_DATE}")
+      if TARGET_DATE:
+        match = game_log[game_log["GAME_DATE"].dt.date == TARGET_DATE]
+        if match.empty:
+          logger.warning("  No game found on %s for %s", TARGET_DATE, player_name)
+          player_games[player_name] = None
+        else:
+          logger.info("  Found game from %s", TARGET_DATE)
+          player_games[player_name] = match.iloc[0]
+      else:
+        most_recent = game_log.iloc[0]
+        game_date = pd.to_datetime(most_recent["GAME_DATE"]).date()
+        today = datetime.now().date()
+        yesterday = today - timedelta(days=1)
+
+        if game_date in [today, yesterday]:
+          logger.info("  Found game from %s", game_date)
+          player_games[player_name] = most_recent
+        else:
+          logger.warning("  Most recent game is from %s (not today/yesterday)", game_date)
+          player_games[player_name] = None
+      break
+
+    except Exception as e:
+      if attempt == MAX_RETRIES - 1:
+        logger.error("Failed to fetch %s after %d attempts: %s", player_name, MAX_RETRIES, e)
         player_games[player_name] = None
       else:
-        print(f"  ✅ Found game from {TARGET_DATE}")
-        player_games[player_name] = match.iloc[0]
-    else:
-      # Use most recent game if it's today or yesterday
-      most_recent = game_log.iloc[0]
-      game_date = pd.to_datetime(most_recent["GAME_DATE"]).date()
-
-      today = datetime.now().date()
-      yesterday = today - timedelta(days=1)
-
-      if game_date in [today, yesterday]:
-        print(f"  ✅ Found game from {game_date}")
-        player_games[player_name] = most_recent
-      else:
-        print(f"  ⚠️ Most recent game is from {game_date} (not today/yesterday)")
-        player_games[player_name] = None
-
-  except Exception as e:
-    print(f"  ❌ Error: {e}")
-    player_games[player_name] = None
+        logger.warning("Attempt %d failed for %s: %s, retrying...", attempt + 1, player_name, e)
 
 
 def get_actual_stat_value(game_row, stat):
@@ -109,18 +117,10 @@ def get_actual_stat_value(game_row, stat):
     return None
 
   stat_map = {
-    "PTS": "PTS",
-    "REB": "REB",
-    "AST": "AST",
-    "STL": "STL",
-    "BLK": "BLK",
-    "TOV": "TOV",
-    "FGM": "FGM",
-    "FGA": "FGA",
-    "FTM": "FTM",
-    "FTA": "FTA",
-    "3PM": "FG3M",
-    "3PA": "FG3A",
+    "PTS": "PTS", "REB": "REB", "AST": "AST",
+    "STL": "STL", "BLK": "BLK", "TOV": "TOV",
+    "FGM": "FGM", "FGA": "FGA", "FTM": "FTM", "FTA": "FTA",
+    "3PM": "FG3M", "3PA": "FG3A",
   }
 
   if stat == "PRA":
@@ -137,27 +137,24 @@ def get_actual_stat_value(game_row, stat):
   col = stat_map.get(stat)
   if col is None or col not in game_row.index:
     return None
-
   return float(game_row[col])
 
 
 def evaluate_pick(pick, actual_value, line):
   if actual_value is None or pd.isna(actual_value):
     return "STAT NOT FOUND"
-
   pick = str(pick).strip().upper()
   line = float(line)
-
   if pick == "OVER":
-    return "✅ HIT" if actual_value > line else "❌ MISS"
+    return "HIT" if actual_value > line else "MISS"
   if pick == "UNDER":
-    return "✅ HIT" if actual_value < line else "❌ MISS"
+    return "HIT" if actual_value < line else "MISS"
   return "BAD PICK"
 
 
-print("\n" + "=" * 60)
-print("🎯 VERIFYING PREDICTIONS")
-print("=" * 60)
+logger.info("=" * 60)
+logger.info("VERIFYING PREDICTIONS")
+logger.info("=" * 60)
 
 hits = 0
 misses = 0
@@ -206,14 +203,13 @@ for idx, row in df_picks.iterrows():
     reduced_all_result = evaluate_pick(reduced_all_pick, actual_value, line)
     reduced_tight_result = evaluate_pick(reduced_tight_pick, actual_value, line)
 
-    if overall_result == "✅ HIT":
+    if overall_result == "HIT":
       hits += 1
-    elif overall_result == "❌ MISS":
+    elif overall_result == "MISS":
       misses += 1
 
   df_picks.at[idx, "Result"] = overall_result
   df_picks.at[idx, "Actual value"] = "" if actual_value is None else round(float(actual_value), 2)
-
   df_picks.at[idx, "FULL_ALL Result"] = full_all_result
   df_picks.at[idx, "FULL_TIGHT Result"] = full_tight_result
   df_picks.at[idx, "REDUCED_ALL Result"] = reduced_all_result
@@ -222,41 +218,84 @@ for idx, row in df_picks.iterrows():
 df_picks.to_csv(OUTPUT_CSV, index=False)
 
 print("\n" + "=" * 60)
-print("📊 RESULTS SUMMARY")
+print("RESULTS SUMMARY")
 print("=" * 60)
 
 graded_total = hits + misses
 total = len(df_picks)
 
-print(f"📈 Total Predictions: {total}")
-print(f"✅ Hits: {hits}")
-print(f"❌ Misses: {misses}")
-print(f"⚠️ No Games: {no_games}")
+print(f"Total Predictions: {total}")
+print(f"Hits: {hits}")
+print(f"Misses: {misses}")
+print(f"No Games: {no_games}")
 
 if graded_total > 0:
   accuracy = (hits / graded_total) * 100
-  print(f"🎯 Accuracy: {accuracy:.1f}%")
+  print(f"Accuracy: {accuracy:.1f}%")
 
-  print("\n📊 BY RECOMMENDATION:")
+  print("\nBY RECOMMENDATION:")
   for rec in df_picks["Recommendation"].dropna().unique():
     subset = df_picks[df_picks["Recommendation"] == rec]
-    subset_hits = (subset["Result"] == "✅ HIT").sum()
-    subset_misses = (subset["Result"] == "❌ MISS").sum()
+    subset_hits = (subset["Result"] == "HIT").sum()
+    subset_misses = (subset["Result"] == "MISS").sum()
     subset_total = subset_hits + subset_misses
     if subset_total > 0:
       subset_acc = (subset_hits / subset_total) * 100
       print(f"  {rec}: {subset_hits}/{subset_total} ({subset_acc:.1f}%)")
 
-  print("\n🏆 BY TIER:")
+  print("\nBY TIER:")
   for tier in ["S", "A", "B", "C", "D"]:
     subset = df_picks[df_picks["Tier"] == tier]
-    subset_hits = (subset["Result"] == "✅ HIT").sum()
-    subset_misses = (subset["Result"] == "❌ MISS").sum()
+    subset_hits = (subset["Result"] == "HIT").sum()
+    subset_misses = (subset["Result"] == "MISS").sum()
     subset_total = subset_hits + subset_misses
     if subset_total > 0:
       subset_acc = (subset_hits / subset_total) * 100
       print(f"  Tier {tier}: {subset_hits}/{subset_total} ({subset_acc:.1f}%)")
-else:
-  print("⚠️ No completed games found")
 
-print(f"\n✅ Results saved to: {OUTPUT_CSV}")
+  # ── New: Accuracy by Rank Score bucket ──
+  rank_col = "Rank Score"
+  if rank_col in df_picks.columns:
+    numeric_rank = pd.to_numeric(df_picks[rank_col], errors="coerce")
+    df_picks["_rank_bucket"] = pd.cut(
+      numeric_rank,
+      bins=[0, 25, 50, 75, 100],
+      labels=["0-25", "25-50", "50-75", "75-100"],
+      include_lowest=True,
+    )
+    print("\nBY RANK SCORE (new 0-100):")
+    for bucket in ["75-100", "50-75", "25-50", "0-25"]:
+      subset = df_picks[df_picks["_rank_bucket"] == bucket]
+      subset_hits = (subset["Result"] == "HIT").sum()
+      subset_misses = (subset["Result"] == "MISS").sum()
+      subset_total = subset_hits + subset_misses
+      if subset_total > 0:
+        subset_acc = (subset_hits / subset_total) * 100
+        print(f"  Rank {bucket}: {subset_hits}/{subset_total} ({subset_acc:.1f}%)")
+    df_picks.drop(columns=["_rank_bucket"], inplace=True, errors="ignore")
+
+  # ── New: Accuracy by Legacy Rank Score bucket ──
+  legacy_col = "Legacy Rank Score"
+  if legacy_col in df_picks.columns:
+    numeric_legacy = pd.to_numeric(df_picks[legacy_col], errors="coerce")
+    df_picks["_legacy_bucket"] = pd.cut(
+      numeric_legacy,
+      bins=[-100, 30, 45, 60, 200],
+      labels=["<30", "30-45", "45-60", "60+"],
+      include_lowest=True,
+    )
+    print("\nBY LEGACY RANK SCORE:")
+    for bucket in ["60+", "45-60", "30-45", "<30"]:
+      subset = df_picks[df_picks["_legacy_bucket"] == bucket]
+      subset_hits = (subset["Result"] == "HIT").sum()
+      subset_misses = (subset["Result"] == "MISS").sum()
+      subset_total = subset_hits + subset_misses
+      if subset_total > 0:
+        subset_acc = (subset_hits / subset_total) * 100
+        print(f"  Legacy {bucket}: {subset_hits}/{subset_total} ({subset_acc:.1f}%)")
+    df_picks.drop(columns=["_legacy_bucket"], inplace=True, errors="ignore")
+
+else:
+  print("No completed games found")
+
+print(f"\nResults saved to: {OUTPUT_CSV}")

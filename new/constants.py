@@ -292,16 +292,65 @@ ALLOWED_PLAYERS = Literal[
   'Zion Williamson',
 ]
 
+UNDERDOG_STAT_MAP = {
+  "Points": "PTS",
+  "Rebounds": "REB",
+  "Assists": "AST",
+  "Steals": "STL",
+  "Blocks": "BLK",
+  "Pts + Rebs + Asts": "PRA",
+  "Pts+Rebs+Asts": "PRA",
+  "Pts+Reb+Ast": "PRA",
+  "Points + Assists": "PA",
+  "Points+Assists": "PA",
+  "Assists+Points": "PA",
+  "Assists + Points": "PA",
+  "Points + Rebounds": "PR",
+  "Points+Rebounds": "PR",
+  "Rebounds + Points": "PR",
+  "Rebounds+Points": "PR",
+  "Rebounds + Assists": "RA",
+  "Rebounds+Assists": "RA",
+  "Assists + Rebounds": "RA",
+  "Assists+Rebounds": "RA",
+  "Blocks + Steals": "SB",
+  "Blocks+Steals": "SB",
+  "Steals + Blocks": "SB",
+  "Steals+Blocks": "SB",
+  "Turnovers": "TOV",
+  "FG Made": "FGM",
+  "3-Pointers Made": "3PM",
+  "3PM": "3PM",
+  "FT Made": "FTM",
+  "FG Attempted": "FGA",
+  "3s Attempted": "3PA",
+  "3PT Attempted": "3PA",
+  "FT Attempted": "FTA",
+}
+
+PRIZEPICKS_STAT_MAP = {
+  "Points":         "PTS",
+  "Rebounds":       "REB",
+  "Assists":        "AST",
+  "Steals":         "STL",
+  "Blocked Shots":  "BLK",
+  "PRA":            "PRA",
+  "Pts+Asts":       "PA",
+  "Pts+Rebs":       "PR",
+  "Rebs+Asts":      "RA",
+  "Blks+Stls":      "SB",
+  "Turnovers":      "TOV",
+  "FG Made":        "FGM",
+  "3PTM":           "3PM",
+  "FTM":            "FTM",
+  "FG Attempted":   "FGA",
+  "3PTA":           "3PA",
+  "FTA":            "FTA",
+}
+
 
 TARGET_COLUMNS = [
   'PTS', 'REB', 'AST', 'STL', 'BLK',
   'PRA', 'PA', 'PR', 'RA', 'SB',
   'TOV', 'FGM', '3PM', 'FTM', 'FGA', '3PA', 'FTA'
-]
-
-FEATURES_TO_DUMMY = [
-  'PLAYER_NAME',
-  'POSITION',
-  'TEAM',
-  'MATCHUP',
 ]

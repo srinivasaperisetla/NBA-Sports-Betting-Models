@@ -7,7 +7,7 @@ from nba_api.stats.endpoints import LeagueGameLog
 import numpy as np
 import pandas as pd
 from unidecode import unidecode
-from backend.constants import ALLOWED_PLAYERS_LIST, TARGET_COLUMNS
+from constants import ALLOWED_PLAYERS_LIST
 import re
 import json
 from stat_utils import STAT_COLS, ADVANCED_COLS, MATCHUP_ALLOWED_METRICS, MATCHUP_ALLOWED_METRICS_W_PACE_DEF
