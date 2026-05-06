@@ -1,14 +1,19 @@
 """Odds API integration: fetch and enrich sportsbook odds for player props."""
+import json as _json
 import logging
+import math
 import os
 import time
 import unicodedata as _unicodedata
 from datetime import date as _date_type
+from pathlib import Path as _Path
 from threading import Lock as _Lock
 from typing import Dict
 
 import requests
 from dotenv import load_dotenv
+from scipy.stats import norm as _norm
+from scipy.stats import poisson as _poisson
 
 from config import STAT_TO_MARKET
 
@@ -30,8 +35,54 @@ _odds_cache_lock = _Lock()
 _player_index_cache: Dict[str, dict] = {}
 
 
+_CACHE_FILE = _Path(__file__).parent / "odds_cache.json"
+_disk_cache_loaded = False
+
+
 def _today_str() -> str:
   return _date_type.today().isoformat()
+
+
+def _load_cache_from_disk() -> None:
+  """Load odds cache from disk if it exists and the date matches today."""
+  global _odds_cache, _disk_cache_loaded
+  if _disk_cache_loaded:
+    return
+  _disk_cache_loaded = True
+
+  if not _CACHE_FILE.exists():
+    return
+  try:
+    with open(_CACHE_FILE, "r") as f:
+      disk = _json.load(f)
+    if disk.get("date") != _today_str():
+      logger.info("Odds disk cache stale (date=%s), ignoring", disk.get("date"))
+      return
+    with _odds_cache_lock:
+      if "events" in disk:
+        _odds_cache["events"] = disk["events"]
+      for key, val in disk.get("event_markets", {}).items():
+        _odds_cache[key] = val
+    logger.info("Loaded odds cache from disk (%d entries)", len(disk.get("event_markets", {})) + (1 if "events" in disk else 0))
+  except Exception as e:
+    logger.warning("Failed to load odds disk cache: %s", e)
+
+
+def _save_cache_to_disk() -> None:
+  """Persist the in-memory odds cache to disk."""
+  today = _today_str()
+  with _odds_cache_lock:
+    payload = {"date": today, "events": None, "event_markets": {}}
+    for key, val in _odds_cache.items():
+      if key == "events":
+        payload["events"] = val
+      elif key.startswith("event_market:"):
+        payload["event_markets"][key] = val
+  try:
+    with open(_CACHE_FILE, "w") as f:
+      _json.dump(payload, f)
+  except Exception as e:
+    logger.warning("Failed to save odds disk cache: %s", e)
 
 
 def _norm_name(s: str) -> str:
@@ -48,6 +99,7 @@ def _get_events_cached() -> tuple[list, dict] | tuple[None, None]:
   Events endpoint is FREE (0 quota cost).
   Returns (events_list, team_to_event_id_dict) or (None, None).
   """
+  _load_cache_from_disk()
   today = _today_str()
 
   with _odds_cache_lock:
@@ -90,6 +142,7 @@ def _get_events_cached() -> tuple[list, dict] | tuple[None, None]:
       "team_to_event": team_to_event,
     }
 
+  _save_cache_to_disk()
   return events, team_to_event
 
 
@@ -99,6 +152,7 @@ def _get_event_market_cached(event_id: str, market: str) -> dict | None:
   Costs 1 quota unit on cache miss.
   Returns the full event odds response dict or None.
   """
+  _load_cache_from_disk()
   today = _today_str()
   cache_key = f"event_market:{event_id}:{market}"
 
@@ -161,6 +215,7 @@ def _get_event_market_cached(event_id: str, market: str) -> dict | None:
       "data": data,
     }
 
+  _save_cache_to_disk()
   return data
 
 
@@ -223,13 +278,60 @@ def _safe_round(value, digits: int = 4):
   return round(float(value), digits) if value is not None else None
 
 
+POISSON_STATS = {"STL", "BLK", "SB"}
+NORMAL_STATS = {
+  "PTS", "REB", "AST", "PRA", "PA", "PR", "RA",
+  "FGA", "FGM", "3PA", "FTA", "FTM", "3PM", "TOV",
+}
+
+
+def _solve_poisson_lambda(line: float, p_over: float, tol: float = 1e-6) -> float:
+  """Find λ such that P(X > line) ≈ p_over for Poisson(λ)."""
+  k = int(math.floor(line))
+  target_cdf = 1.0 - p_over
+  lo, hi = 0.01, max(50.0, line * 5)
+  for _ in range(200):
+    mid = (lo + hi) / 2.0
+    if _poisson.cdf(k, mid) > target_cdf:
+      lo = mid
+    else:
+      hi = mid
+    if hi - lo < tol:
+      break
+  return (lo + hi) / 2.0
+
+
+def _translate_no_vig_to_dfs(
+  sb_line: float,
+  dfs_line: float,
+  over_no_vig: float,
+  stat_name: str,
+  player_std: float,
+) -> tuple[float, float]:
+  """Translate sportsbook no-vig probability to the DFS line via CDF math.
+  Returns (p_over_at_dfs, p_under_at_dfs)."""
+  if stat_name in POISSON_STATS:
+    lam = _solve_poisson_lambda(sb_line, over_no_vig)
+    p_over_dfs = 1.0 - _poisson.cdf(int(math.floor(dfs_line)), lam)
+  else:
+    z = _norm.ppf(1.0 - over_no_vig)
+    mu_adjusted = sb_line - z * player_std
+    z_dfs = (dfs_line - mu_adjusted) / player_std
+    p_over_dfs = 1.0 - _norm.cdf(z_dfs)
+
+  p_over_dfs = _clip_prob(p_over_dfs)
+  return p_over_dfs, 1.0 - p_over_dfs
+
+
 def _enrich_bookmaker_entry(
   entry: dict,
   model_prob_over_dfs: float | None,
-  model_prob_over_by_line: Dict[float, float] | None,
   dfs_line: float | None,
+  stat_name: str | None = None,
+  player_mean: float | None = None,
+  player_std: float | None = None,
 ) -> dict:
-  """Enrich sportsbook entry, translating off-line books to the DFS line."""
+  """Enrich sportsbook entry with edge vs 0.54 breakeven. CDF-translates no-vig prob when lines differ."""
   over_dec = entry.get("over_decimal")
   under_dec = entry.get("under_decimal")
   sb_line = entry.get("line")
@@ -276,38 +378,25 @@ def _enrich_bookmaker_entry(
   if model_prob_over_dfs is None or sb_line is None:
     return entry
 
-  if model_prob_over_by_line is None:
-    model_prob_over_by_line = {}
-
-  model_prob_over_book = float(model_prob_over_by_line.get(float(sb_line), model_prob_over_dfs))
-  entry["model_prob_over_at_book_line"] = _safe_round(model_prob_over_book)
   entry["model_prob_over_at_dfs_line"] = _safe_round(model_prob_over_dfs)
 
-  if over_no_vig_prob is not None:
-    translated_over = _clip_prob(over_no_vig_prob + (model_prob_over_dfs - model_prob_over_book))
-    translated_under = 1.0 - translated_over
-    entry["over_hit_prob"] = _safe_round(translated_over)
-    entry["under_hit_prob"] = _safe_round(translated_under)
+  over_nv_at_dfs = over_no_vig_prob
+  under_nv_at_dfs = under_no_vig_prob
 
-    anchor_over = 0.65 * float(model_prob_over_dfs) + 0.35 * translated_over
-    anchor_under = 1.0 - anchor_over
-    entry["anchor_prob_over"] = _safe_round(anchor_over)
-    entry["anchor_prob_under"] = _safe_round(anchor_under)
+  if not lines_match and over_no_vig_prob is not None and stat_name and player_std and player_std > 0:
+    over_nv_at_dfs, under_nv_at_dfs = _translate_no_vig_to_dfs(
+      sb_line=float(sb_line),
+      dfs_line=float(dfs_line),
+      over_no_vig=float(over_no_vig_prob),
+      stat_name=stat_name,
+      player_std=float(player_std),
+    )
 
-    entry["edge_over"] = _safe_round(anchor_over - translated_over)
-    entry["edge_under"] = _safe_round(anchor_under - translated_under)
+  entry["over_no_vig_prob_at_dfs"] = _safe_round(over_nv_at_dfs)
+  entry["under_no_vig_prob_at_dfs"] = _safe_round(under_nv_at_dfs)
 
-    if total_implied is not None:
-      priced_over_raw = translated_over * total_implied
-      priced_under_raw = translated_under * total_implied
-      priced_over_decimal = 1.0 / priced_over_raw
-      priced_under_decimal = 1.0 / priced_under_raw
-      entry["priced_over_decimal_at_dfs"] = _safe_round(priced_over_decimal)
-      entry["priced_under_decimal_at_dfs"] = _safe_round(priced_under_decimal)
-      entry["priced_over_american_at_dfs"] = _decimal_to_american(priced_over_decimal)
-      entry["priced_under_american_at_dfs"] = _decimal_to_american(priced_under_decimal)
-      entry["ev_over"] = _safe_round(anchor_over * (priced_over_decimal - 1.0) - anchor_under)
-      entry["ev_under"] = _safe_round(anchor_under * (priced_under_decimal - 1.0) - anchor_over)
+  entry["edge_over"] = _safe_round(float(model_prob_over_dfs) - 0.54)
+  entry["edge_under"] = _safe_round((1.0 - float(model_prob_over_dfs)) - 0.54)
 
   return entry
 
@@ -396,18 +485,22 @@ def lookup_raw_odds(player_name: str, stat: str, team_name: str | None = None) -
 def enrich_sportsbook_entries(
   raw_entries: list | None,
   model_prob_over_dfs: float | None,
-  model_prob_over_by_line: Dict[float, float] | None,
   dfs_line: float | None,
+  stat_name: str | None = None,
+  player_mean: float | None = None,
+  player_std: float | None = None,
 ) -> list | None:
-  """Enrich a list of raw sportsbook entries with model probabilities and edge/EV."""
+  """Enrich a list of raw sportsbook entries with model probabilities and edge."""
   if not raw_entries:
     return None
   return [
     _enrich_bookmaker_entry(
       entry=dict(raw_entry),
       model_prob_over_dfs=model_prob_over_dfs,
-      model_prob_over_by_line=model_prob_over_by_line,
       dfs_line=dfs_line,
+      stat_name=stat_name,
+      player_mean=player_mean,
+      player_std=player_std,
     )
     for raw_entry in raw_entries
   ]

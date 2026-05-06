@@ -1,4 +1,8 @@
+"""Single source of truth for all constants used across the pipeline."""
+from pathlib import Path
 from typing import Literal
+
+# ── Allowed positions / teams / players ───────────────────
 
 ALLOWED_POSITIONS = Literal[
   'Center',
@@ -154,7 +158,6 @@ ALLOWED_PLAYERS_LIST = [
   'Zion Williamson',
 ]
 
-
 ALLOWED_PLAYERS = Literal[
   'Aaron Gordon',
   'Ace Bailey',
@@ -292,6 +295,102 @@ ALLOWED_PLAYERS = Literal[
   'Zion Williamson',
 ]
 
+# ── Seasons ────────────────────────────────────────────────
+SEASONS = ["2024-25", "2025-26"]
+
+# ── Model root (relative to this file) ────────────────────
+MODEL_ROOT = Path(__file__).parent / "models"
+CATEGORY_MAPPINGS_PATH = MODEL_ROOT / "category_mappings.json"
+
+# ── Stat columns ───────────────────────────────────────────
+STAT_COLS = [
+  "PTS", "REB", "AST", "STL", "BLK",
+  "PRA", "PA", "PR", "RA", "SB",
+  "TOV", "FTA", "FTM", "FGA", "FGM", "3PM", "3PA"
+]
+
+TARGET_COLUMNS = [
+  'PTS', 'REB', 'AST', 'STL', 'BLK',
+  'PRA', 'PA', 'PR', 'RA', 'SB',
+  'TOV', 'FGM', '3PM', 'FTM', 'FGA', '3PA', 'FTA'
+]
+
+ALL_TARGETS = [f"TARGET_{s}" for s in STAT_COLS]
+
+CATEGORY_COLS = ["PLAYER_NAME", "TEAM", "POSITION", "MATCHUP"]
+
+DROP_BASE_COLS = [
+  "PLAYER_NAME", "PLAYER_ID", "TEAM", "MATCHUP", "POSITION",
+  "SEASON_YEAR", "SEASON_ID", "GAME_DATE", "GAME_ID",
+  "PTS", "REB", "AST", "STL", "BLK", "PRA", "PA", "PR", "RA", "SB",
+  "TOV", "FTM", "FGM", "3PM", "FGA", "3PA", "FTA",
+  "MIN", "PLUS_MINUS", "TS%", "USG", "OFF_RATING"
+]
+
+# ── Model families ─────────────────────────────────────────
+CHAMPION_FAMILIES = {
+  "FULL_ALL": {
+    "folder": "CHAMPION_FULL_ALL",
+    "feature_mode": "full",
+    "calibration_set": "ALL",
+    "features_file": "FEATURES_FULL_ALL.pkl",
+  },
+  "FULL_TIGHT": {
+    "folder": "CHAMPION_FULL_TIGHT",
+    "feature_mode": "full",
+    "calibration_set": "TIGHT",
+    "features_file": "FEATURES_FULL_TIGHT.pkl",
+  },
+  "REDUCED_ALL": {
+    "folder": "CHAMPION_REDUCED_ALL",
+    "feature_mode": "reduced",
+    "calibration_set": "ALL",
+    "features_file": "FEATURES_REDUCED_ALL.pkl",
+  },
+  "REDUCED_TIGHT": {
+    "folder": "CHAMPION_REDUCED_TIGHT",
+    "feature_mode": "reduced",
+    "calibration_set": "TIGHT",
+    "features_file": "FEATURES_REDUCED_TIGHT.pkl",
+  },
+}
+
+FAMILY_ORDER = ["FULL_ALL", "FULL_TIGHT", "REDUCED_ALL", "REDUCED_TIGHT"]
+
+# ── New ranking weights (0–100 composite) ──────────────────
+BREAKEVEN_PROB = 0.54  # breakeven for standard -110 bet
+RANK_WEIGHTS = {
+  "model_confidence": 0.20,
+  "market_edge": 0.50,
+  "model_alpha": 0.20,
+  "family_agreement": 0.05,
+  "statistical_signals": 0.05,
+}
+
+# ── Logging ────────────────────────────────────────────────
+LOG_FORMAT = "%(asctime)s  %(levelname)-8s  %(name)s  %(message)s"
+
+# ── Odds API: stat → market mapping ───────────────────────
+STAT_TO_MARKET = {
+  "PTS":  "player_points",
+  "REB":  "player_rebounds",
+  "AST":  "player_assists",
+  "3PM":  "player_threes",
+  "BLK":  "player_blocks",
+  "STL":  "player_steals",
+  "SB":   "player_blocks_steals",
+  "TOV":  "player_turnovers",
+  "PRA":  "player_points_rebounds_assists",
+  "PR":   "player_points_rebounds",
+  "PA":   "player_points_assists",
+  "RA":   "player_rebounds_assists",
+  "FGM":  "player_field_goals",
+  "FTM":  "player_frees_made",
+  "FTA":  "player_frees_attempts",
+  # FGA and 3PA don't have standard Odds API markets
+}
+
+# ── Platform stat maps ─────────────────────────────────────
 UNDERDOG_STAT_MAP = {
   "Points": "PTS",
   "Rebounds": "REB",
@@ -347,10 +446,3 @@ PRIZEPICKS_STAT_MAP = {
   "3PTA":           "3PA",
   "FTA":            "FTA",
 }
-
-
-TARGET_COLUMNS = [
-  'PTS', 'REB', 'AST', 'STL', 'BLK',
-  'PRA', 'PA', 'PR', 'RA', 'SB',
-  'TOV', 'FGM', '3PM', 'FTM', 'FGA', '3PA', 'FTA'
-]

@@ -14,8 +14,7 @@ except ImportError:
       if unicodedata.category(c) != 'Mn'
     )
 
-from constants import ALLOWED_PLAYERS_LIST
-from config import UNDERDOG_STAT_MAP, PRIZEPICKS_STAT_MAP
+from config import ALLOWED_PLAYERS_LIST, UNDERDOG_STAT_MAP, PRIZEPICKS_STAT_MAP
 
 _ORIGINAL_NAMES = sorted(ALLOWED_PLAYERS_LIST)
 _PLAYER_LOOKUP = {_norm(p).lower(): p for p in _ORIGINAL_NAMES}

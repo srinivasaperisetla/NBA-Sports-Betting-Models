@@ -1,6 +1,6 @@
 from pydantic import Field, create_model, ConfigDict
 from enum import Enum
-from constants import ALLOWED_PLAYERS, ALLOWED_POSITIONS, ALLOWED_TEAMS
+from config import ALLOWED_PLAYERS, ALLOWED_POSITIONS, ALLOWED_TEAMS
 from stat_utils import ADVANCED_COLS, STAT_COLS, MATCHUP_ALLOWED_METRICS, MATCHUP_ALLOWED_METRICS_W_PACE_DEF
 from typing import List
 
@@ -127,10 +127,7 @@ ALL_FIELDS = {
 
 NBAPredictionInput = create_model(
   'NBAPredictionInput',
-  __config__=ConfigDict(extra='allow'),
+  __config__=ConfigDict(extra='ignore'),
   **ALL_FIELDS
 )
-
-print(NBAPredictionInput.model_json_schema())
-
 

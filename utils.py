@@ -7,16 +7,12 @@ from nba_api.stats.endpoints import LeagueGameLog
 import numpy as np
 import pandas as pd
 from unidecode import unidecode
-from constants import ALLOWED_PLAYERS_LIST
-import re
-import json
+from config import ALLOWED_PLAYERS_LIST
 from stat_utils import STAT_COLS, ADVANCED_COLS, MATCHUP_ALLOWED_METRICS, MATCHUP_ALLOWED_METRICS_W_PACE_DEF
 import concurrent.futures
-
 import concurrent.futures
 import numpy as np
 import pandas as pd
-
 import time
 
 all_players = players.get_players()
@@ -620,26 +616,6 @@ def get_input(player_name: str, parlays: dict, seasons: list):
     input_df[col] = input_df[col].dt.strftime("%Y-%m-%dT%H:%M:%S")
 
   return input_df, df_player
-
-BETTING_THRESHOLDS = {
-  "BLK": {"recommended_family": "REDUCED_TIGHT", "tier": "S", "min_conf": 0.55, "optimal_conf": 0.70, "base_acc": 0.7587, "realistic_acc": {0.55: 0.7799, 0.60: 0.8044, 0.65: 0.8132, 0.70: 0.8279}},
-  "3PM": {"recommended_family": "FULL_ALL", "tier": "S", "min_conf": 0.60, "optimal_conf": 0.70, "base_acc": 0.6950, "realistic_acc": {0.55: 0.7049, 0.60: 0.7383, 0.65: 0.7663, 0.70: 0.8034}},
-  "STL": {"recommended_family": "REDUCED_ALL", "tier": "A", "min_conf": 0.60, "optimal_conf": 0.70, "base_acc": 0.7095, "realistic_acc": {0.55: 0.7119, 0.60: 0.7327, 0.65: 0.7576, 0.70: 0.7768}},
-  "TOV": {"recommended_family": "FULL_ALL", "tier": "A", "min_conf": 0.60, "optimal_conf": 0.70, "base_acc": 0.6966, "realistic_acc": {0.55: 0.6914, 0.60: 0.7220, 0.65: 0.7521, 0.70: 0.7732}},
-  "SB": {"recommended_family": "REDUCED_ALL", "tier": "A", "min_conf": 0.60, "optimal_conf": 0.70, "base_acc": 0.6919, "realistic_acc": {0.55: 0.6929, 0.60: 0.7085, 0.65: 0.7322, 0.70: 0.7585}},
-  "3PA": {"recommended_family": "FULL_ALL", "tier": "B", "min_conf": 0.60, "optimal_conf": 0.65, "base_acc": 0.6798, "realistic_acc": {0.55: 0.6569, 0.60: 0.6909, 0.65: 0.7275, 0.70: 0.7635}},
-  "FTM": {"recommended_family": "FULL_ALL", "tier": "B", "min_conf": 0.60, "optimal_conf": 0.65, "base_acc": 0.6816, "realistic_acc": {0.55: 0.6576, 0.60: 0.6859, 0.65: 0.7137, 0.70: 0.7408}},
-  "REB": {"recommended_family": "FULL_ALL", "tier": "B", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6773, "realistic_acc": {0.55: 0.6415, 0.60: 0.6748, 0.65: 0.7140, 0.70: 0.7339}},
-  "FGM": {"recommended_family": "FULL_ALL", "tier": "C", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6857, "realistic_acc": {0.55: 0.6447, 0.60: 0.6794, 0.65: 0.7196, 0.70: 0.7536}},
-  "FTA": {"recommended_family": "FULL_ALL", "tier": "C", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6726, "realistic_acc": {0.55: 0.6250, 0.60: 0.6577, 0.65: 0.6863, 0.70: 0.7213}},
-  "AST": {"recommended_family": "FULL_ALL", "tier": "C", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6679, "realistic_acc": {0.55: 0.6362, 0.60: 0.6642, 0.65: 0.6876, 0.70: 0.7119}},
-  "RA": {"recommended_family": "FULL_ALL", "tier": "C", "min_conf": 0.65, "optimal_conf": 0.70, "base_acc": 0.6750, "realistic_acc": {0.55: 0.6333, 0.60: 0.6642, 0.65: 0.6925, 0.70: 0.7398}},
-  "PTS": {"recommended_family": "REDUCED_ALL", "tier": "D", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6747, "realistic_acc": {0.55: 0.6251, 0.60: 0.6619, 0.65: 0.6934, 0.70: 0.7313}},
-  "PA": {"recommended_family": "FULL_ALL", "tier": "D", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6759, "realistic_acc": {0.55: 0.6299, 0.60: 0.6627, 0.65: 0.7050, 0.70: 0.7344}},
-  "PR": {"recommended_family": "FULL_ALL", "tier": "D", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6747, "realistic_acc": {0.55: 0.6309, 0.60: 0.6625, 0.65: 0.6884, 0.70: 0.7089}},
-  "PRA": {"recommended_family": "FULL_ALL", "tier": "D", "min_conf": 0.65, "optimal_conf": 0.65, "base_acc": 0.6730, "realistic_acc": {0.55: 0.6326, 0.60: 0.6749, 0.65: 0.6945, 0.70: 0.7314}},
-  "FGA": {"recommended_family": "FULL_ALL", "tier": "D", "min_conf": 0.70, "optimal_conf": 0.70, "base_acc": 0.6797, "realistic_acc": {0.55: 0.6247, 0.60: 0.6643, 0.65: 0.7111, 0.70: 0.7493}}
-}
 
 COLOR = {
   "no_bet": "#DBC415",        # yellow

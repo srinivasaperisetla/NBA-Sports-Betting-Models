@@ -1,10 +1,10 @@
+# DEPRECATED: use pipeline.py
 import re
 import sys
 import unicodedata
 import requests
 import pandas as pd
-from constants import ALLOWED_PLAYERS_LIST, TARGET_COLUMNS, UNDERDOG_STAT_MAP, PRIZEPICKS_STAT_MAP
-from config import CHAMPION_API_URL, SEASONS
+from config import ALLOWED_PLAYERS_LIST, TARGET_COLUMNS, UNDERDOG_STAT_MAP, PRIZEPICKS_STAT_MAP, SEASONS
 
 try:
   from unidecode import unidecode as _norm

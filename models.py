@@ -21,12 +21,12 @@ from config import (
   DROP_BASE_COLS,
   ALL_TARGETS,
   STAT_COLS,
-  BETTING_THRESHOLDS,
   MODEL_ROOT,
   CATEGORY_MAPPINGS_PATH,
 )
 from odds import lookup_raw_odds, enrich_sportsbook_entries
 from ranking import compute_rank_score
+from schema import NBAPredictionInput
 
 # ── Global registries (populated by load_models) ───────────
 model_registry: Dict[str, Dict[str, object]] = {k: {} for k in CHAMPION_FAMILIES}
@@ -265,54 +265,6 @@ def _apply_line_override_to_feature_frame(
   return df
 
 
-def _compute_family_prob_over_for_line(
-  *,
-  family_key: str,
-  stat_name: str,
-  old_line: float | None,
-  new_line: float,
-  mode_base_frames: Dict[str, pd.DataFrame],
-) -> float:
-  family_cfg = CHAMPION_FAMILIES[family_key]
-  model = model_registry[family_key].get(stat_name)
-  expected_features = feature_registry[family_key].get(stat_name)
-  if model is None or expected_features is None:
-    raise ValueError(f"No model/features for family '{family_key}' and stat '{stat_name}'")
-
-  mode = family_cfg["feature_mode"]
-  override_frame = _apply_line_override_to_feature_frame(
-    mode_base_frames[mode], stat_name=stat_name, old_line=old_line, new_line=new_line
-  )
-  x_frame = override_frame.reindex(columns=expected_features, fill_value=0)
-  x_frame = x_frame.apply(pd.to_numeric, errors="coerce").fillna(0)
-  return float(model.predict_proba(x_frame)[0, 1])
-
-
-# ── Betting analysis helpers ───────────────────────────────
-
-def _get_confidence_bucket(confidence: float) -> float:
-  if confidence >= 0.70:
-    return 0.70
-  elif confidence >= 0.65:
-    return 0.65
-  elif confidence >= 0.60:
-    return 0.60
-  else:
-    return 0.55
-
-
-def _get_recommendation(confidence: float, min_conf: float, optimal_conf: float) -> str:
-  midpoint = (min_conf + optimal_conf) / 2
-  if confidence < min_conf:
-    return "DO NOT BET"
-  elif confidence < midpoint:
-    return "BET WITH CAUTION"
-  elif confidence < optimal_conf:
-    return "BET"
-  else:
-    return "STRONG BET"
-
-
 def _build_single_model_response(
   *,
   stat_name: str,
@@ -329,17 +281,6 @@ def _build_single_model_response(
   prediction = "OVER" if prob >= 0.5 else "UNDER"
   confidence = prob if prob >= 0.5 else (1.0 - prob)
 
-  bet_info = BETTING_THRESHOLDS.get(stat_name)
-  if bet_info is None:
-    raise ValueError(f"No betting thresholds configured for stat '{stat_name}'")
-
-  min_conf = bet_info["min_conf"]
-  optimal_conf = bet_info["optimal_conf"]
-  recommendation = _get_recommendation(confidence, min_conf, optimal_conf)
-
-  bucket = _get_confidence_bucket(confidence)
-  expected_acc_at_confidence = bet_info["realistic_acc"][bucket]
-
   z_line = safe_float_from_frame(x_frame, f"{stat_name}_Z_LINE")
   z_recent = safe_float_from_frame(x_frame, f"{stat_name}_Z_RECENT")
   z_matchup = safe_float_from_frame(x_frame, f"{stat_name}_Z_MATCHUP")
@@ -350,7 +291,6 @@ def _build_single_model_response(
 
   rank_result = compute_rank_score(
     confidence=confidence,
-    tier=bet_info["tier"],
     z_vs_line=z_line,
     z_vs_recent=z_recent,
     z_vs_matchup=z_matchup,
@@ -374,14 +314,6 @@ def _build_single_model_response(
     "prediction": prediction,
     "model_output": round(float(prob), 4),
     "confidence": round(float(confidence), 4),
-    "betting_analysis": {
-      "recommendation": recommendation,
-      "stat_tier": bet_info["tier"],
-      "minimum_confidence": min_conf,
-      "optimal_confidence": optimal_conf,
-      "model_accuracy_at_confidence": f"Accuracy at {int(bucket * 100)}%+ confidence = {round(expected_acc_at_confidence * 100, 1)}%",
-      "model_base_accuracy": f"{stat_name} Base Accuracy = {round(bet_info['base_acc'] * 100, 1)}%",
-    },
     "Rank": rank_result
   }
 
@@ -466,10 +398,13 @@ def predict(
   Returns:
     Full prediction result dict (same structure as old /predict endpoint).
   """
-  player_name = payload_dict.get("PLAYER_NAME", "Unknown")
-  parlay_line = payload_dict.get(f"PL_{stat_name}")
+  validated = NBAPredictionInput(**payload_dict)
+  validated_dict = validated.model_dump()
 
-  raw_df = pd.DataFrame([payload_dict])
+  player_name = validated_dict.get("PLAYER_NAME", "Unknown")
+  parlay_line = validated_dict.get(f"PL_{stat_name}")
+
+  raw_df = pd.DataFrame([validated_dict])
 
   families_to_run = [fam for fam in FAMILY_ORDER if stat_name in model_registry[fam]]
   if not families_to_run:
@@ -527,51 +462,38 @@ def predict(
     float(parlay_line) if parlay_line is not None else None
   )
 
+  cum_avg_col = f"CUM_AVG_{stat_name}"
+  l5_avg_col = f"L5_AVG_{stat_name}"
+  std_cum_col = f"STD_CUM_AVG_{stat_name}"
+  std_l5_col = f"STD_L5_AVG_{stat_name}"
+  season_avg = safe_float_from_frame(raw_df, cum_avg_col)
+  last5_avg = safe_float_from_frame(raw_df, l5_avg_col)
+  season_std = safe_float_from_frame(raw_df, std_cum_col, default=1.0)
+  last5_std = safe_float_from_frame(raw_df, std_l5_col, default=1.0)
+  player_mean = 0.6 * season_avg + 0.4 * last5_avg
+  player_std = 0.8 * season_std + 0.2 * last5_std
+
   consensus_sportsbook_odds = None
   family_sportsbook_odds: Dict[str, list | None] = {fam: None for fam in model_probs_by_family}
 
   if raw_sportsbook_odds and dfs_line_value is not None:
-    unique_lines = sorted({
-      float(entry["line"]) for entry in raw_sportsbook_odds if entry.get("line") is not None
-    })
-
-    family_prob_over_by_line: Dict[str, Dict[float, float]] = {
-      fam: {dfs_line_value: model_probs_by_family[fam]}
-      for fam in model_probs_by_family
-    }
-    for line_value in unique_lines:
-      if abs(line_value - dfs_line_value) < 0.01:
-        continue
-      for fam in model_probs_by_family:
-        family_prob_over_by_line[fam][line_value] = _compute_family_prob_over_for_line(
-          family_key=fam,
-          stat_name=stat_name,
-          old_line=dfs_line_value,
-          new_line=line_value,
-          mode_base_frames=mode_base_frames,
-        )
-
-    consensus_prob_over_by_line = {}
-    for line_value in set(unique_lines + [dfs_line_value]):
-      probs_here = [
-        family_prob_over_by_line[fam].get(line_value, model_probs_by_family[fam])
-        for fam in model_probs_by_family
-      ]
-      consensus_prob_over_by_line[line_value] = float(np.mean(probs_here))
-
     consensus_sportsbook_odds = enrich_sportsbook_entries(
       raw_entries=raw_sportsbook_odds,
       model_prob_over_dfs=consensus_prob_over,
-      model_prob_over_by_line=consensus_prob_over_by_line,
       dfs_line=dfs_line_value,
+      stat_name=stat_name,
+      player_mean=player_mean,
+      player_std=player_std,
     )
 
     for fam in model_probs_by_family:
       family_sportsbook_odds[fam] = enrich_sportsbook_entries(
         raw_entries=raw_sportsbook_odds,
         model_prob_over_dfs=model_probs_by_family[fam],
-        model_prob_over_by_line=family_prob_over_by_line[fam],
         dfs_line=dfs_line_value,
+        stat_name=stat_name,
+        player_mean=player_mean,
+        player_std=player_std,
       )
 
   finalized_model_outputs = {}
@@ -589,14 +511,6 @@ def predict(
       probability_std=std_prob,
     )
 
-  bet_info = BETTING_THRESHOLDS[stat_name]
-  min_conf = bet_info["min_conf"]
-  optimal_conf = bet_info["optimal_conf"]
-  recommendation = _get_recommendation(consensus_confidence, min_conf, optimal_conf)
-
-  bucket = _get_confidence_bucket(consensus_confidence)
-  expected_acc_at_confidence = bet_info["realistic_acc"][bucket]
-
   ref_family = list(x_frames.keys())[0]
   ref_frame = x_frames[ref_family]
 
@@ -610,7 +524,6 @@ def predict(
 
   rank_result = compute_rank_score(
     confidence=consensus_confidence,
-    tier=bet_info["tier"],
     z_vs_line=z_line,
     z_vs_recent=z_recent,
     z_vs_matchup=z_matchup,
@@ -635,14 +548,6 @@ def predict(
       "probability_std": round(std_prob, 4),
       "agreement_ratio": round(agreement_ratio, 4),
       "families_used": list(finalized_model_outputs.keys()),
-      "betting_analysis": {
-        "recommendation": recommendation,
-        "stat_tier": bet_info["tier"],
-        "minimum_confidence": min_conf,
-        "optimal_confidence": optimal_conf,
-        "model_accuracy_at_confidence": f"Accuracy at {int(bucket * 100)}%+ confidence = {round(expected_acc_at_confidence * 100, 1)}%",
-        "model_base_accuracy": f"{stat_name} Base Accuracy = {round(bet_info['base_acc'] * 100, 1)}%"
-      },
       "Rank": rank_result
     },
     "model_variants": finalized_model_outputs
